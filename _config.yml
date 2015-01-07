@@ -1,0 +1,33 @@
+
+name: Drigo Teixeira
+
+avatar: https://media.licdn.com/mpr/mpr/shrink_200_200/p/2/005/037/0b0/3d3e4b9.jpg
+
+disqus: drigoteixeira
+
+google_analytics: UA-32844537-1
+
+url: sitemap.xml
+
+baseurl: ""
+
+markdown: kramdown
+
+highlighter: pygments
+
+permalink: /:title/
+
+version: v1.0.0
+
+sass:
+  sass_dir: _scss
+  style: :expanded
+
+gems:
+  - jekyll-sitemap
+
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
