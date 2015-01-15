@@ -1,48 +1,109 @@
 <!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="pt-br"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="pt-br"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="pt-br"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="pt-br"> <!--<![endif]-->
+
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-    <meta name="author" content="Rodrigo Teixeira" />
-    <meta name="description" content="Rodrigo Teixeira is a web designer based in Sao Paulo, Brazil. Get it touch.">
+    <!-- METAS -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta name="author" content="Rodrigo Teixeira">
+    <meta name="description" content="Rodrigo Teixeira is a web designer based in Sao Paulo, Brazil. Be welcome =)">
 
+    <link rel="canonical" href="http://drigoteixeira.com">
+
+    <!-- OPEN GRAPH -->
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Drigo Teixeira">
+    <meta property="og:description" content="Rodrigo Teixeira is a web designer based in Sao Paulo, Brazil">
+    <meta property="og:url" content="http://drigoteixeira.com">
+    <meta property="og:site_name" content="Drigo Teixeira">
+    <meta property="article:publisher" content="http://www.facebook.com/drigoteixeira">
+    <meta property="fb:admins" content="1271620247" />
+    <meta property="og:image" content="#">
+
+    <!-- GOOGLE VERIFICATION -->
+    <meta name="google-site-verification" content="yDJgjNuyB1LON1HIq6aXW3Pv2pieL8002dwz9aBiIV8" />
+
+    <!-- FAVICONS -->
+    <link rel="icon" href="{{ site.baseurl }}/favicon.ico">
+
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
 
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <!-- SCRIPTS -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+    <!-- RESPOND -->
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+    <![endif]-->
     {% include analytics.html %}
+
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-          
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-        </header>
-      </div>
-    </div>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
+    <div class="page"> <!--BEGIN PAGE -->
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          <p>© 2015. Drigo Teixeira.</p>
-        </footer>
-      </div>
-    </div>
-  </body>
+        <div class="container-12">
+            <header id="header">
+                <div class="grid-12">
+                    <h1 id="logo"><a href="/" title="{{site.name}} &#8211; {{site.description}}"><img src="{{ site.baseurl }}/img/picture.jpg" alt="Rodrigo Teixeira" /></a></h1>
+                    <p><span><a href="/">{{site.name}}</a></span> é {{site.description}}</p>
+                </div>
+            </header>
+        </div>
+
+        <div class="container-12">
+            <div class="grid-12">
+                <section class="posts">
+                    <article class="post">
+                        {{ content }}
+                    </article>
+                </section>
+            </div>
+        </div>
+
+
+        <!--footer class="footer">
+            <div class="row">
+                <div class="c12">
+                    <div class="twitterBox">
+                        <a href="https://twitter.com/drigoteixeira" class="twitter-follow-button" data-show-count="false" data-lang="pt" data-size="large">Seguir @drigoteixeira</a>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="c12">
+                    <p><em><a href="http://www.youtube.com/watch?v=UF8uR6Z6KLc">Stay hungry. Stay Foolish</a></em></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="c12">
+                    <ul class="social-networks">
+                        <li class="facebook"><a href="http://www.facebook.com/drigoteixeira" title="Facebook">Facebook</a></li>
+                        <li class="linkedin"><a href="http://br.linkedin.com/in/drigoteixeira" title="LinkedIn">LinkedIn</a></li>
+                        <li class="flickr"><a href="http://www.flickr.com/drigoteixeira" title="Flickr">Flickr</a></li>
+                        <li class="instagram"><a href="http://www.instagram.com/drigoteixeira" title="Instagram">Instagram</a></li>
+                        <li class="rss"><a href="http://feeds.feedburner.com/rodrigoteixeira" title="RSS">RSS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer-->
+    </div> <!--END PAGE -->
+</body>
 </html>
