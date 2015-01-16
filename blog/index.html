@@ -1,18 +1,55 @@
 ---
-layout: default
+layout: blog
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">    
-      
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+{% for post in paginator.posts %}
+<div class="container-12">
+	<div class="grid-12">
+		<article class="posts">
+			<div class="post-meta">
+				<span class="post-date">{{ post.date | date: "%B %e, %Y" }}</span>
+			</div>
+			<h2 class="post-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
+			<div class="post-content excerpt">
+				{{ post.excerpt}}
+				<a href="{{ post.url }}" class="read-more">Continue Lendo</a>
+			</div>
+		</article>
+	</div>
 
-      <div class="entry">
-        {{ post.content | truncatewords:40}}
-      </div>
-      
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
 </div>
+{% endfor %}
+
+<div class="container-12">
+	<div class="grid-12">
+		<!-- Pagination links -->
+
+
+		<nav class="pagination">
+			<ul>
+				<li class="novos">
+					{% if paginator.previous_page %}
+						<a href="{{ paginator.previous_page_path }}">Mais Novos</a>
+					{% else %}
+						<span class="current">Mais Novos</span>
+					{% endif %}
+				</li>
+				<li class="page-number">
+					Página: {{ paginator.page }} de {{ paginator.total_pages }}
+				</li>
+				<li class="antigos">
+					{% if paginator.next_page %}
+						<a href="{{ paginator.next_page_path }}" class="antigos">Mais Antigos</a>
+					{% else %}
+						<span class="current">Mais Antigos</span>
+					{% endif %}
+				</li>
+			</ul>
+		</nav>
+
+	</div>
+</div>
+
+
+
+

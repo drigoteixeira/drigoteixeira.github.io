@@ -15,17 +15,17 @@ TIPOGRAFIA
 
 
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
 
 
 /* SETINGS */
 
-$main-color: #222;
+$main-color: #444;
 
 $lighter-gray: #f5f5f5;
 $light-gray: #999;
 $medium-gray: #ccc;
-$dark-gray: #444;
+$dark-gray: #232323;
 
 $white-color: #fff;
 $link-color: #2BA1DC;
@@ -46,12 +46,18 @@ a:hover {
     transition:color 0.1s ease-in-out 0s,border 0.1s ease-in-out;
 }
 
+.read-more {
+    display: block;
+}
+
 h1, h2, h3, h4, h4, h6 {
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
   line-height: 1.2;
   letter-spacing: -1px;
   font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -67,7 +73,7 @@ h1 {
 
 h2 {
     color: $main-color;
-    font-size: 3em;
+    font-size: 2.8em;
     margin: .5em 0;
     line-height: 1em;
     text-align: center;
@@ -94,6 +100,14 @@ p {
     font-size: 1.2em;
     line-height: 1.8em;
     margin-bottom: 1.3em;
+}
+
+.excerpt {
+    font-style: italic;
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.8em;
+    padding: 0 20px;
 }
 
 small, .font_small { font-size: 0.707em; }
@@ -134,6 +148,7 @@ html {
 
 body {
     background: $white-color;
+    border-top: 10px solid #3498db;
     font-size: 1em;
     font-family: 'Merriweather', serif;
     font-weight: 400;
@@ -208,24 +223,28 @@ body {
     overflow: hidden;
 }
 
-
-.page-numbers {
-    background-color: $lighter-gray;
-    border-radius: 5px;
-    color: $light-gray;
-    display: block;
-    float: left;
-    width: 30px;
-    height: 30px;
-    padding: auto;
-    line-height: 30px;
-    font-size: 1.2em;
-    text-align: center;
-    margin-right: 2px;
-    font-style: italic;
+.pagination ul {
+    margin-left: 0;
+    padding-left: 0;
+    font-size: .8em;
+    width: 100%;
 }
 
-.current, .page-numbers:hover { color: $white-color; background-color: $orange-color; }
+.pagination ul li {
+    list-style: none;
+    display: block;
+    width: 30%;
+    float: left;
+    text-align: center;
+    border: 1px solid #eee;
+    padding: 12px 5px;
+}
+
+.pagination .current {
+    color: #ccc;
+}
+
+
 
 #header {
         text-align: center;
@@ -362,6 +381,12 @@ GRID 760
 
         .single h2 {
                 font-size: 2.4em;
+        }
+
+        .pagination ul li {
+            float: none;
+            width: 90%;
+            margin-bottom: 0;
         }
 
 }

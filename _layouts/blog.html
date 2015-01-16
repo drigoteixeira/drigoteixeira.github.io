@@ -16,7 +16,7 @@
     <meta name="author" content="Rodrigo Teixeira">
     <meta name="description" content="Rodrigo Teixeira is a web designer based in Sao Paulo, Brazil. Be welcome =)">
 
-    <link rel="canonical" href="http://drigoteixeira.com">
+    <link rel="canonical" href="{{ site.baseurl }}{{ post.url }}">
 
     <!-- OPEN GRAPH -->
     <meta property="og:locale" content="pt_BR">
@@ -49,7 +49,7 @@
     <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
     <![endif]-->
-    
+
     {% include analytics.html %}
 
   </head>
@@ -69,16 +69,14 @@
 
         <div class="container-12">
             <div class="grid-12">
-                <section class="posts">
                     <article class="post">
                         {{ content }}
                     </article>
-                </section>
             </div>
         </div>
 
 
-        <!--footer class="footer">
+        <footer class="footer">
             <div class="row">
                 <div class="c12">
                     <div class="twitterBox">
@@ -104,7 +102,11 @@
                     </ul>
                 </div>
             </div>
-        </footer-->
+        </footer>
     </div> <!--END PAGE -->
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
 </body>
 </html>
