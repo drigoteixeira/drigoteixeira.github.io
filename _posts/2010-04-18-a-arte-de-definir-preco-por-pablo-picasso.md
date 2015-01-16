@@ -3,7 +3,7 @@ title: A Arte de Definir Preço por Pablo Picasso
 author: Rodrigo Teixeira
 excerpt: 'A arte de saber cobrar por projetos frelance é uma arte. Veja como Pablo Picasso encarava essa tipo de situação. '
 layout: post
-permalink: /a-arte-de-definir-preco-por-pablo-picasso/
+permalink: blog/a-arte-de-definir-preco-por-pablo-picasso/
 dsq_thread_id:
   - 1362188782
 categories:

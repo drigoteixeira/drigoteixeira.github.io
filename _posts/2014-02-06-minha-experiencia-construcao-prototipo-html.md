@@ -3,7 +3,7 @@ title: Minha Experiência na Construção de um Protótipo em HTML
 author: Rodrigo Teixeira
 excerpt: Um pouco sobre a experiência e os aprendizados em desenvolver um protótipo usando HTML, CSS e JavaScript diretamente no navegador.
 layout: post
-permalink: /minha-experiencia-construcao-prototipo-html/
+permalink: blog/minha-experiencia-construcao-prototipo-html/
 dsq_thread_id:
   - 2229689566
 categories:

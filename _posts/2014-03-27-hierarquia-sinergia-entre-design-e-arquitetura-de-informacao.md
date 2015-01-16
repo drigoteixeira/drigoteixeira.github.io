@@ -3,7 +3,7 @@ title: 'Hierarquia: A Sinergia entre Design e Arquitetura de Informação'
 author: Rodrigo Teixeira
 excerpt: 'Análise sobre as duas disciplinas que estão alinhadas em atingir um mesmo objetivo: influenciar positivamente a experiência das pessoas. '
 layout: post
-permalink: /hierarquia-sinergia-entre-design-e-arquitetura-de-informacao/
+permalink: blog/hierarquia-sinergia-entre-design-e-arquitetura-de-informacao/
 dsq_thread_id:
   - 2524124069
 categories:

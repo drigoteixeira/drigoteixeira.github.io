@@ -3,7 +3,7 @@ title: O Que Podemos Aprender com David Ogilvy?
 author: Rodrigo Teixeira
 excerpt: Os mandamentos do maior publicitário da história contados por frases célebres
 layout: post
-permalink: /o-que-podemos-aprender-com-david-ogilvy/
+permalink: blog/o-que-podemos-aprender-com-david-ogilvy/
 dsq_thread_id:
   - 1341620017
 categories:

@@ -3,7 +3,7 @@ title: 'Steve Jobs: Paixão Por Criar Produtos Incríveis'
 author: Rodrigo Teixeira
 excerpt: 'O que podemos tirar de lições da biografia de Steve Jobs? '
 layout: post
-permalink: /steve-jobs-paixao-por-criar-produtos-incriveis/
+permalink: blog/steve-jobs-paixao-por-criar-produtos-incriveis/
 dsq_thread_id:
   - 1341294812
 categories:

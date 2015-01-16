@@ -3,7 +3,7 @@ title: Como Escrever um Bom Texto para Internet
 author: Rodrigo Teixeira
 excerpt: Escrever um bom texto para a Internet requer boas práticas. Saiba quais são elas.
 layout: post
-permalink: /como-escrever-um-bom-texto-para-internet/
+permalink: blog/como-escrever-um-bom-texto-para-internet/
 dsq_thread_id:
   - 1376887515
 categories:

@@ -3,7 +3,7 @@ title: WordCamp São Paulo 2013
 author: Rodrigo Teixeira
 excerpt: Minhas anotações e insights sobre o que foi discutido no WordCamp São Paulo, a conferência oficial da comunidade WordPress
 layout: post
-permalink: /wordcamp-sao-paulo-2013/
+permalink: blog/wordcamp-sao-paulo-2013/
 dsq_thread_id:
   - 1993459479
 categories:

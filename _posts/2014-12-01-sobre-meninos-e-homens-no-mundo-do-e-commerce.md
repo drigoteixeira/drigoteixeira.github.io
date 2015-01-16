@@ -3,7 +3,7 @@ title: Sobre Meninos e Homens no Mundo do E-commerce
 author: Rodrigo Teixeira
 excerpt: 'O que vem primeiro: A plataforma ou os negócios? Um comentário rápido sobre como se dar bem no mundo do e-commerce. '
 layout: post
-permalink: /sobre-meninos-e-homens-no-mundo-do-e-commerce/
+permalink: blog/sobre-meninos-e-homens-no-mundo-do-e-commerce/
 dsq_thread_id:
   - 3279847937
 categories:

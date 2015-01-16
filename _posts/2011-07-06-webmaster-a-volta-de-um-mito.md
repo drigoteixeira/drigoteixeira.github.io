@@ -3,7 +3,7 @@ title: 'Webmaster: A Volta de um Mito'
 author: Rodrigo Teixeira
 excerpt: 'A polêmica ainda continua: Um profissional deve saber fazer de tudo ou ser especialista em alguma disciplina, tecnologia ou ferramenta?'
 layout: post
-permalink: /webmaster-a-volta-de-um-mito/
+permalink: blog/webmaster-a-volta-de-um-mito/
 dsq_thread_id:
   - 1401948212
 categories:

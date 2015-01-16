@@ -3,7 +3,7 @@ title: A Acessibilidade Padroniza os Layouts?
 author: Rodrigo Teixeira
 excerpt: 'Todos sabem da importância da acessibilidade web, mas vem uma pergunta: Ela padroniza o layout? A acessibilidade pode determinar se um layout é bom ou ruim?'
 layout: post
-permalink: /a-acessibilidade-padroniza-os-layouts/
+permalink: blog/a-acessibilidade-padroniza-os-layouts/
 categories:
   - Acessibilidade
 ---

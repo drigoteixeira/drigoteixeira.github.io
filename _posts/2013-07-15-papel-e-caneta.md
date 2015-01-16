@@ -5,7 +5,7 @@ excerpt: |
   |
     Em 2013, resolvi assumir novamente o desafio de voltar a manter e atualizar um blog, usando duas ferramentas nobres: o papel e caneta. Tudo para reconquistar o gosto pela escrita.
 layout: post
-permalink: /papel-e-caneta/
+permalink: blog/papel-e-caneta/
 dsq_thread_id:
   - 1503097016
 categories:

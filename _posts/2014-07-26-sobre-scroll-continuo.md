@@ -3,7 +3,7 @@ title: Sobre o Scroll Contínuo
 author: Rodrigo Teixeira
 excerpt: 'Uma breve pincelada sobre scroll contínuo, uma técnica que vem ganhando destaque em termos de usabilidade e métrica. '
 layout: post
-permalink: /sobre-scroll-continuo/
+permalink: blog/sobre-scroll-continuo/
 dsq_thread_id:
   - 2876172989
 categories:

@@ -3,7 +3,7 @@ title: Faça Bem-Feito Para Fazer Sempre Melhor
 author: Rodrigo Teixeira
 excerpt: Não importa o tipo de trabalho, projeto, relacionamento que você está construindo. Você precisa ser obstinado em fazer o melhor.
 layout: post
-permalink: /faca-bem-feito-para-fazer-sempre-melhor/
+permalink: blog/faca-bem-feito-para-fazer-sempre-melhor/
 dsq_thread_id:
   - 1341240833
 categories:

@@ -3,7 +3,7 @@ title: Infância com Bruce Springsteen
 author: Rodrigo Teixeira
 excerpt: 'Como as fitas K7 de meu pai me levaram ao RockinRio para assistir "The Boss", Bruce Springsteen. '
 layout: post
-permalink: /infancia-bruce-springsteen/
+permalink: blog/infancia-bruce-springsteen/
 dsq_thread_id:
   - 1794304838
 categories:

@@ -1,9 +1,9 @@
 ---
 title: O Que Aprendi em um Ano de Estágio?
 author: Rodrigo Teixeira
-excerpt: 'Aprendizados de um estagiário que trabalha com o que gosta. '
+excerpt: 'Aprendizados de um estagiário que trabalha com o que gosta.'
 layout: post
-permalink: /o-que-aprendi-em-um-ano-de-estagio/
+permalink: blog/o-que-aprendi-em-um-ano-de-estagio/
 dsq_thread_id:
   - 1995828363
 categories:

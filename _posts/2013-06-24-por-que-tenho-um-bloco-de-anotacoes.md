@@ -3,7 +3,7 @@ title: Por que Tenho um Bloco de Anotações?
 author: Rodrigo Teixeira
 excerpt: O bloco de anotações é minha ferramenta de trabalho favorita pois auxilia no processo de organizacão das ideias. Você também possui um?
 layout: post
-permalink: /por-que-tenho-um-bloco-de-anotacoes/
+permalink: blog/por-que-tenho-um-bloco-de-anotacoes/
 dsq_thread_id:
   - 1431606409
 categories:

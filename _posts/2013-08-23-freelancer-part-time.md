@@ -3,7 +3,7 @@ title: Freelancer Part-Time
 author: Rodrigo Teixeira
 excerpt: Com a finalidade de aprender, ao longo de quatro meses, comecei a documentar um pouco do meu processo de organização e planejamento para projetos part-time.
 layout: post
-permalink: /freelancer-part-time/
+permalink: blog/freelancer-part-time/
 dsq_thread_id:
   - 1633361218
 categories:

@@ -1,7 +1,7 @@
 ---
 title: Porque Não Gosto do Termo Web 2.0?
 author: Rodrigo Teixeira
-excerpt: O que há de errado com o termo Web 2.0?
+excerpt: 'O que há de errado com o termo Web 2.0?'
 layout: post
 permalink: /porque-nao-gosto-termo-web-2-0/
 dsq_thread_id:
