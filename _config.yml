@@ -23,7 +23,7 @@ permalink: pretty
 highlighter: pygments
 
 # PAGINATION
-permalink: 'blog/:title/
+permalink: blog/:title/
 paginate: 5
 paginate_path: 'blog/page:num'
 
