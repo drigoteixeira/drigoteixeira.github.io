@@ -17,15 +17,17 @@ source: .
 destination: ./_site
 plugins: ./_plugins
 
+# Build settings
 markdown: kramdown
-
+permalink: pretty
 highlighter: pygments
 
-permalink: /blog/:year/:month/:day/:title
-
 # PAGINATION
+permalink: 'blog/:title/'
 paginate: 5
 paginate_path: 'blog/page:num'
+
+excerpt_separator: ""
 
 
 version: v1.0.0

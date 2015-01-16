@@ -16,7 +16,7 @@
     <meta name="author" content="Rodrigo Teixeira">
     <meta name="description" content="Rodrigo Teixeira is a web designer based in Sao Paulo, Brazil. Be welcome =)">
 
-    <link rel="canonical" href="{{ site.baseurl }}{{ post.url }}">
+    <link rel="canonical" href="{{ site.url }}{% if page.url != '/index.html' %}{{ page.url }}{% endif %}">
 
     <!-- OPEN GRAPH -->
     <meta property="og:locale" content="pt_BR">
