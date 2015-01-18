@@ -27,21 +27,21 @@ layout: blog
 
 		<nav class="pagination">
 			<ul>
-				<li class="novos">
-					{% if paginator.previous_page %}
-						<a href="{{ paginator.previous_page_path }}">Mais Novos</a>
-					{% else %}
-						<span class="current">Mais Novos</span>
-					{% endif %}
-				</li>
-				<li class="page-number">
-					Página: {{ paginator.page }} de {{ paginator.total_pages }}
-				</li>
 				<li class="antigos">
 					{% if paginator.next_page %}
 						<a href="{{ paginator.next_page_path }}" class="antigos">Mais Antigos</a>
 					{% else %}
 						<span class="current">Mais Antigos</span>
+					{% endif %}
+				</li>
+				<li class="page-number">
+					Página: {{ paginator.page }} de {{ paginator.total_pages }}
+				</li>
+				<li class="novos">
+					{% if paginator.previous_page %}
+						<a href="{{ paginator.previous_page_path }}">Mais Novos</a>
+					{% else %}
+						<span class="current">Mais Novos</span>
 					{% endif %}
 				</li>
 			</ul>

@@ -14,6 +14,7 @@ Anos atrás, meu pai tinha o costume de gravar e guardar fitas K7 com músicas d
 De todas aquelas canções que ouvia, uma em especial chamou minha atenção devido a sua calma e introspectiva sensação &#8211; &#8220;*Streets of Philadelphia*&#8221; do ”The Boss”, [Bruce Springsteen.][1]
 
 <div class="videoWrapper">
+	<iframe width="620" height="420" src="//www.youtube.com/embed/4z2DtNW79sQ" frameborder="0" allowfullscreen></iframe>
 </div>
 
 Naquele instante da vida, eu realmente não sabia o que era introspecção. Mas sabia que de algum modo, havia uma história a ser contada naqueles versos. *Streets of Philadelphia* foi trilha sonora do filme &#8220;*Philadelphia*&#8221; de 1993 estrelado por Tom Hanks no papel do sofrido Andrew Beckett e Denzel Washington na pele do advogado Joe Miller.
