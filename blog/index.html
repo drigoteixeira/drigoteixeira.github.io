@@ -3,28 +3,25 @@ layout: blog
 ---
 
 {% for post in paginator.posts %}
-<div class="container-12">
-	<div class="grid-12">
-		<article class="posts">
-			<div class="post-meta">
-				<span class="post-date">{{ post.date | date: "%B %e, %Y" }}</span>
-			</div>
-			<h2 class="post-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
-			<div class="post-content excerpt">
-				{{ post.excerpt}}
-				<a href="{{ post.url }}" class="read-more">Continue Lendo</a>
-			</div>
-		</article>
-	</div>
-
+<div class="row posts">
+	<article class="item">
+		<div class="post-meta">
+			<span class="post-date">{{ post.date | date: "%B %e, %Y" }}</span>
+		</div>
+		<h2 class="post-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
+		<div class="post-content excerpt">
+			{{ post.excerpt}}
+			<a href="{{ post.url }}" class="read-more">Continue Lendo</a>
+		</div>
+	</article>
 </div>
 {% endfor %}
 
-<div class="container-12">
-	<div class="grid-12">
+
+<!-- PAGINATION -->
+<div class="row">
+	<div class="twelve columns">
 		<!-- Pagination links -->
-
-
 		<nav class="pagination">
 			<ul>
 				<li class="antigos">
@@ -46,10 +43,5 @@ layout: blog
 				</li>
 			</ul>
 		</nav>
-
 	</div>
 </div>
-
-
-
-

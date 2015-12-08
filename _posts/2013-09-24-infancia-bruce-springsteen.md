@@ -27,7 +27,7 @@ Sendo criança, não sabia ao certo se essa era uma música de angústia ou de e
 
 No último final de semana, dei espaço as memórias da infância quando estava no meio de mais de 100 mil pessoas acompanhando o show histórico de Bruce Springsteen no RockinRio 5, ao vivo, em cores. Ele não cantou sobre as ruas da cidade de Philadelphia, mas ele cantou sobre como viver com esperança, sentir o espírito e como contar histórias interessantes &#8211; talvez como essa que acabou de ser contada =)
 
-[<img class="responsive"  src="http://farm3.staticflickr.com/2824/9878653366_ea3a90c3ac_z.jpg" width="640" height="427" alt="BRUCE SPRINGSTEEN & BAND" />][2]
+[<img class="responsive"  src="http://farm3.staticflickr.com/2824/9878653366_ea3a90c3ac_z.jpg" width="740" height="427" alt="BRUCE SPRINGSTEEN & BAND" />][2]
 
  [1]: http://brucespringsteen.net/
  [2]: http://www.flickr.com/photos/rockinrio/9878653366/ "BRUCE SPRINGSTEEN & BAND por rockinriooficial, no Flickr"

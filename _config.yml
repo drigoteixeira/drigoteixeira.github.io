@@ -15,7 +15,7 @@ baseurl: ""
 source: .
 
 destination: ./_site
-plugins: ./_plugins
+plugins_dir: ./_plugins
 
 # Build settings
 markdown: kramdown
@@ -35,6 +35,7 @@ sass:
 
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
 
 exclude:
     - Gemfile
