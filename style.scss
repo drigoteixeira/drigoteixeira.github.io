@@ -457,6 +457,25 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
 */
 
+@media (max-width: 380px) {
+
+  header {
+    text-align: center;
+  }
+
+  header .right {
+    text-align: center;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+
+  .container .pagination ul li {
+    display: table;
+  }
+
+}
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
