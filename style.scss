@@ -622,13 +622,6 @@ LAYOUT
   line-height: 55px;
 }
 
-.content .project-title {
-  line-height: 22px;
-}
-
-hr {
-  border-top: 5px solid #eee;
-}
 
 .excerpt {
   font-size: 18px;
@@ -640,12 +633,23 @@ hr {
 }
 
 
-.project h2 {
-  color: #444;
-  font-size: 38px;
-  letter-spacing: -1px;
+.project-detail {
+  text-align: center;
 }
 
+.project-detail h2 {
+  line-height: 18px;
+  font-size: 40px;
+}
+
+@media (max-width: 380px) {
+
+  .project-detail h2 {
+      line-height: 50px;
+      font-size: 40px;
+  }
+
+}
 
 /* ==========================================================================
 PAGINATION
