@@ -134,7 +134,7 @@ html {
   font-size: 62.5%; 
 }
 body {
-  background: #fff;
+  background: #fafafa;
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
@@ -213,17 +213,17 @@ ul li, ol li {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #999; 
+  color: #333; 
   text-decoration: none;
   }
 a:hover {
-  color: #999;
+  color: #333;
   text-decoration: underline;
 }
 
 .post-title a {
   text-decoration: none;
-  color: #444;
+  color: #333;
 }
 
 blockquote {
