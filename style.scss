@@ -166,6 +166,8 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
   font-size: 50px;
 }
 
+
+
 @media (max-width: 380px) {
   .home h2 {
     font-size: 34px;
@@ -613,10 +615,8 @@ dd {
 }
 
 .project h2 {
-  font-size: 36px;
-  line-height: 36px;
-  border-bottom: 1px solid #ccc;
-  padding: 20px 0 40px 0;
+  font-size: 42px;
+  margin-bottom: 40px;
 }
 
 
