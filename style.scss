@@ -206,8 +206,9 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 
 p {
   margin-top: 0; 
-  line-height: 32px;
+  line-height: 36px;
   font-size: 1.2em;
+  margin-bottom: 20px !important;
 }
 
 ul li, ol li {
@@ -630,9 +631,16 @@ dd {
 LAYOUT
 ========================================================================== */
 
+.excerpt
+
 .posts {
   padding: 40px 0;
 
+}
+
+.post-date {
+  color: #999;
+  font-style: italic;
 }
 
 .content .post-title {
@@ -640,14 +648,14 @@ LAYOUT
   line-height: 55px;
 }
 
-
-.excerpt {
+.read-more {
   font-size: 18px;
+  font-style: italic;
 }
 
-.read-more {
-  display: block;
-  clear: both;
+.excerpt {
+  font-size: 16px;
+  margin-bottom: 40px;
 }
 
 
@@ -677,6 +685,10 @@ LAYOUT
 
 .detail p {
   font-size: 16px;
+}
+
+.comments {
+  margin-top: 40px;
 }
 
 /* ==========================================================================

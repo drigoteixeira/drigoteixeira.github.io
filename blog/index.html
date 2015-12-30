@@ -10,8 +10,8 @@ layout: blog
 		</div>
 		<h2 class="post-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
 		<div class="post-content excerpt">
-			{{ post.excerpt}}
-			<a href="{{ post.url }}" class="read-more">Continue Lendo</a>
+			<p>{{ post.excerpt}}</p>
+			<p><a href="{{ post.url }}" class="read-more">&#8594; Continue lendo</a><p>
 		</div>
 	</article>
 </div>
@@ -26,9 +26,9 @@ layout: blog
 			<ul>
 				<li class="antigos">
 					{% if paginator.next_page %}
-						<a href="{{ paginator.next_page_path }}" class="antigos">Mais Antigos</a>
+						<a href="{{ paginator.next_page_path }}" class="antigos">&#8592; Mais Antigos</a>
 					{% else %}
-						<span class="current">Mais Antigos</span>
+						<span class="current">&#8592; Mais Antigos</span>
 					{% endif %}
 				</li>
 				<li class="page-number">
@@ -36,9 +36,9 @@ layout: blog
 				</li>
 				<li class="novos">
 					{% if paginator.previous_page %}
-						<a href="{{ paginator.previous_page_path }}">Mais Novos</a>
+						<a href="{{ paginator.previous_page_path }}">Mais Novos &#8594;</a>
 					{% else %}
-						<span class="current">Mais Novos</span>
+						<span class="current">Mais Novos &#8594;</span>
 					{% endif %}
 				</li>
 			</ul>
