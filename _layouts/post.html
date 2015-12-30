@@ -4,11 +4,13 @@ layout: blog
 
 <div class="row">
 	<section class="content">
-		<article class="post">
+		<section class="title">
 			<div class="post-meta">
 				<span class="post-date">{{ page.date | date: "%B %d, %Y" }}</span>
 			</div>
 			<h2 class="post-title">{{ page.title }}</a></h2>
+		</section>
+		<article class="post">
 			<div class="post-content">
 				{{ content }}
 			</div>

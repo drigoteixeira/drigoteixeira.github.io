@@ -141,7 +141,8 @@ body {
   line-height: 1.6;
   font-family: 'Domine', serif;
   font-weight: 300;
-  color: #444; 
+  color: #444;
+  border-top: 10px solid #333;
 }
 
 .right {
@@ -635,7 +636,7 @@ LAYOUT
 }
 
 .content .post-title {
-  font-size: 5.2rem;
+  font-size: 48px;
   line-height: 55px;
 }
 
@@ -656,14 +657,14 @@ LAYOUT
 
 .project-detail h2 {
   line-height: 18px;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 @media (max-width: 400px) {
 
   .project-detail h2 {
       line-height: 50px;
-      font-size: 40px;
+      font-size: 30px;
   }
 
 }
