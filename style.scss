@@ -35,6 +35,8 @@ Description: Tema padrão do blog pessoal de Rodrigo Teixeira
 
 /* Fontes
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Domine:400,700);
 
 
 /* Grid
@@ -137,9 +139,9 @@ body {
   background: #fff;
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: 'Domine', serif;
   font-weight: 300;
-  color: #333; 
+  color: #444; 
 }
 
 .right {
@@ -153,6 +155,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2rem;
   font-weight: 700; 
   letter-spacing: -2px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 { font-size: 6.0rem; line-height: 1.2;  }
@@ -168,7 +171,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 
 
 
-@media (max-width: 380px) {
+@media (max-width: 400px) {
   .home h2 {
     font-size: 34px;
     letter-spacing: -1px;
@@ -190,7 +193,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
   h6 { font-size: 1.5rem; }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
 
   .project h2 {
     color: #444;
@@ -215,11 +218,11 @@ ul li, ol li {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #333; 
+  color: #f55567; 
   text-decoration: none;
   }
 a:hover {
-  color: #333;
+  color: #f55567;
   text-decoration: underline;
 }
 
@@ -483,7 +486,7 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
 */
 
-@media (max-width: 380px) {
+@media (max-width: 400px) {
 
   header {
     text-align: center;
@@ -547,6 +550,7 @@ nav {
 }
 
 nav li {
+  font-family: 'Montserrat', sans-serif;
   display: inline;
   list-style: none;
   line-height: 60px;
@@ -655,7 +659,7 @@ LAYOUT
   font-size: 40px;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 400px) {
 
   .project-detail h2 {
       line-height: 50px;
