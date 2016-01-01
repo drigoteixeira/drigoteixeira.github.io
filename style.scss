@@ -626,6 +626,15 @@ dd {
   text-align: center;
 }
 
+@media (max-width: 400px) {
+
+  .project h2 {
+      line-height: 30px;
+      font-size: 30px;
+  }
+
+}
+
 
 /* ==========================================================================
 LAYOUT
@@ -664,14 +673,14 @@ LAYOUT
 }
 
 .project-detail h2 {
-  line-height: 18px;
+  line-height: 50px;
   font-size: 50px;
 }
 
 @media (max-width: 400px) {
 
   .project-detail h2 {
-      line-height: 50px;
+      line-height: 30px;
       font-size: 30px;
   }
 
