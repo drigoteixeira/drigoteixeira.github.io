@@ -143,6 +143,7 @@ body {
   font-weight: 300;
   color: #444;
   border-top: 10px solid #333;
+  text-rendering: optimizelegibility;
 }
 
 .right {
@@ -667,14 +668,19 @@ LAYOUT
   margin-bottom: 40px;
 }
 
-
 .project-detail {
   text-align: center;
 }
 
-.project-detail h2 {
+.project-detail h4 {
   line-height: 50px;
-  font-size: 50px;
+  font-size: 16px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.project-detail a {
+  color: #666;
 }
 
 @media (max-width: 400px) {
@@ -692,9 +698,6 @@ LAYOUT
   margin-top: 50px;
 }
 
-.detail p {
-  font-size: 16px;
-}
 
 .comments {
   margin-top: 40px;
@@ -727,7 +730,6 @@ PAGINATION
 IMAGEM RESPONSIVA
 ========================================================================== */
 
-
 img.scale, img.responsive {
     max-width: 100%;
     height: auto;
@@ -739,16 +741,16 @@ VIDEO RESPONSIVO
 ========================================================================== */
 
 .videoWrapper {
-        position: relative;
-        padding-bottom: 56.25%;
-        padding-top: 25px;
-        height: 0;
+      position: relative;
+      padding-bottom: 56.25%;
+      padding-top: 25px;
+      height: 0;
 }
 
 .videoWrapper iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
 }
