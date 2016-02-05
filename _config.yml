@@ -20,7 +20,7 @@ plugins_dir: ./_plugins
 # Build settings
 markdown: kramdown
 permalink: pretty
-highlighter: pygments
+highlighter: rouge
 
 # PAGINATION
 permalink: blog/:title/
