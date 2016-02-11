@@ -173,7 +173,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
   font-size: 20px;
   font-weight: 300;
   line-height: 38px;
-  color: #666;
+  color: #444;
 }
 
 .tagline {
@@ -184,6 +184,21 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
   font-size: 70px;
   letter-spacing: -4px;
   margin-bottom: 20px;
+  margin-top: 0;
+}
+
+@media (max-width: 550px) {
+    .tagline h1 {
+    font-size: 40px;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    }
+
+    .lead {
+      font-size: 18px;
+      line-height: 28px;
+    }
 }
 
 /* Larger than phablet */
@@ -232,7 +247,7 @@ a:hover {
 
 .post-title a {
   text-decoration: none;
-  color: #333;
+  color: #444;
 }
 
 blockquote {
@@ -558,7 +573,7 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 60px;
-  padding: 0 10px 0 0;
+  padding: 0 15px 0 0;
   font-weight: bold;
   text-transform: uppercase;
   font-size: .9em;
@@ -567,15 +582,16 @@ nav li {
 .navbar li a {
   color: #444;
   text-decoration: none;
+  padding-bottom: 4px;
 }
 
 .navbar li a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .homepage .navbar li.item01 a,
 .about .navbar li.item02 a,
-.blog .navbar li.item03 a { text-decoration: underline; }
+.blog .navbar li.item03 a { border-bottom: 2px solid #f55567; color: #f55567; }
 
 /* ==========================================================================
 FOOTER
