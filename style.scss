@@ -186,28 +186,6 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
   margin-bottom: 20px;
 }
 
-@media (max-width: 400px) {
-
-.lead {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 38px;
-  color: #666;
-}
-
-.tagline {
-  margin-bottom: 20px;
-}
-
-.tagline h1 {
-  font-size: 46px;
-  letter-spacing: -2px;
-  margin-bottom: 20px;
-}
-
-}
-
-
 /* Larger than phablet */
 @media (min-width: 550px) {
   h1 { font-size: 5.0rem; }
