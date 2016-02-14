@@ -229,7 +229,7 @@ p {
 }
 
 ul li, ol li {
-  font-size: 16px;
+  font-size: 1.2em;
   color: #444;
 }
 
@@ -709,6 +709,16 @@ LAYOUT
   .project-detail h2 {
       line-height: 30px;
       font-size: 30px;
+  }
+
+  .post-title {
+      line-height: 30px;
+      font-size: 28px;
+  }
+
+  .content .post-title {
+      line-height: 30px;
+      font-size: 32px;
   }
 
 }
