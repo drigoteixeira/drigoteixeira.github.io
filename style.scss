@@ -35,9 +35,6 @@ Description: Tema padrão do blog pessoal de Rodrigo Teixeira
 
 */
 
-/* Fontes
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-@import url(https://fonts.googleapis.com/css?family=Domine:400,700);
 
 
 /* Grid
@@ -140,8 +137,7 @@ body {
   background: #fff;
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
-  font-family: 'Domine', serif;
-  font-weight: 300;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #444;
   border-top: 5px solid #333;
   text-rendering: optimizelegibility;
@@ -158,8 +154,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 700; 
-  letter-spacing: -2px;
-  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -1px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 h1 { font-size: 6.0rem; line-height: 1.2;  }
@@ -172,9 +168,9 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 
 .lead {
   font-size: 20px;
-  font-weight: 300;
   line-height: 38px;
-  color: #444;
+  font-weight: 400;
+  color: #666;
 }
 
 .tagline {
@@ -191,7 +187,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 @media (max-width: 550px) {
     .tagline h1 {
     font-size: 40px;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     margin-bottom: 20px;
     margin-top: 0;
     }
@@ -866,5 +862,9 @@ figure.highlight {
 .highlight .vg { color: #008080 } /* Name.Variable.Global */
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
+
+
+/* CAPTION */
+
 
 
