@@ -35,6 +35,8 @@ Description: Tema padrão do blog pessoal de Rodrigo Teixeira
 
 */
 
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic);
+
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -135,9 +137,9 @@ html {
 body {
   background: #fff;
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.6;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  color: #444;
+  line-height: 1.5;
+  font-family: 'PT Serif', serif;
+  color: #555;
   border-top: 5px solid #f55567;;
   text-rendering: optimizelegibility;
 }
@@ -154,6 +156,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700; 
   letter-spacing: -1px;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #333;
 }
 
 h1 { font-size: 6.0rem; line-height: 1.2;  }
@@ -165,10 +168,9 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 
 
 .lead {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 36px;
-  font-weight: 400;
-  color: #666;
+  color: #555;
 }
 
 .tagline {
@@ -218,14 +220,14 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 
 p {
   margin-top: 0; 
-  line-height: 32px;
-  font-size: 1.2em;
+  line-height: 36px;
+  font-size: 1.4em;
   margin-bottom: 20px !important;
 }
 
 ul li, ol li {
   font-size: 1.2em;
-  color: #444;
+  color: #555;
   line-height: 36px;
 }
 
@@ -672,6 +674,7 @@ LAYOUT
 .item .post-date {
   display: block;
   text-align: right;
+  line-height: 32px;
 }
 
 
@@ -687,7 +690,6 @@ LAYOUT
   }
 }
 
-
 .post-title {
   font-size: 30px;
   line-height: 38px;
@@ -702,10 +704,9 @@ LAYOUT
   font-size: 14px;
 }
 
-
 .excerpt p {
-  font-style: 16px;
-  line-height: 24px;
+  font-style: 18px;
+  line-height: 26px;
   color: #666;
 }
 
