@@ -637,7 +637,6 @@ dd {
 .thumb .project-name {
   text-align: center;
   font-size: .9em;
-
 }
 
 .project h2 {
@@ -715,14 +714,15 @@ LAYOUT
 }
 
 .project-detail h4 {
-  line-height: 50px;
-  font-size: 16px;
+  line-height: 28px;
+  font-size: 14px;
   letter-spacing: 0;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .project-detail a {
-  color: #666;
+  color: #555;
 }
 
 @media (max-width: 400px) {
@@ -740,6 +740,16 @@ LAYOUT
   .content .post-title {
       line-height: 36px;
       font-size: 32px;
+  }
+
+
+
+}
+
+@media (min-width: 550px) {
+
+  .project-detail h4 {
+    line-height: 28px;
   }
 
 }
