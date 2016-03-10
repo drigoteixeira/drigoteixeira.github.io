@@ -137,10 +137,9 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  color: rgb(0, 0, 0);
+  color: #444;
   border-top: 5px solid #f55567;;
   text-rendering: optimizelegibility;
-  padding-top: 20px; 
 }
 
 .right {
@@ -210,7 +209,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 @media (max-width: 400px) {
 
   .project h2 {
-    color: rgb(0, 0, 0);
+    color: #444;
     font-size: 24px;
     letter-spacing: -1px;
   }
@@ -219,7 +218,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 
 p {
   margin-top: 0; 
-  line-height: 36px;
+  line-height: 32px;
   font-size: 1.2em;
   margin-bottom: 20px !important;
 }
@@ -254,7 +253,7 @@ blockquote {
 blockquote p {
   line-height: 40px;
   letter-spacing: -1px;
-  color: #666;
+  color: #444;
   margin-left: 0;
   padding-left: 0;
 }
@@ -274,7 +273,7 @@ input[type="button"] {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: #555;
+  color: #444;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -558,7 +557,7 @@ header h1 {
 
 .logo a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: #444;
 }
 
 nav {
@@ -577,7 +576,7 @@ nav li {
 }
 
 .navbar li a {
-  color: rgb(0, 0, 0);
+  color: #444;
   text-decoration: none;
   padding-bottom: 4px;
 }
@@ -668,22 +667,46 @@ LAYOUT
 
 .post-date {
   color: #999;
-  font-style: italic;
 }
 
-.content .post-title {
-  font-size: 48px;
-  line-height: 55px;
+.item .post-date {
+  display: block;
+  text-align: right;
+}
+
+
+@media (max-width: 400px) {
+  .item .post-date {
+    text-align: left;
+  }
+}
+
+@media (max-width: 550px) {
+  .item .post-date {
+    text-align: left;
+  }
+}
+
+
+.post-title {
+  font-size: 30px;
+  line-height: 38px;
+}
+
+.post-detail .post-title {
+  font-size: 44px;
+  line-height: 50px;
 }
 
 .read-more {
-  font-size: 18px;
-  font-style: italic;
+  font-size: 14px;
 }
 
-.excerpt {
-  font-size: 16px;
-  margin-bottom: 40px;
+
+.excerpt p {
+  font-style: 16px;
+  line-height: 24px;
+  color: #666;
 }
 
 .project-detail {
@@ -704,17 +727,17 @@ LAYOUT
 @media (max-width: 400px) {
 
   .project-detail h2 {
-      line-height: 30px;
+      line-height: 38px;
       font-size: 30px;
   }
 
   .post-title {
-      line-height: 30px;
+      line-height: 38px;
       font-size: 28px;
   }
 
   .content .post-title {
-      line-height: 30px;
+      line-height: 36px;
       font-size: 32px;
   }
 
