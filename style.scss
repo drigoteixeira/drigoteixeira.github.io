@@ -138,9 +138,9 @@ body {
   background: #fff;
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.5;
-  font-family: 'PT Serif', serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #555;
-  border-top: 5px solid #f55567;;
+  border-top: 5px solid #f55567;
   text-rendering: optimizelegibility;
 }
 
@@ -168,9 +168,9 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 
 
 .lead {
-  font-size: 20px;
-  line-height: 36px;
-  color: #555;
+  font-size: 18px;
+  line-height: 32px;
+  color: #888;
 }
 
 .tagline {
@@ -178,8 +178,8 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 }
 
 .tagline h1 {
-  font-size: 70px;
-  letter-spacing: -4px;
+  font-size: 48px;
+  letter-spacing: -2px;
   margin-bottom: 20px;
   margin-top: 0;
 }
@@ -220,15 +220,15 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 
 p {
   margin-top: 0; 
-  line-height: 36px;
-  font-size: 1.4em;
+  line-height: 32px;
+  font-size: 1.2em;
   margin-bottom: 20px !important;
 }
 
 ul li, ol li {
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: #555;
-  line-height: 36px;
+  line-height: 32px;
 }
 
 
@@ -245,7 +245,7 @@ a:hover {
 
 .post-title a {
   text-decoration: none;
-  color: #444;
+  color: #333;
 }
 
 blockquote {
@@ -506,12 +506,9 @@ there.
 @media (max-width: 400px) {
 
   header {
-    text-align: center;
+    text-align: left;
   }
 
-  header .right, .right {
-    text-align: center;
-  }
 
   footer {
     font-size: 11px;
@@ -543,37 +540,25 @@ there.
 HEADER
 ========================================================================== */
 
-
-header {
-  margin-bottom: 40px;
-  margin-top: 40px;
-}
-
-header h1 {
-  font-size: 1.6em;
-  font-weight: bold;
-  letter-spacing: -1px;
-  margin-bottom: 5px;
-  line-height: 24px;
-}
-
 .logo a {
   text-decoration: none;
   color: #444;
 }
 
-nav {
+.navbar {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   height: 60px;
+  border-bottom: 1px solid #ccc;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
 }
 
-nav li {
-  font-family: 'Montserrat', sans-serif;
+.navbar li {
   display: inline;
   list-style: none;
   line-height: 60px;
   padding: 0 15px 0 0;
-  font-weight: bold;
-  text-transform: uppercase;
   font-size: .9em;
 }
 
@@ -591,12 +576,35 @@ nav li {
 .about .navbar li.item02 a,
 .blog .navbar li.item03 a { border-bottom: 2px solid #f55567; color: #f55567; }
 
+li.item00 {
+  font-weight: bold;
+  text-transform: none;
+  font-size: 1.2em;
+  letter-spacing: -1px;
+}
+
+/* Larger than mobile */
+@media (max-width: 400px) { 
+
+  .navbar {
+    height: 60px;
+  }
+
+  .navbar li {
+    line-height: 16px;
+  }
+
+  li.item00 {
+    display: block;
+  }
+}
+
 /* ==========================================================================
 FOOTER
 ========================================================================== */
 
 footer {
-  padding: 100px 0 0 0;
+  padding: 20px 0 0 0;
   font-size: 12px;  
 }
 
@@ -608,15 +616,19 @@ footer .container {
 footer ul li {
   display: inline;
   list-style: none;
-  font-size: 12px;
+  font-size: 1.1em;
+  padding: 0 10px;
 }
-
+footer ul li:last-child {
+  padding-right: 0;
+}
 
 /* LISTA */
 
 dl {
   margin: 0;
   font-size: .9em;
+  color: #999;
 }
 
 dt {
@@ -659,10 +671,9 @@ dd {
 LAYOUT
 ========================================================================== */
 
-.excerpt
 
 .posts {
-  padding: 40px 0;
+  padding: 20px 0;
 
 }
 
@@ -703,16 +714,15 @@ LAYOUT
   font-size: 14px;
 }
 
+.excerpt {
+  margin-bottom: 20px;
+}
+
 .excerpt p {
   font-style: 18px;
   line-height: 26px;
   color: #666;
 }
-
-.project-detail {
-  text-align: center;
-}
-
 .project-detail h4 {
   line-height: 28px;
   font-size: 14px;
@@ -722,7 +732,12 @@ LAYOUT
 }
 
 .project-detail a {
-  color: #555;
+  color: #333;
+}
+
+.detail p {
+  font-size: 1em;
+  line-height: 24px;
 }
 
 @media (max-width: 400px) {
@@ -754,13 +769,6 @@ LAYOUT
 
 }
 
-.detail {
-  border-top: 1px solid #ccc;
-  padding-top: 50px;
-  margin-top: 50px;
-}
-
-
 .comments {
   margin-top: 40px;
 }
@@ -771,6 +779,7 @@ PAGINATION
 
 .pagination {
   width: 100%;
+  padding: 20px 0;
 }
 
 .pagination ul {
@@ -784,6 +793,7 @@ PAGINATION
   display: inline;
   line-height: 32px;
   margin-right: 40px;
+  font-size: 1em;
 }
 
 
@@ -818,7 +828,7 @@ VIDEO RESPONSIVO
 }
 
 .project-detail {
-  float:left;
+  margin-bottom: 40px;
   overflow:hidden;
 }
 
@@ -923,3 +933,4 @@ figure.highlight {
 #back-to-top.show {
     opacity: 1;
 }
+
