@@ -321,8 +321,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+  background-color: #3f4549;
+  border-color: #3f4549; }
 
 
 /* Forms
@@ -597,6 +597,11 @@ li.item00 {
   li.item00 {
     display: block;
   }
+
+  .social-networks li {
+    text-align: left;
+  }
+
 }
 
 /* ==========================================================================
@@ -619,7 +624,7 @@ footer ul li {
   font-size: 1.1em;
   padding: 0 10px;
 }
-footer ul li:last-child {
+footer ul li:first-child {
   padding-right: 0;
 }
 
