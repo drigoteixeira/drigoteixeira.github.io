@@ -645,8 +645,9 @@ footer ul li {
   display: inline;
   list-style: none;
   font-size: 1.1em;
-  padding: 0 10px;
+  padding: 0 5px;
   font-weight: bold;
+  color: #999;
 }
 
 footer ul li:first-child {
@@ -945,8 +946,8 @@ figure.highlight {
 
 #back-to-top {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 40px;
+    right: 40px;
     z-index: 9999;
     width: 32px;
     height: 32px;
