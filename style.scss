@@ -35,6 +35,7 @@ Description: Tema padrão do blog pessoal de Rodrigo Teixeira
 
 */
 
+
 @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic);
 
 
@@ -135,13 +136,13 @@ html {
   font-size: 62.5%; 
 }
 body {
-  background: #fff;
+  background: #FAFAFA;
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.5;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #555;
-  border-top: 5px solid #f55567;
   text-rendering: optimizelegibility;
+  border-top: 5px solid #f55567;
 }
 
 .right {
@@ -174,15 +175,19 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 }
 
 .tagline {
-  margin-bottom: 40px;
+  margin: 60px 0;
 }
 
 .tagline h1 {
-  font-size: 50px;
+  font-size: 44px;
   letter-spacing: -2px;
   margin-bottom: 20px;
   margin-top: 0;
   font-weight: bold;
+}
+
+.tagline h1 a {
+  font-weight: lighter;
 }
 
 @media (max-width: 550px) {
@@ -221,7 +226,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 
 p {
   margin-top: 0; 
-  line-height: 32px;
+  line-height: 34px;
   font-size: 1.2em;
   margin-bottom: 20px !important;
 }
@@ -541,6 +546,7 @@ there.
 HEADER
 ========================================================================== */
 
+
 .logo a {
   text-decoration: none;
   color: #444;
@@ -560,7 +566,7 @@ HEADER
   list-style: none;
   line-height: 60px;
   padding: 0 15px 0 0;
-  font-size: .9em;
+  font-size: 1em;
 }
 
 .navbar li a {
@@ -612,12 +618,27 @@ FOOTER
 
 footer {
   padding: 20px 0 0 0;
-  font-size: 12px;  
+  font-size: 12px;
+  background: #222;
 }
 
 footer .container {
-  border-top: 1px solid #ccc;
   padding-top: 40px;
+}
+
+
+footer h5 {
+  font-size: 14px;
+  color: #fff;
+  font-weight: normal;
+  letter-spacing: normal;
+}
+
+footer h5 span {
+  font-size: 26px;
+  display: block;
+  font-weight: bold;
+  letter-spacing: -1px;
 }
 
 footer ul li {
@@ -625,10 +646,15 @@ footer ul li {
   list-style: none;
   font-size: 1.1em;
   padding: 0 10px;
+  font-weight: bold;
 }
 
 footer ul li:first-child {
-  padding-right: 0;
+  padding-left: 0;
+}
+
+footer ul li a {
+  color: #fff;
 }
 
 /* LISTA */
@@ -919,8 +945,8 @@ figure.highlight {
 
 #back-to-top {
     position: fixed;
-    bottom: 40px;
-    right: 40px;
+    bottom: 20px;
+    right: 20px;
     z-index: 9999;
     width: 32px;
     height: 32px;
@@ -942,3 +968,42 @@ figure.highlight {
     opacity: 1;
 }
 
+/* Selected Work */
+
+.selected-work li {
+  display: block;
+  font-size: 40px;
+  font-weight: bold;
+  list-style: none;
+  letter-spacing: -1px;
+  border-top: 1px solid #ccc;
+  margin-bottom: 0;
+}
+
+.selected-work li a {
+  color: #333;
+  display: block;
+  padding: 40px 0 40px 20px;
+}
+.selected-work li a:hover {
+  background: #eee;
+  text-decoration: none;
+}
+
+@media (max-width: 550px) {
+
+  .selected-work li {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    list-style: none;
+    letter-spacing: -1px;
+    border-top: 1px solid #ccc;
+    margin-bottom: 0;
+  }
+
+}
+
+.container .button {
+  margin-bottom: 40px;
+}
