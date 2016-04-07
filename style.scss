@@ -136,7 +136,7 @@ html {
   font-size: 62.5%; 
 }
 body {
-  background: #FAFAFA;
+  background: #FFF;
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.5;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -175,15 +175,15 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 }
 
 .tagline {
-  margin: 60px 0;
+  padding: 50px 0;
+  margin-bottom: 40px;
 }
 
 .tagline h1 {
-  font-size: 40px;
+  font-size: 46px;
   letter-spacing: -2px;
   margin-bottom: 20px;
   margin-top: 0;
-  font-weight: bold;
 }
 
 .tagline h1 a {
