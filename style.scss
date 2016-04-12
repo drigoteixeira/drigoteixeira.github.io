@@ -154,7 +154,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
-  font-weight: 700; 
+  font-weight: 400; 
   letter-spacing: -1px;
   font-family: 'Roboto', sans-serif;
   color: #333;
@@ -187,18 +187,21 @@ line-height: 28px;
 }
 
 .tagline {
-  padding: 30px 40px;
+  padding: 30px 60px;
   margin-bottom: 40px;
+  height: 641px;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .tagline h1 {
-  font-size: 40px;
+  font-size: 50px;
   margin-bottom: 20px;
-  letter-spacing: normal;
+  letter-spacing: -1px;
   margin-top: 0;
   text-align: center;
   font-weight: normal;
-  line-height: 50px;
+  line-height: 66px;
 }
 
 .tagline p {
@@ -1001,31 +1004,22 @@ figure.highlight {
 
 /* Selected Work */
 
-.selected-work {
-    padding: 50px 0 20px 0;
+.selected-work .row {
+  margin-bottom: 30px;
 }
-
-.selected-work div {
-  text-align: center;
-}
-
 
 .selected-work h3 {
-  font-size: 24px;
+  font-size: 18px;
   line-height: 20px;
   margin-bottom: 5px;
+  font-weight: normal;
+  letter-spacing: normal;
 }
 
 .selected-work h3 a {
   color: #333;
 }
 
-.selected-work p {
-  font-size: 12px;
-  color: #888;
-  margin-bottom: 0;
-  line-height: 24px;
-}
 
 
 .container .button {
