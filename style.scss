@@ -187,9 +187,9 @@ line-height: 28px;
 }
 
 .tagline {
-  padding: 30px 60px;
+  padding: 30px 20px;
   margin-bottom: 40px;
-  height: 641px;
+  height: 500px;
   display: table-cell;
   vertical-align: middle;
 }
@@ -213,16 +213,37 @@ line-height: 28px;
 
 
 @media (max-width: 550px) {
-    .tagline h1 {
-    font-size: 36px;
-    letter-spacing: -1px;
-    margin-bottom: 20px;
-    margin-top: 0;
+    
+  .main-header {
+    padding-top: 10px;
+    position: normal;
+    width: 100%;
+    z-index: 9999;
     }
 
-    .lead {
-      font-size: 14px;
-      line-height: 28px;
+
+    
+    .tagline {
+      padding: 10px 5px;
+    }
+
+    .tagline h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    line-height: 46px;
+    }
+
+    .logo {
+      text-align: center;
+    }
+
+    .right {
+      text-align: center;
+    }
+
+    footer p {
+      text-align: center;
     }
 }
 
@@ -560,7 +581,7 @@ HEADER
 ========================================================================== */
 
 .main-header {
-  padding-top: 60px;
+  padding-top: 40px;
   position: fixed;
   width: 100%;
   z-index: 9999;
