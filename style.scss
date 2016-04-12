@@ -35,10 +35,6 @@ Description: Tema padrão do blog pessoal de Rodrigo Teixeira
 
 */
 
-<<<<<<< HEAD
-=======
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,700italic);
->>>>>>> c11a491fdfe925139defc83b156869de59242355
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,700italic,400italic);
 
 
@@ -152,11 +148,8 @@ body {
   text-align: right;
 }
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> c11a491fdfe925139defc83b156869de59242355
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
@@ -164,11 +157,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2rem;
   font-weight: 700; 
   letter-spacing: -1px;
-<<<<<<< HEAD
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-=======
-  font-family: 'Source Sans Pro', sans-serif;
->>>>>>> c11a491fdfe925139defc83b156869de59242355
   color: #333;
 }
 
@@ -179,7 +168,6 @@ h4 { font-size: 2.4rem; line-height: 1.35; }
 h5 { font-size: 1.8rem; line-height: 1.5;  }
 h6 { font-size: 1.5rem; line-height: 1.6;  }
 
-<<<<<<< HEAD
 .post-home {
   font-size: 18px;
   border-bottom: 1px solid #ccc;
@@ -196,26 +184,15 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 .lead {
 font-size: 14px;
 line-height: 28px;
-=======
-
-.lead {
-  font-size: 16px;
-  line-height: 32px;
->>>>>>> c11a491fdfe925139defc83b156869de59242355
   color: #888;
 }
 
 .tagline {
-<<<<<<< HEAD
   padding: 30px 0;
-=======
-  padding: 50px 0;
->>>>>>> c11a491fdfe925139defc83b156869de59242355
   margin-bottom: 40px;
 }
 
 .tagline h1 {
-<<<<<<< HEAD
   font-size: 40px;
   letter-spacing: -2px;
   margin-bottom: 20px;
@@ -234,32 +211,13 @@ line-height: 28px;
 @media (max-width: 550px) {
     .tagline h1 {
     font-size: 36px;
-=======
-  font-size: 46px;
-  letter-spacing: -2px;
-  margin-bottom: 20px;
-  margin-top: 0;
-}
-
-.tagline h1 a {
-  font-weight: lighter;
-}
-
-@media (max-width: 550px) {
-    .tagline h1 {
-    font-size: 40px;
->>>>>>> c11a491fdfe925139defc83b156869de59242355
     letter-spacing: -1px;
     margin-bottom: 20px;
     margin-top: 0;
     }
 
     .lead {
-<<<<<<< HEAD
       font-size: 14px;
-=======
-      font-size: 18px;
->>>>>>> c11a491fdfe925139defc83b156869de59242355
       line-height: 28px;
     }
 }
@@ -267,29 +225,13 @@ line-height: 28px;
 /* Larger than phablet */
 @media (min-width: 550px) {
   h1 { font-size: 5.0rem; }
-<<<<<<< HEAD
   h2 { font-size: rem; }
-=======
-  h2 { font-size: 4.2rem; }
->>>>>>> c11a491fdfe925139defc83b156869de59242355
   h3 { font-size: 3.6rem; }
   h4 { font-size: 3.0rem; }
   h5 { font-size: 2.4rem; }
   h6 { font-size: 1.5rem; }
 }
 
-<<<<<<< HEAD
-=======
-@media (max-width: 400px) {
-
-  .project h2 {
-    color: #444;
-    font-size: 24px;
-    letter-spacing: -1px;
-  }
-
-}
->>>>>>> c11a491fdfe925139defc83b156869de59242355
 
 p {
   margin-top: 0; 
@@ -613,7 +555,6 @@ there.
 HEADER
 ========================================================================== */
 
-<<<<<<< HEAD
 .main-header {
   display: table;
     height: 100px;
@@ -642,32 +583,13 @@ HEADER
   margin-bottom: 40px;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
-=======
-
-.logo a {
-  text-decoration: none;
-  color: #444;
-}
-
-.navbar {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  height: 60px;
-  border-bottom: 1px solid #ccc;
-  margin-top: 20px;
-  padding-bottom: 20px;
-  margin-bottom: 40px;
->>>>>>> c11a491fdfe925139defc83b156869de59242355
 }
 
 .navbar li {
   display: inline;
   list-style: none;
   line-height: 60px;
-<<<<<<< HEAD
   padding: 0 20px 0 0;
-=======
-  padding: 0 15px 0 0;
->>>>>>> c11a491fdfe925139defc83b156869de59242355
   font-size: 1em;
 }
 
@@ -681,11 +603,7 @@ HEADER
   text-decoration: none;
 }
 
-<<<<<<< HEAD
 .work .navbar li.item01 a,
-=======
-.homepage .navbar li.item01 a,
->>>>>>> c11a491fdfe925139defc83b156869de59242355
 .about .navbar li.item02 a,
 .blog .navbar li.item03 a { border-bottom: 2px solid #f55567; color: #f55567; }
 
@@ -701,10 +619,7 @@ li.item00 {
 
   .navbar {
     height: 60px;
-<<<<<<< HEAD
     line-height: 60px;
-=======
->>>>>>> c11a491fdfe925139defc83b156869de59242355
   }
 
   .navbar li {
@@ -727,22 +642,15 @@ FOOTER
 ========================================================================== */
 
 footer {
-<<<<<<< HEAD
   padding: 10px 0 0 0;
   font-size: 12px;
   border-top: 1px solid #ccc;
-=======
-  padding: 20px 0 0 0;
-  font-size: 12px;
-  background: #222;
->>>>>>> c11a491fdfe925139defc83b156869de59242355
 }
 
 footer .container {
   padding-top: 40px;
 }
 
-<<<<<<< HEAD
 footer p {
   font-size: 12px;
   color: #888;
@@ -751,22 +659,12 @@ footer p {
 
 footer h5 {
   font-size: 14px;
-=======
-
-footer h5 {
-  font-size: 14px;
-  color: #fff;
->>>>>>> c11a491fdfe925139defc83b156869de59242355
   font-weight: normal;
   letter-spacing: normal;
 }
 
 footer h5 span {
-<<<<<<< HEAD
   font-size: 18px;
-=======
-  font-size: 26px;
->>>>>>> c11a491fdfe925139defc83b156869de59242355
   display: block;
   font-weight: bold;
   letter-spacing: -1px;
@@ -775,11 +673,7 @@ footer h5 span {
 footer ul li {
   display: inline;
   list-style: none;
-<<<<<<< HEAD
   font-size: 1.2em;
-=======
-  font-size: 1.1em;
->>>>>>> c11a491fdfe925139defc83b156869de59242355
   padding: 0 5px;
   font-weight: bold;
   color: #999;
@@ -787,18 +681,11 @@ footer ul li {
 
 footer ul li:first-child {
   padding-left: 0;
-<<<<<<< HEAD
   display: block;
 }
 
 footer ul li a {
   color: #f55567;
-=======
-}
-
-footer ul li a {
-  color: #fff;
->>>>>>> c11a491fdfe925139defc83b156869de59242355
 }
 
 /* LISTA */
@@ -920,7 +807,6 @@ LAYOUT
 
 @media (max-width: 400px) {
 
-<<<<<<< HEAD
   h2 {
     font-size: 28px;
   }
@@ -930,8 +816,6 @@ LAYOUT
     line-height: 28px;
   }
 
-=======
->>>>>>> c11a491fdfe925139defc83b156869de59242355
   .project-detail h2 {
       line-height: 38px;
       font-size: 30px;
@@ -1127,10 +1011,6 @@ figure.highlight {
 /* Selected Work */
 
 .selected-work {
-<<<<<<< HEAD
-=======
-    border-top: 1px solid #ccc;
->>>>>>> c11a491fdfe925139defc83b156869de59242355
     padding: 50px 0 20px 0;
 }
 
