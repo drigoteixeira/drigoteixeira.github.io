@@ -1,0 +1,49 @@
+---
+layout: blog
+title: page.title
+---
+
+<div class="row post-detail">
+	<div class="eight columns offset-by-two">
+		<section class="content">
+			<section class="title">
+				<div class="post-meta">
+					<span class="post-date">
+						<!-- Whitespace added for readability -->
+						{% assign m = page.date | date: "%-m" %}
+						{{ page.date | date: "%-d" }}
+						{% case m %}
+						  {% when '1' %}Janeiro
+						  {% when '2' %}Fevereiro
+						  {% when '3' %}Março
+						  {% when '4' %}Abril
+						  {% when '5' %}Maio
+						  {% when '6' %}Junho
+						  {% when '7' %}Julho
+						  {% when '8' %}Agosto
+						  {% when '9' %}Setembro
+						  {% when '10' %}Outubro
+						  {% when '11' %}Novembro
+						  {% when '12' %}Dezembro
+						{% endcase %}
+						{{ page.date | date: "%Y" }}
+					</span>
+				</div>
+				<h2 class="post-title">{{ page.title }}</a></h2>
+			</section>
+			<article class="post">
+				<div class="post-content">
+					{{ content }}
+				</div>
+			</article>
+		</section>
+		<section class="comments">
+			<h4>Deixe seu comentário!</h4>
+			{% include disqus.html disqus_identifier=page.disqus_identifier %}
+		</section>
+	</div>
+	<div class="four columns">
+	</div>
+</div>
+
+<a href="#" id="back-to-top" title="Back to top">&uarr;</a>

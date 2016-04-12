@@ -1,0 +1,62 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="pt-br"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="pt-br"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="pt-br"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="pt-br"> <!--<![endif]-->
+
+  <head>
+
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }} | {{ site.description }}</title>
+
+    <!-- METAS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Rodrigo Teixeira">
+    <meta name="description" content="Rodrigo Teixeira is a web designer based in Sao Paulo, Brazil. Be welcome =)">
+
+   <link rel="canonical" href="{{ site.url }}{% if page.url != '/index.html' %}{{ page.url }}{% endif %}">
+
+    <!-- OPEN GRAPH -->
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Drigo Teixeira">
+    <meta property="og:description" content="Rodrigo Teixeira is a web designer based in Sao Paulo, Brazil">
+    <meta property="og:url" content="http://drigoteixeira.com">
+    <meta property="og:site_name" content="Drigo Teixeira">
+    <meta property="article:publisher" content="http://www.facebook.com/drigoteixeira">
+    <meta property="fb:admins" content="1271620247" />
+    <meta property="og:image" content="#">
+
+    <!-- GOOGLE VERIFICATION -->
+    <meta name="google-site-verification" content="yDJgjNuyB1LON1HIq6aXW3Pv2pieL8002dwz9aBiIV8" />
+
+    <!-- FAVICONS -->
+    <link rel="icon" href="{{ site.baseurl }}/favicon.ico">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <meta http-equiv="Cache-Control" content="max-age=1209600">
+
+    
+    {% include analytics.html %}
+
+  </head>
+
+  <body class="home">
+
+    {% include header.html %}
+
+    <div class="homepage"> <!--BEGIN PAGE -->
+        {{ content }}
+    </div> <!--END PAGE -->
+
+    {% include footer.html %}
+
+</body>
+</html>

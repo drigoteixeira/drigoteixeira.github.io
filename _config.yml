@@ -1,0 +1,44 @@
+name: Drigo Teixeira
+
+description: UI Designer and IA Enthusiast
+
+avatar: https://media.licdn.com/mpr/mpr/shrink_200_200/p/2/005/037/0b0/3d3e4b9.jpg
+
+disqus: drigoteixeira
+
+google_analytics: UA-32844537-1
+
+url: http://www.drigoteixera.com
+
+baseurl: ""
+
+source: .
+
+destination: ./_site
+plugins_dir: ./_plugins
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+highlighter: rouge
+
+# PAGINATION
+permalink: blog/:title/
+paginate: 5
+paginate_path: 'blog/page:num'
+
+version: v1.0.0
+
+sass:
+  sass_dir: _scss
+  style: :expanded
+
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
