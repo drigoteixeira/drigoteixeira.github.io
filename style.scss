@@ -35,7 +35,7 @@ Description: Tema padrão do blog pessoal de Rodrigo Teixeira
 
 */
 
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,700italic,400italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic);
 
 
 /* Grid
@@ -138,10 +138,9 @@ body {
   background: #FFF;
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.5;
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
   color: #555;
   text-rendering: optimizelegibility;
-  border-top: 5px solid #f55567;
 }
 
 .right {
@@ -157,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2rem;
   font-weight: 700; 
   letter-spacing: -1px;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #333;
 }
 
@@ -556,33 +555,28 @@ HEADER
 ========================================================================== */
 
 .main-header {
-  display: table;
-    height: 100px;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    width: 100%;
-    padding: 30px 0;
+  padding-top: 60px;
+  position: fixed;
+  width: 100%;
+  z-index: 9999px;
 }
+
 
 .logo {
   text-decoration: none;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: normal;
   font-size: 22px;
-  letter-spacing: -1px;
-  font-weight: bold;
-  color: #444;
+  font-weight: normal;
 }
 
 .logo a {
-  color: #333;
+  color: #888;
 }
 
 .navbar {
   height: 60px; 
   margin-bottom: 40px;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
 }
 
 .navbar li {
@@ -590,7 +584,7 @@ HEADER
   list-style: none;
   line-height: 60px;
   padding: 0 20px 0 0;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 .navbar li a {
@@ -644,7 +638,6 @@ FOOTER
 footer {
   padding: 10px 0 0 0;
   font-size: 12px;
-  border-top: 1px solid #ccc;
 }
 
 footer .container {
@@ -652,7 +645,7 @@ footer .container {
 }
 
 footer p {
-  font-size: 12px;
+  font-size: 16px;
   color: #888;
 }
 
@@ -675,17 +668,13 @@ footer ul li {
   list-style: none;
   font-size: 1.2em;
   padding: 0 5px;
-  font-weight: bold;
   color: #999;
 }
 
-footer ul li:first-child {
-  padding-left: 0;
-  display: block;
-}
 
 footer ul li a {
-  color: #f55567;
+  color: #444;
+  text-decoration: underline;
 }
 
 /* LISTA */
@@ -1039,4 +1028,8 @@ figure.highlight {
 
 .container .button {
   margin-bottom: 40px;
+}
+
+.page {
+  padding-top: 200px;
 }

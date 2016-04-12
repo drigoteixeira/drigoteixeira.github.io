@@ -49,14 +49,21 @@
   </head>
 
   <body class="home">
-
+    
     {% include header.html %}
 
-    <div class="homepage"> <!--BEGIN PAGE -->
-        {{ content }}
+    <div class="page"> <!--BEGIN PAGE -->
+
+        
+
+        <div class="content"> <!--BEGIN PAGE -->
+            {{ content }}
+        </div> <!--END PAGE -->
+
+        {% include footer.html %}
+
     </div> <!--END PAGE -->
 
-    {% include footer.html %}
 
 </body>
 </html>
