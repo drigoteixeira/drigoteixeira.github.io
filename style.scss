@@ -1098,7 +1098,6 @@ figure.highlight {
 }
 
 .mobilenav {
-  font-family: inherit;
   top: 0;
   left: 0;
   z-index: 1500;
@@ -1119,7 +1118,7 @@ figure.highlight {
   font-size: 30px;
   display: block;
   color: #fff;
-  text-decoration: none;
+  background: #c33;
   padding: 8px 0 0;
   font-weight: 700;
   width: 100%;
