@@ -25,7 +25,6 @@ if ($('#back-to-top').length) {
 function togglescroll () {
   $('body').on('touchstart', function(e){
     if ($('body').hasClass('noscroll')) {
-      e.preventDefault();
     }
   });
 }
