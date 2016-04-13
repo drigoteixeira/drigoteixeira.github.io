@@ -35,7 +35,6 @@ Description: Tema padrão do blog pessoal de Rodrigo Teixeira
 
 */
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic);
 
 
 /* Grid
@@ -138,8 +137,8 @@ body {
   background: #FFF;
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.5;
-  font-family: 'Roboto', sans-serif;
-  color: #555;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #3f4549;
   text-rendering: optimizelegibility;
 }
 
@@ -154,10 +153,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
-  font-weight: 400; 
+  font-weight: 700; 
   letter-spacing: -1px;
-  font-family: 'Roboto', sans-serif;
-  color: #333;
+  color: #3f4549;
 }
 
 h1 { font-size: 6.0rem; line-height: 1.2;  }
@@ -181,15 +179,17 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 }
 
 .lead {
-font-size: 14px;
-line-height: 28px;
+  font-size: 16px;
+  line-height: 28px;
   color: #888;
+  font-style: italic;
+  text-align: center;
 }
 
 .tagline {
-  padding: 30px 20px;
+  padding: 40px 20px;
   margin-bottom: 40px;
-  height: 500px;
+  height: 300px;
   display: table-cell;
   vertical-align: middle;
 }
@@ -197,11 +197,14 @@ line-height: 28px;
 .tagline h1 {
   font-size: 50px;
   margin-bottom: 20px;
-  letter-spacing: -1px;
+  letter-spacing: -2px;
   margin-top: 0;
   text-align: center;
-  font-weight: normal;
   line-height: 66px;
+}
+
+.tagline h1 span {
+  color: #999;
 }
 
 .tagline p {
@@ -210,7 +213,10 @@ line-height: 28px;
   font-size: 20px;
 }
 
-
+.project-title {
+  text-align: center;
+  font-size: 44px;
+}
 
 @media (max-width: 550px) {
     
@@ -221,8 +227,6 @@ line-height: 28px;
     z-index: 9999;
     }
 
-
-    
     .tagline {
       padding: 10px 5px;
     }
@@ -232,11 +236,9 @@ line-height: 28px;
     margin-bottom: 20px;
     margin-top: 0;
     line-height: 46px;
+    letter-spacing: -1px;
     }
 
-    .logo {
-      text-align: center;
-    }
 
     .right {
       text-align: center;
@@ -285,7 +287,7 @@ a:hover {
 
 .post-title a {
   text-decoration: none;
-  color: #333;
+  color: #3f4549;
 }
 
 blockquote {
@@ -581,51 +583,29 @@ HEADER
 ========================================================================== */
 
 .main-header {
-  padding-top: 40px;
-  position: fixed;
+  border-top: 5px solid #f55567;
+  padding: 20px 0;
   width: 100%;
   z-index: 9999;
+  background: #fff;
+  opacity: 0.9;
+  position: fixed;
 }
 
 
 .logo {
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: normal;
   font-size: 22px;
-  font-weight: normal;
+  font-weight: nomal;
+  margin-left: 20px;
+  letter-spacing: 1;
 }
 
 .logo a {
-  color: #888;
+  color: #333;
 }
 
-.navbar {
-  height: 60px; 
-  margin-bottom: 40px;
-}
 
-.navbar li {
-  display: inline;
-  list-style: none;
-  line-height: 60px;
-  padding: 0 20px 0 0;
-  font-size: 1.2em;
-}
-
-.navbar li a {
-  color: #444;
-  text-decoration: none;
-  padding-bottom: 4px;
-}
-
-.navbar li a:hover {
-  text-decoration: none;
-}
-
-.work .navbar li.item01 a,
-.about .navbar li.item02 a,
-.blog .navbar li.item03 a { border-bottom: 2px solid #f55567; color: #f55567; }
 
 li.item00 {
   font-weight: bold;
@@ -637,18 +617,6 @@ li.item00 {
 /* Larger than mobile */
 @media (max-width: 400px) { 
 
-  .navbar {
-    height: 60px;
-    line-height: 60px;
-  }
-
-  .navbar li {
-    line-height: 16px;
-  }
-
-  li.item00 {
-    display: block;
-  }
 
   .social-networks li {
     text-align: left;
@@ -818,6 +786,7 @@ LAYOUT
 .detail p {
   font-size: 1em;
   line-height: 24px;
+  text-align: center;
 }
 
 @media (max-width: 400px) {
@@ -1000,8 +969,8 @@ figure.highlight {
 
 #back-to-top {
     position: fixed;
-    bottom: 40px;
-    right: 40px;
+    bottom: 20px;
+    right: 20px;
     z-index: 9999;
     width: 32px;
     height: 32px;
@@ -1041,12 +1010,122 @@ figure.highlight {
   color: #333;
 }
 
+.selected-work a:hover img {
+  opacity: .5;
+}
+
 
 
 .container .button {
   margin-bottom: 40px;
 }
 
+
+/* MENU HAMBURGUER */
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  /* For some Androids */
+}
+
+.top-animate {
+  background: #fff !important;
+  top: 13px !important;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.mid-animate {
+  opacity: 0;
+}
+
+.bottom-animate {
+  background: #fff !important;
+  top: 13px !important;
+  -webkit-transform: rotate(-225deg);
+  transform: rotate(-225deg);
+}
+
+.top-menu {
+  top: 5px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #f55567;
+}
+
+.mid-menu {
+  top: 13px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #f55567;
+}
+
+.bottom-menu {
+  top: 21px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #f55567;
+}
+
+.menui {
+  background: #f55567;
+  transition: 0.6s ease;
+  transition-timing-function: cubic-bezier(.75, 0, .29, 1.01);
+  margin-top: 10px;
+  position: absolute;
+}
+
+.icon {
+  z-index: 9999;
+  position: fixed;
+  display: block;
+  margin: 30px 10px;
+  padding: 15px 9px;
+  height: 32px;
+  width: 32px;
+  top: 0;
+  right: 0;
+}
+
+.mobilenav {
+  font-family: inherit;
+  top: 0;
+  left: 0;
+  z-index: 8888;
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #f55567;
+}
+
+.mobilenav li {
+  list-style-type: none;
+  text-align: center;
+  padding: 10px;
+}
+
+.mobilenav li a {
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  width: 100%;
+}
+
+.mobilenav li:first-child {
+  margin-top: 100px;
+}
+
 .page {
-  padding-top: 200px;
+  padding-top: 150px;
+}
+
+.next-project {
+  padding: 40px 0;
+  text-align: center;
 }
