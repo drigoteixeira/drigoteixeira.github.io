@@ -1091,6 +1091,12 @@ figure.highlight {
   right: 0;
 }
 
+@media (max-width: 550px) {
+  .icon {
+  display: block;
+  }
+}
+
 .mobilenav {
   font-family: inherit;
   top: 0;
