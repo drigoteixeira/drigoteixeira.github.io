@@ -1101,7 +1101,7 @@ figure.highlight {
   font-family: inherit;
   top: 0;
   left: 0;
-  z-index: 8888;
+  z-index: 9999;
   display: none;
   position: fixed;
   width: 100%;
@@ -1120,7 +1120,8 @@ figure.highlight {
   display: block;
   color: #fff;
   text-decoration: none;
-  font-weight: 300;
+  padding: 8px 0 0;
+  font-weight: 700;
   width: 100%;
 }
 
