@@ -36,6 +36,10 @@ Description: Tema padrão do blog pessoal de Rodrigo Teixeira
 */
 
 
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Hind:400,700);
+
+
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -134,10 +138,10 @@ html {
   font-size: 62.5%; 
 }
 body {
-  background: #FFF;
+  background: #fff;
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.5;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Merriweather', serif;
   color: #3f4549;
   text-rendering: optimizelegibility;
 }
@@ -156,6 +160,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700; 
   letter-spacing: -1px;
   color: #3f4549;
+  font-family: 'Hind', sans-serif;
 }
 
 h1 { font-size: 6.0rem; line-height: 1.2;  }
@@ -187,24 +192,32 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 }
 
 .tagline {
-  padding: 40px 20px;
+  padding: 40px 0;
   margin-bottom: 40px;
   height: 300px;
   display: table-cell;
   vertical-align: middle;
+  text-align: center;
 }
 
 .tagline h1 {
-  font-size: 50px;
+  font-size: 48px;
   margin-bottom: 20px;
   letter-spacing: -2px;
-  margin-top: 0;
   text-align: center;
   line-height: 66px;
 }
 
 .tagline h1 span {
   color: #999;
+}
+
+.tagline h1 .title {
+  display: block;
+  color: #444;
+  font-size: 80px;
+  letter-spacing: -5px;
+
 }
 
 .tagline p {
@@ -246,6 +259,17 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 
     footer p {
       text-align: center;
+    }
+
+    p {
+      margin-top: 0; 
+      line-height: 34px;
+      font-size: 1em;
+      margin-bottom: 20px !important;
+    }
+
+    .project-title {
+      font-size: 38px;
     }
 }
 
@@ -1119,8 +1143,9 @@ figure.highlight {
   display: block;
   color: #fff;
   padding: 8px 0 0;
-  font-weight: 700;
+  font-weight: normal;
   width: 100%;
+  font-style: italic;
 }
 
 .mobilenav li:first-child {
