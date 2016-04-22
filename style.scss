@@ -37,7 +37,7 @@ Description: Tema padrão do blog pessoal de Rodrigo Teixeira
 
 
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic);
-@import url(https://fonts.googleapis.com/css?family=Hind:400,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
 
 
 
@@ -157,10 +157,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
-  font-weight: 700; 
+  font-weight: 400; 
   letter-spacing: -1px;
   color: #3f4549;
-  font-family: 'Hind', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 h1 { font-size: 6.0rem; line-height: 1.2;  }
@@ -216,7 +216,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
   display: block;
   color: #444;
   font-size: 80px;
-  letter-spacing: -5px;
+  letter-spacing: -2px;
 
 }
 
@@ -228,7 +228,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 
 .project-title {
   text-align: center;
-  font-size: 44px;
+  font-size: 60px;
 }
 
 @media (max-width: 550px) {
