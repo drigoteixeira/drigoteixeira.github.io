@@ -37,7 +37,7 @@ Description: Tema padrão do blog pessoal de Rodrigo Teixeira
 
 
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic);
-@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic);
 
 
 
@@ -157,10 +157,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
-  font-weight: 400; 
+  font-weight: 700; 
   letter-spacing: -1px;
   color: #3f4549;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 { font-size: 6.0rem; line-height: 1.2;  }
@@ -203,8 +203,9 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 .tagline h1 {
   font-size: 48px;
   margin-bottom: 20px;
-  letter-spacing: -2px;
+  letter-spacing: -4px;
   text-align: center;
+  font-weight: 700;
   line-height: 66px;
 }
 
@@ -293,8 +294,14 @@ p {
 
 ul li, ol li {
   font-size: 1.2em;
-  color: #555;
+  color: #444;
   line-height: 32px;
+  list-style-position: outside;
+  margin-left: 20px;
+}
+
+ul li {
+  list-style-type: disc;
 }
 
 
@@ -1024,10 +1031,11 @@ figure.highlight {
 
 .selected-work h3 {
   font-size: 18px;
-  line-height: 20px;
-  margin-bottom: 5px;
-  font-weight: normal;
+  line-height: 30px;
+  margin-bottom: 20px;
   letter-spacing: normal;
+  text-align: center;
+  color: #888;
 }
 
 .selected-work h3 a {
