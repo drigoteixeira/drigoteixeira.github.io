@@ -37,7 +37,7 @@ Description: Tema padrão do blog pessoal de Rodrigo Teixeira
 
 
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 
 
@@ -160,7 +160,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700; 
   letter-spacing: -1px;
   color: #3f4549;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
 }
 
 h1 { font-size: 6.0rem; line-height: 1.2;  }
@@ -216,8 +217,8 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 .tagline h1 .title {
   display: block;
   color: #444;
-  font-size: 80px;
-  letter-spacing: -2px;
+  font-size: 70px;
+  letter-spacing: 0;
 
 }
 
@@ -625,10 +626,10 @@ HEADER
 
 .logo {
   text-decoration: none;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: nomal;
   margin-left: 20px;
-  letter-spacing: 1;
+  letter-spacing: 0;
 }
 
 .logo a {
@@ -726,7 +727,7 @@ dd {
 
 .thumb .project-name {
   text-align: center;
-  font-size: .9em;
+  font-size: .8em;
 }
 
 .project h2 {
@@ -1029,7 +1030,7 @@ figure.highlight {
 }
 
 .selected-work h3 {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 30px;
   margin-bottom: 20px;
   letter-spacing: normal;
@@ -1114,7 +1115,7 @@ figure.highlight {
   z-index: 9999;
   position: fixed;
   display: block;
-  margin: 30px 10px;
+  margin: 20px 10px;
   padding: 15px 9px;
   height: 32px;
   width: 32px;
