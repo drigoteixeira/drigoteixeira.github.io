@@ -37,7 +37,7 @@ Description: Tema padrão do blog pessoal de Rodrigo Teixeira
 
 
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic);
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic);
 
 
 
@@ -160,8 +160,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700; 
   letter-spacing: -1px;
   color: #3f4549;
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 { font-size: 6.0rem; line-height: 1.2;  }
@@ -218,7 +217,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
   display: block;
   color: #444;
   font-size: 70px;
-  letter-spacing: 0;
+  letter-spacing: -4px;
 
 }
 
@@ -630,6 +629,7 @@ HEADER
   font-weight: nomal;
   margin-left: 20px;
   letter-spacing: 0;
+  text-transform: uppercase;
 }
 
 .logo a {
