@@ -36,8 +36,7 @@ Description: Tema padrão do blog pessoal de Rodrigo Teixeira
 */
 
 
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic);
 
 
 
@@ -141,7 +140,7 @@ body {
   background: #fff;
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.5;
-  font-family: 'Merriweather', serif;
+  font-family: 'PT Serif', serif;
   color: #3f4549;
   text-rendering: optimizelegibility;
 }
@@ -160,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700; 
   letter-spacing: -1px;
   color: #3f4549;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 h1 { font-size: 6.0rem; line-height: 1.2;  }
@@ -191,8 +190,13 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
   text-align: center;
 }
 
+.subhead {
+  font-size: 24px;
+  color: #555;
+}
+
 .tagline {
-  padding: 40px 0;
+  padding: 0;
   margin-bottom: 40px;
   height: 300px;
   display: table-cell;
@@ -229,7 +233,8 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 
 .project-title {
   text-align: center;
-  font-size: 50px;
+  font-size: 70px;
+  line-height: 60px;
 }
 
 @media (max-width: 550px) {
@@ -271,7 +276,14 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 
     .project-title {
       font-size: 38px;
+      line-height: 38px;
     }
+
+  .subhead {
+    font-size: 20px;
+    color: #555;
+  }
+
 }
 
 /* Larger than phablet */
@@ -613,7 +625,6 @@ HEADER
 ========================================================================== */
 
 .main-header {
-  border-top: 5px solid #f55567;
   padding: 20px 0;
   width: 100%;
   z-index: 9999;
@@ -625,11 +636,10 @@ HEADER
 
 .logo {
   text-decoration: none;
-  font-size: 16px;
-  font-weight: nomal;
+  font-size: 22px;
+  font-weight: bold;
   margin-left: 20px;
   letter-spacing: 0;
-  text-transform: uppercase;
 }
 
 .logo a {
@@ -1147,11 +1157,10 @@ figure.highlight {
 }
 
 .mobilenav li a {
-  font-size: 30px;
+  font-size: 50px;
   display: block;
   color: #fff;
-  padding: 8px 0 0;
-  font-weight: normal;
+  padding: 12px 0 12px 0;
   width: 100%;
   font-style: italic;
 }
