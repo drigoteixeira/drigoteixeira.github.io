@@ -35,8 +35,7 @@ Description: Tema padrão do blog pessoal de Rodrigo Teixeira
 
 */
 
-
-@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 
 
@@ -140,7 +139,7 @@ body {
   background: #fff;
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.5;
-  font-family: 'PT Serif', serif;
+  font-family: "Helvetica Neue", Arial, Verdana, sans-serif;
   color: #555;
   text-rendering: optimizelegibility;
 }
@@ -154,12 +153,12 @@ body {
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 700; 
-  letter-spacing: -1px;
+  letter-spacing: 1px;
   color: #333;
-  font-family: 'PT Serif', serif;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
 }
 
 h1 { font-size: 6.0rem; line-height: 1.2;  }
@@ -205,8 +204,9 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 
 .tagline h1 {
   font-size: 48px;
+  text-transform: uppercase;
   margin-bottom: 20px;
-  letter-spacing: -4px;
+  letter-spacing: 2px;
   text-align: center;
   font-weight: 700;
   line-height: 66px;
@@ -220,7 +220,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
   display: block;
   color: #444;
   font-size: 70px;
-  letter-spacing: -4px;
+  letter-spacing: 2px;
 
 }
 
@@ -232,8 +232,9 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 
 .project-title {
   text-align: center;
-  font-size: 70px;
+  font-size: 60px;
   line-height: 60px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 550px) {
@@ -301,6 +302,7 @@ p {
   line-height: 34px;
   font-size: 1.4em;
   margin-bottom: 20px !important;
+  font-weight: 300;
 }
 
 ul li, ol li {
@@ -635,10 +637,12 @@ HEADER
 
 .logo {
   text-decoration: none;
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
   margin-left: 20px;
-  letter-spacing: 0;
+  letter-spacing: 2px;
 }
 
 .logo a {
@@ -791,6 +795,8 @@ LAYOUT
 .post-title {
   font-size: 30px;
   line-height: 38px;
+  text-transform: uppercase;
+  margin-top: 0;
 }
 
 .post-detail .post-title {
@@ -1050,6 +1056,7 @@ figure.highlight {
   letter-spacing: normal;
   text-align: center;
   color: #888;
+  text-transform: uppercase;
 }
 
 .selected-work h3 a {
