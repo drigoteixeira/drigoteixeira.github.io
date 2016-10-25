@@ -1,0 +1,410 @@
+/* ==========================================================================
+HEADER
+========================================================================== */
+
+.main-header {
+  padding: 20px 0;
+  width: 100%;
+  z-index: 9999;
+  background: #fff;
+  opacity: 0.9;
+  position: fixed;
+}
+
+
+.logo {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.logo a {
+  color: #333;
+}
+
+.main-header nav {
+  padding-top: 10px;
+}
+
+.menu li {
+  display: inline;
+  line-height: 32px;
+  vertical-align: baseline;
+  font-size: 16px;
+}
+
+
+
+li.item00 {
+  font-weight: bold;
+  text-transform: none;
+  font-size: 1.2em;
+  letter-spacing: -1px;
+}
+
+/* Larger than mobile */
+@media (max-width: 400px) { 
+
+
+  .social-networks li {
+    text-align: left;
+  }
+
+
+}
+
+/* ==========================================================================
+FOOTER
+========================================================================== */
+
+footer {
+  padding: 10px 0 0 0;
+  font-size: 12px;
+}
+
+footer .container {
+  padding-top: 40px;
+}
+
+footer p {
+  font-size: 1.1em;
+  color: #888;
+}
+
+
+footer h5 {
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: normal;
+}
+
+footer h5 span {
+  font-size: 18px;
+  display: block;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+footer ul li {
+  display: inline;
+  list-style: none;
+  font-size: 1.1em;
+  padding: 0;
+  color: #999;
+}
+
+
+footer ul li a {
+  color: #444;
+}
+
+/* LISTA */
+
+dl {
+  margin: 0;
+  font-size: .9em;
+  color: #999;
+}
+
+dt {
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+dd {
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+
+.thumb {
+  margin-bottom: 40px;
+}
+
+.thumb .project-name {
+  text-align: center;
+  font-size: .8em;
+}
+
+.project h2 {
+  font-size: 48px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+
+  .project h2 {
+      line-height: 30px;
+      font-size: 30px;
+  }
+
+}
+
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+
+
+.posts {
+  padding: 20px 0;
+
+}
+
+.post-date {
+  color: #999;
+}
+
+.item .post-date {
+  display: block;
+  text-align: right;
+  line-height: 32px;
+}
+
+
+@media (max-width: 400px) {
+  .item .post-date {
+    text-align: left;
+  }
+}
+
+@media (max-width: 550px) {
+  .item .post-date {
+    text-align: left;
+  }
+}
+
+.post-title {
+  font-size: 30px;
+  line-height: 38px;
+  margin-top: 0;
+}
+
+.post-detail .post-title {
+  font-size: 44px;
+  line-height: 50px;
+}
+
+.read-more {
+  font-size: 14px;
+}
+
+.excerpt {
+  margin-bottom: 20px;
+}
+
+.excerpt p {
+  font-style: 18px;
+  line-height: 26px;
+  color: #666;
+}
+.project-detail h4 {
+  line-height: 28px;
+  font-size: 14px;
+  letter-spacing: 0;
+  margin-bottom: 20px;
+}
+
+.project-detail a {
+  color: #333;
+}
+
+.detail p {
+  font-size: 1.4em;
+  line-height: 36px;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+
+  h2 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  ul li, ol li {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .project-detail h2 {
+      line-height: 38px;
+      font-size: 30px;
+  }
+
+  .post-title {
+      line-height: 38px;
+      font-size: 28px;
+  }
+
+  .content .post-title {
+      line-height: 36px;
+      font-size: 32px;
+  }
+
+
+
+}
+
+@media (min-width: 550px) {
+
+  .project-detail h4 {
+    line-height: 28px;
+  }
+
+}
+
+.comments {
+  margin-top: 40px;
+}
+
+/* ==========================================================================
+PAGINATION
+========================================================================== */
+
+.pagination {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.pagination ul {
+  text-align: left;
+  margin-left: 0;
+  padding-left: 0;
+  height: 30px;
+}
+
+.pagination ul li {
+  display: inline;
+  line-height: 32px;
+  margin-right: 40px;
+  font-size: 1em;
+}
+
+
+
+/* ==========================================================================
+IMAGEM RESPONSIVA
+========================================================================== */
+
+img.scale, img.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* ==========================================================================
+VIDEO RESPONSIVO
+========================================================================== */
+
+.videoWrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      padding-top: 25px;
+      height: 0;
+}
+
+.videoWrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+}
+
+.project-detail {
+  margin-bottom: 40px;
+  overflow:hidden;
+}
+
+
+.project-detail:hover img {
+  opacity: 0.8;
+}
+
+/* ==========================================================================
+HIGHLIGHT
+========================================================================== */
+figure.highlight {
+  margin: 0;
+  padding: 0;
+} 
+
+
+
+/* Back to Top */
+
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: #f55567;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+#back-to-top:hover {
+    background: #F88B98;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+
+/* Selected Work */
+
+.selected-work .row {
+  margin-bottom: 30px;
+}
+
+.selected-work h3 {
+  font-size: 14px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #888;
+  text-transform: uppercase;
+}
+
+.selected-work h3 a {
+  color: #333;
+}
+
+.selected-work a:hover img {
+  opacity: .5;
+}
+
+
+
+.container .button {
+  margin-bottom: 40px;
+}
+
+
+
+
+
+.page {
+  padding-top: 150px;
+}
+
+.next-project {
+  padding: 40px 0;
+  text-align: center;
+}
