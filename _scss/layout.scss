@@ -3,7 +3,7 @@ HEADER
 ========================================================================== */
 
 .main-header {
-  padding: 20px 0;
+  padding: 10px 0;
   width: 100%;
   z-index: 9999;
   background: #fff;
@@ -17,6 +17,10 @@ HEADER
   font-size: 22px;
   font-weight: 700;
   letter-spacing: -1px;
+}
+
+.logo span {
+  font-weight: 300;
 }
 
 .logo a {
@@ -183,7 +187,7 @@ LAYOUT
 }
 
 .post-detail .post-title {
-  font-size: 44px;
+  font-size: 40px;
   line-height: 50px;
 }
 
@@ -407,9 +411,6 @@ figure.highlight {
 }
 
 
-
-
-
 .page {
   padding-top: 150px;
 }
@@ -418,3 +419,4 @@ figure.highlight {
   padding: 40px 0;
   text-align: center;
 }
+
