@@ -126,6 +126,17 @@ dd {
   margin-bottom: 40px;
 }
 
+#work img {
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+#work img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
 .thumb .project-name {
   text-align: center;
   font-size: .8em;
@@ -338,6 +349,7 @@ VIDEO RESPONSIVO
 }
 
 
+
 .project-detail:hover img {
   opacity: 0.8;
 }
@@ -399,12 +411,6 @@ figure.highlight {
 .selected-work h3 a {
   color: #333;
 }
-
-.selected-work a:hover img {
-  opacity: .5;
-}
-
-
 
 .container .button {
   margin-bottom: 40px;
