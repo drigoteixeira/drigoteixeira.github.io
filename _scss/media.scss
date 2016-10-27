@@ -25,10 +25,12 @@ there.
 }
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+
+}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (max-width: 550px) {
+@media (min-width: 550px) and (max-width: 750px) {
 
 	.logo span {
 		display: block;
