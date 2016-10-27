@@ -30,9 +30,9 @@ there.
 }
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) and (max-width: 100px) {
+@media (min-width: 550px) and (max-width: 1140px) {
 
-	.logo span {
+	.logo a span {
 		display: block;
 	}
 
