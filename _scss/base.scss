@@ -7,12 +7,13 @@ html {
   font-size: 62.5%; 
 }
 body {
-  background: #fff;
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.5;
-  font-family: Helvetica, Arial, Verdana, sans-serif;
-  color: #444;
-  text-rendering: optimizelegibility;
+	padding-top: 60px;
+	background: #fff;
+	font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+	line-height: 1.5;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	color: #444;
+	text-rendering: optimizelegibility;
 }
 
 .right {

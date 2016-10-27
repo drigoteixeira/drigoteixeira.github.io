@@ -1,3 +1,5 @@
+// BACK TO TOP
+
 if ($('#back-to-top').length) {
     var scrollTrigger = 100, // px
         backToTop = function () {
@@ -20,35 +22,43 @@ if ($('#back-to-top').length) {
     });
 }
 
-// HAMBURGLERv2
 
-function togglescroll () {
-  $('body').on('touchstart', function(e){
-    if ($('body').hasClass('noscroll')) {
+//HIDE HEADER
+
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('header').outerHeight();
+
+$(window).scroll(function(event){
+    didScroll = true;
+});
+
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
     }
-  });
+}, 250);
+
+function hasScrolled() {
+    var st = $(this).scrollTop();
+    
+    // Make sure they scroll more than delta
+    if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+    
+    // If they scrolled down and are past the navbar, add class .nav-up.
+    // This is necessary so you never see what is "behind" the navbar.
+    if (st > lastScrollTop && st > navbarHeight){
+        // Scroll Down
+        $('header').removeClass('nav-down').addClass('nav-up');
+    } else {
+        // Scroll Up
+        if(st + $(window).height() < $(document).height()) {
+            $('header').removeClass('nav-up').addClass('nav-down');
+        }
+    }
+    
+    lastScrollTop = st;
 }
-
-$(document).ready(function () {
-    togglescroll()
-    $(".icon").click(function () {
-        $(".mobilenav").fadeToggle(500);
-        $(".top-menu").toggleClass("top-animate");
-        $("body").toggleClass("noscroll");
-        $(".mid-menu").toggleClass("mid-animate");
-        $(".bottom-menu").toggleClass("bottom-animate");
-    });
-});
-
-// PUSH ESC KEY TO EXIT
-
-$(document).keydown(function(e) {
-    if (e.keyCode == 27) {
-        $(".mobilenav").fadeOut(500);
-        $(".top-menu").removeClass("top-animate");
-        $("body").removeClass("noscroll");
-        $(".mid-menu").removeClass("mid-animate");
-        $(".bottom-menu").removeClass("bottom-animate");
-    }
-});
-
