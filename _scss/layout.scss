@@ -36,6 +36,7 @@ HEADER
 
 .main-header nav {
   padding-top: 10px;
+  margin-left: 0;
 }
 
 .menu li {
@@ -95,6 +96,10 @@ footer h5 span {
   display: block;
   font-weight: bold;
   letter-spacing: -1px;
+}
+
+footer ul {
+  margin-left: 0;
 }
 
 footer ul li {
