@@ -12,7 +12,7 @@ categories:
 
 Ao desenvolver meu blog usando Jekyll, senti a necessidade de melhorar o formato da data das postagens, traduzindo-as para o Português.
 
-Para traduzir este elemento - seja no loop das postagens ou na página do post (na posicão onde está a data) - basta implementar o seguinte código: 
+Para traduzir este elemento - seja no loop das postagens ou na página do post (na posição onde está a data) - basta implementar o seguinte código: 
 
 
 {% raw %}
@@ -45,5 +45,5 @@ Para traduzir este elemento - seja no loop das postagens ou na página do post (
 
 No exemplo acima, estou usando o formato `D M Y`. Para traduzir o nome do mês, fizemos a comparação do numeral representativo de cada um associada ao seu respectivo nome em Português. Funcionou de forma excelente. 
 
-Conhece algum outro formato ou abordagem? Compartilhe nos comentários! 
+Conhece algum outro formato ou boa prática? Compartilhe nos comentários! 
 
