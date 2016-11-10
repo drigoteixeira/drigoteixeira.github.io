@@ -20,7 +20,14 @@ plugins_dir: ./_plugins
 # Build settings
 markdown: kramdown
 permalink: pretty
-highlighter: rouge
+
+syntax-highlighting:
+   enabled : true
+   css: highlight.css
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # PAGINATION
 permalink: blog/:title/
