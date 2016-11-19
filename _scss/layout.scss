@@ -105,7 +105,7 @@ footer ul {
 footer ul li {
   display: inline;
   list-style: none;
-  font-size: 1.1em;
+  font-size: 1.4em;
   padding: 0;
   color: #999;
 }
@@ -315,6 +315,7 @@ PAGINATION
 .pagination {
   width: 100%;
   padding: 20px 0;
+    margin-left: 0;
 }
 
 .pagination ul {
