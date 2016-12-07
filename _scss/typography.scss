@@ -15,8 +15,8 @@ h5 { font-size: 1.8rem; line-height: 1.5;  }
 h6 { font-size: 1.5rem; line-height: 1.6;  }
 
 .heading {
-  font-size: 80px;
-  letter-spacing: -5px;
+  font-size: 50px;
+  letter-spacing: -3px;
   margin-top: 0;
 }
 
@@ -27,6 +27,10 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
   padding-bottom: 10px;
 }
 
+.post-title a {
+    font-weight: 700;
+}
+
 .post-home span {
   color: $gray-C;
   font-weight: normal;
@@ -34,10 +38,14 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
 }
 
 .lead {
-  font-size: 18px;
+  font-size: 22px;
   line-height: 28px;
   color: $gray-8;
-  text-align: center;
+  text-align: left;
+}
+
+.work .lead {
+    text-align: center;
 }
 
 .subhead {
@@ -84,6 +92,27 @@ h6 { font-size: 1.5rem; line-height: 1.6;  }
   font-size: 60px;
   line-height: 60px;
 }
+
+.social {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.social li {
+  display: inline;
+  list-style: none;
+  font-size: 1.4em;
+  padding: 0;
+  color: #999;
+  margin: 0 20px 0 0;
+    
+}
+
+
+.social li a {
+  color: #444;
+}
+
 
 @media (max-width: 550px) {
     
