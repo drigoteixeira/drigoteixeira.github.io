@@ -242,7 +242,7 @@ LAYOUT
 
 
   .logo {
-    text-align: center;
+    text-align: left;
     margin-bottom: 0;
     font-size: 18px;
     line-height: 20px;
@@ -272,14 +272,14 @@ LAYOUT
       font-size: 30px;
   }
 
-  .post-title {
-      line-height: 38px;
-      font-size: 28px;
-  }
+  .post-detail .post-title {
+    font-size: 32px;
+    line-height: 50px;
+}
 
   .content .post-title {
       line-height: 36px;
-      font-size: 32px;
+      font-size: 28px;
   }
 
 
@@ -291,6 +291,15 @@ LAYOUT
   .project-detail h4 {
     line-height: 28px;
   }
+  
+  .project-detail h2 {
+    font-size: 28px;
+  }
+  
+  .post-detail .post-title {
+  font-size: 30px;
+  line-height: 50px;
+}
 
 }
 
