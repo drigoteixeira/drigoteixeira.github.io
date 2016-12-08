@@ -2,12 +2,15 @@
 HEADER
 ========================================================================== */
 
-.home,
-.projects,
-.contact {
-    padding-bottom: 10%;
+.home .page {
+    padding-top: 0;
+}
+
+.jumbo {
+    padding: 100px 0;
     height: 100%;
 }
+
 
 .contact {
     padding-bottom: 0;
@@ -242,7 +245,7 @@ LAYOUT
 
 
   .logo {
-    text-align: left;
+    text-align: center;
     margin-bottom: 0;
     font-size: 18px;
     line-height: 20px;

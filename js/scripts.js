@@ -22,6 +22,33 @@ if ($('#back-to-top').length) {
     });
 }
 
+$(document).ready(function(){
+
+        // hide #back-top first
+
+        $("#back-bottom").show();
+
+        // fade in #back-top
+        $(function () {
+            var $elem = $('body')
+            $(window).scroll(function () {
+                if($(window).scrollTop() + $(window).height() == $(document).height()) {
+                    $('#back-bottom').hide();
+                } else {
+                    $('#back-bottom').show();
+                }
+            });
+
+            // scroll body to 0px on click
+            $('#back-bottom a').click(function () {
+                $('body,html').animate({ scrollTop: $elem.height()}, 800);
+                return false;
+            });
+        });
+
+    });
+
+
 
 //HIDE HEADER
 
