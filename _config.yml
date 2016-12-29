@@ -31,7 +31,7 @@ kramdown:
 
 # PAGINATION
 permalink: blog/:title/
-paginate: 5
+paginate: 7
 paginate_path: 'blog/page:num'
 
 version: v1.0.0

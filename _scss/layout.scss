@@ -114,24 +114,7 @@ footer h5 span {
 
 
 
-/* LISTA */
 
-dl {
-  margin: 0;
-  font-size: .9em;
-  color: #999;
-}
-
-dt {
-  display: block;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-dd {
-  margin-left: 0;
-  margin-bottom: 10px;
-}
 
 .thumb {
   margin-bottom: 40px;
@@ -214,9 +197,9 @@ LAYOUT
 }
 
 .excerpt p {
-  font-style: 18px;
+  font-style: 16px;
   line-height: 26px;
-  color: #666;
+  color: $gray-9;
 }
 .project-detail h4 {
   line-height: 28px;

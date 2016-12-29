@@ -15,3 +15,21 @@ ul ol,
 ol ol,
 ol ul { margin: 1.5rem 0 1.5rem 3rem; }
 li { margin-bottom: 1rem; }
+
+
+dl {
+  margin: 0;
+  font-size: .9em;
+  color: #999;
+}
+
+dt {
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+dd {
+  margin-left: 0;
+  margin-bottom: 10px;
+}

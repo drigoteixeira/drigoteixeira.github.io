@@ -1,9 +1,7 @@
 ---
 title: Papel e Caneta
 author: Rodrigo Teixeira
-excerpt: |
-  |
-    Em 2013, resolvi assumir novamente o desafio de voltar a manter e atualizar um blog, usando duas ferramentas nobres: o papel e caneta. Tudo para reconquistar o gosto pela escrita.
+excerpt: Descobertas sobre uma "técnica esquecida" em tempos de digital.
 layout: post
 permalink: blog/papel-e-caneta/
 dsq_thread_id:
