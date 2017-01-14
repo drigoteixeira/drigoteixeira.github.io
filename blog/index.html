@@ -16,7 +16,7 @@ title: Blog
 {% for post in paginator.posts %}
 <div class="row posts">
 	<div class="item">
-		<div class="three columns">
+		<div class="four columns">
 			<div class="post-meta">
 				<span class="post-date">
 					<!-- Whitespace added for readability -->
@@ -40,7 +40,7 @@ title: Blog
 				</span>
 			</div>
 		</div>
-		<div class="eight columns">
+		<div class="six columns">
 			<h2 class="post-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
 			<div class="post-content excerpt">
 				<p>{{ post.excerpt}}</p>
