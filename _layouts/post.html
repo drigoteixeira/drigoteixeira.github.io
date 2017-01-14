@@ -35,22 +35,22 @@ title: page.title
 	</div>
 </div>
 
-
-<div class="row post-detail">
-	<div class="six offset-by-three columns">
-		<section class="content">
-			<article class="post">
-				<div class="post-content">
-					{{ content }}
-				</div>
-			</article>
-		</section>
-		<section class="comments">
-			{% include disqus.html disqus_identifier=page.disqus_identifier %}
-		</section>
-	</div>
-	<div class="four columns">          
-	</div>
+<div class="container">
+    <div class="row post-detail">
+        <div class="eight offset-by-two columns">
+            <section class="content">
+                <article class="post">
+                    <div class="post-content">
+                        {{ content }}
+                    </div>
+                </article>
+            </section>
+            <section class="comments">
+                {% include disqus.html disqus_identifier=page.disqus_identifier %}
+            </section>
+        </div>
+        <div class="four columns">          
+        </div>
+    </div>
 </div>
-
 <a href="#" id="back-to-top" title="Back to top">&uarr;</a>

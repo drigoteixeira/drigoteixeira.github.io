@@ -13,68 +13,71 @@ title: Blog
 	</div>
 </div>
 
-{% for post in paginator.posts %}
-<div class="row posts">
-	<div class="item">
-		<div class="four columns">
-			<div class="post-meta">
-				<span class="post-date">
-					<!-- Whitespace added for readability -->
-					{% assign m = post.date | date: "%-m" %}
-					{{ post.date | date: "%-d" }}
-					{% case m %}
-					  {% when '1' %}Janeiro
-					  {% when '2' %}Fevereiro
-					  {% when '3' %}Março
-					  {% when '4' %}Abril
-					  {% when '5' %}Maio
-					  {% when '6' %}Junho
-					  {% when '7' %}Julho
-					  {% when '8' %}Agosto
-					  {% when '9' %}Setembro
-					  {% when '10' %}Outubro
-					  {% when '11' %}Novembro
-					  {% when '12' %}Dezembro
-					{% endcase %}
-					{{ post.date | date: "%Y" }}
-				</span>
-			</div>
-		</div>
-		<div class="six columns">
-			<h2 class="post-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
-			<div class="post-content excerpt">
-				<p>{{ post.excerpt}}</p>
-			</div>
-		</div>
-	</div>
+<div class="container">
+    {% for post in paginator.posts %}
+    <div class="row posts">
+        <div class="item">
+            <div class="four columns">
+                <div class="post-meta">
+                    <span class="post-date">
+                        <!-- Whitespace added for readability -->
+                        {% assign m = post.date | date: "%-m" %}
+                        {{ post.date | date: "%-d" }}
+                        {% case m %}
+                          {% when '1' %}Janeiro
+                          {% when '2' %}Fevereiro
+                          {% when '3' %}Março
+                          {% when '4' %}Abril
+                          {% when '5' %}Maio
+                          {% when '6' %}Junho
+                          {% when '7' %}Julho
+                          {% when '8' %}Agosto
+                          {% when '9' %}Setembro
+                          {% when '10' %}Outubro
+                          {% when '11' %}Novembro
+                          {% when '12' %}Dezembro
+                        {% endcase %}
+                        {{ post.date | date: "%Y" }}
+                    </span>
+                </div>
+            </div>
+            <div class="six columns">
+                <h2 class="post-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
+                <div class="post-content excerpt">
+                    <p>{{ post.excerpt}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
 </div>
-{% endfor %}
 
-
-<!-- PAGINATION -->
-<div class="row">
-	<div class="eight columns offset-by-three">
-		<!-- Pagination links -->
-		<nav class="pagination">
-			<ul>
-				<li class="antigos">
-					{% if paginator.next_page %}
-						<a href="{{ paginator.next_page_path }}" class="antigos">&#8592; Mais Antigos</a>
-					{% else %}
-						<span class="current">&#8592; Mais Antigos</span>
-					{% endif %}
-				</li>
-				<li class="page-number">
-					Página: {{ paginator.page }} de {{ paginator.total_pages }}
-				</li>
-				<li class="novos">
-					{% if paginator.previous_page %}
-						<a href="{{ paginator.previous_page_path }}">Mais Novos &#8594;</a>
-					{% else %}
-						<span class="current">Mais Novos &#8594;</span>
-					{% endif %}
-				</li>
-			</ul>
-		</nav>
-	</div>
+<div class="container">
+    <!-- PAGINATION -->
+    <div class="row">
+        <div class="eight columns offset-by-three">
+            <!-- Pagination links -->
+            <nav class="pagination">
+                <ul>
+                    <li class="antigos">
+                        {% if paginator.next_page %}
+                            <a href="{{ paginator.next_page_path }}" class="antigos">&#8592; Mais Antigos</a>
+                        {% else %}
+                            <span class="current">&#8592; Mais Antigos</span>
+                        {% endif %}
+                    </li>
+                    <li class="page-number">
+                        Página: {{ paginator.page }} de {{ paginator.total_pages }}
+                    </li>
+                    <li class="novos">
+                        {% if paginator.previous_page %}
+                            <a href="{{ paginator.previous_page_path }}">Mais Novos &#8594;</a>
+                        {% else %}
+                            <span class="current">Mais Novos &#8594;</span>
+                        {% endif %}
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 </div>

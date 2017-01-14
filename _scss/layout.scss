@@ -79,6 +79,9 @@ HEADER
 color: #FFF;
 font-weight: 700;
 }
+.logo a:visited {
+    color: #fff;
+}
 
 .main-header nav {
   padding-top: 10px;
@@ -134,6 +137,7 @@ footer .container {
 footer p {
   font-size: 1.1em;
   color: #888;
+    text-align: center;
 }
 
 

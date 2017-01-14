@@ -47,10 +47,3 @@ $(document).ready(function(){
         });
 
     });
-
-
-
-// LOAD PAGE EFFECT
-$(document).ready(function(){
-    $('body').hide().fadeIn(800);
-});
