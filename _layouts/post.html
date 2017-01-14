@@ -3,11 +3,12 @@ layout: blog
 title: page.title
 ---
 
-<div class="row post-detail">
-	<div class="eight offset-by-two columns">
-		<section class="content">
-			<section class="title">
-				<div class="post-meta">
+<div class="hero">
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns jumbo">
+                <h1 class="heading">{{page.title}}</h1>
+                <div class="post-meta">
 					<span class="post-date">
 						<!-- Whitespace added for readability -->
 						{% assign m = page.date | date: "%-m" %}
@@ -29,8 +30,15 @@ title: page.title
 						{{ page.date | date: "%Y" }}
 					</span>
 				</div>
-				<h2 class="post-title">{{ page.title }}</a></h2>
-			</section>
+            </div>
+        </div>
+	</div>
+</div>
+
+
+<div class="row post-detail">
+	<div class="six offset-by-three columns">
+		<section class="content">
 			<article class="post">
 				<div class="post-content">
 					{{ content }}

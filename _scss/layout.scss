@@ -2,30 +2,63 @@
 HEADER
 ========================================================================== */
 
+.hero {
+    background-image: -webkit-linear-gradient(45deg, #FC2B90, #FD4560, #FE5E30 100%);
+    background-image: -o-linear-gradient(45deg, #FC2B90, #FD4560, #FE5E30 100%);
+    background-image: linear-gradient(45deg, #FC2B90, #FD4560, #FE5E30 100%);
+        
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+
+.hero h1, .hero-intern {
+    color: #fff;
+}
+
+.hero p {
+    color: #fff;
+    text-align: center;
+}
+
 .home .page {
     padding-top: 0;
 }
 
 .jumbo {
-    padding: 100px 0;
+    padding: 120px 0;
     height: 100%;
 }
 
 
+
 .contact {
     padding-bottom: 0;
+    color: #fff;
+    background-color: #4A3447;
+    text-align: center;
+}
+
+.contact .subheading {
+    color: #fff;
+    text-align: center;
+}
+
+.contact a {
+    color: #EB3349;
 }
 
 .main-header {
     padding: 10px 0;
-    background: #fff;
     z-index: 9999;
     opacity: 0.9;
-    height: 60px;
-    position: fixed;
+    height: 80px;
+    position:absolute;
     top: 0;
     transition: top 0.2s ease-in-out;
     width: 100%;
+    color: #fff;
+    margin-bottom: 60px;
 }
 
 .nav-up {
@@ -36,7 +69,6 @@ HEADER
 .logo {
   text-decoration: none;
   font-weight: 700;
-  letter-spacing: -1px;
 }
 
 .logo span {
@@ -44,7 +76,7 @@ HEADER
 }
 
 .logo a {
-  color: #333;
+color: #FFF;
 font-weight: 700;
 }
 
@@ -58,6 +90,12 @@ font-weight: 700;
   line-height: 32px;
   vertical-align: baseline;
   font-size: 16px;
+}
+
+.menu li a {
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
 
@@ -155,13 +193,18 @@ LAYOUT
 }
 
 .post-date {
-  color: #999;
+  display: block;
+  color: $white;
+  font-size: 18px;
+font-weight: 300;
+    text-align: center;
 }
 
 .item .post-date {
   display: block;
   text-align: right;
   line-height: 32px;
+    color: #999;
 }
 
 
@@ -381,7 +424,10 @@ figure.highlight {
     height: 32px;
     text-align: center;
     line-height: 30px;
-    background: #f55567;
+    background: #f857a6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(right, #f857a6, #ff5858);
+    background: -o-linear-gradient(right, #f857a6, #ff5858);
+    background: linear-gradient(to left, #f857a6, #ff5858); /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #fff;
     cursor: pointer;
     border: 0;

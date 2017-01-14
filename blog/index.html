@@ -3,6 +3,16 @@ layout: blog
 title: Blog
 ---
 
+<div class="hero">
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns jumbo">
+                <h1 class="heading">{{page.title}}</h1>
+            </div>
+        </div>
+	</div>
+</div>
+
 {% for post in paginator.posts %}
 <div class="row posts">
 	<div class="item">
