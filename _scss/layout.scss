@@ -6,14 +6,17 @@ HEADER
     background: #4A3447;
     color: $white;
 }
-
-.about a, 
+ 
 .about h1,
 .about h2,
 .about h3,
 .about h4,
 .about h5{
     color: #FFF;
+}
+
+.about a {
+    color: #EB3349;
 }
 
 .about .content h1 {
