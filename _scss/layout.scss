@@ -113,6 +113,7 @@ font-weight: 700;
   line-height: 32px;
   vertical-align: baseline;
   font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .menu li a {
@@ -247,7 +248,7 @@ LAYOUT
   font-size: 30px;
   line-height: 38px;
   margin-top: 0;
-    margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .post-title h1 {
@@ -269,8 +270,9 @@ LAYOUT
 
 .excerpt p {
   font-style: 16px;
-  line-height: 26px;
+  line-height: 32px;
   color: $gray-9;
+  font-weight: 300;
 }
 .project-detail h4 {
   line-height: 28px;
