@@ -33,3 +33,10 @@ dd {
   margin-bottom: 40px;
     font-weight: 300;
 }
+
+@media (max-width: 550px) {
+    
+    dt, dd ,li {
+        font-size: .9em;
+    }
+}
