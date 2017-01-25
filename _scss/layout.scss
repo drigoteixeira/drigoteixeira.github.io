@@ -51,10 +51,21 @@ HEADER
 
 
 .logo {
-    padding: 15px 0;
+    padding: 5px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 
-.logo a:hover {
+.logo h1 {
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+
+.logo h1 a {
+    color: $white;
+}
+
+.logo h1 a:hover {
     text-decoration: none;
     border: none;
 }
