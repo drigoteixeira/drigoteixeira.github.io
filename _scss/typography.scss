@@ -168,7 +168,12 @@ blockquote cite {
     .right {
       text-align: center;
     }
-
+  
+    .right li {
+      margin-left: 0px;
+      margin-right: 10px;
+    }
+  
     footer p {
       text-align: center;
     }
