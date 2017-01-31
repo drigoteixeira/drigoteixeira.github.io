@@ -4,9 +4,9 @@ HEADER
 
 
 .hero {
-  background: #FF512F; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #FF512F , #DD2476); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #FF512F , #DD2476); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ff5858; /* fallback for old browsers */
+  background: -webkit-linear-gradient(-45deg, #f857a6,#ff5858); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(-45deg, #f857a6,#ff5858); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   width: 100%;
   margin-bottom: 40px;
   padding: 50px 0;
@@ -425,9 +425,9 @@ figure.highlight {
     height: 32px;
     text-align: center;
     line-height: 30px;
-    background: #FF512F; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #FF512F , #DD2476); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #FF512F , #DD2476); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ff5858; /* fallback for old browsers */
+  background: -webkit-linear-gradient(-45deg, #f857a6,#ff5858); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(-45deg, #f857a6,#ff5858); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #fff;
     cursor: pointer;
     border: 0;
