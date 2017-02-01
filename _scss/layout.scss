@@ -31,10 +31,7 @@ HEADER
     .circles,
     .circle-container,
     .circle {
-        width: 200px;
-        height: 200px;
-        opacity: 0.9;
-        filter: alpha(opacity=90); /* For IE8 and earlier */
+        display: none;
     }
 }
 
