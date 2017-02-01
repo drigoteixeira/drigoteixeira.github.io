@@ -24,26 +24,40 @@ if ($('#back-to-top').length) {
 
 $(document).ready(function(){
 
-        // hide #back-top first
+    // hide #back-top first
 
-        $("#back-bottom").show();
+    $("#back-bottom").show();
 
-        // fade in #back-top
-        $(function () {
-            var $elem = $('body')
-            $(window).scroll(function () {
-                if($(window).scrollTop() + $(window).height() == $(document).height()) {
-                    $('#back-bottom').hide();
-                } else {
-                    $('#back-bottom').show();
-                }
-            });
-
-            // scroll body to 0px on click
-            $('#back-bottom a').click(function () {
-                $('body,html').animate({ scrollTop: $elem.height()}, 800);
-                return false;
-            });
+    // fade in #back-top
+    $(function () {
+        var $elem = $('body')
+        $(window).scroll(function () {
+            if($(window).scrollTop() + $(window).height() == $(document).height()) {
+                $('#back-bottom').hide();
+            } else {
+                $('#back-bottom').show();
+            }
         });
 
+        // scroll body to 0px on click
+        $('#back-bottom a').click(function () {
+            $('body,html').animate({ scrollTop: $elem.height()}, 800);
+            return false;
+        });
     });
+
+});
+
+$(window).load(function(){  
+  for (var i = 0; i < 50; i++) {
+    var names = ['x1','x2','y1','y2'],
+        name = names[Math.floor(Math.random() * names.length)];
+    $('.circles').append('<div class="circle-container c'+i+'"><div class="circle i'+ i +'"></div></div>');
+    $('.c'+i).css({
+      'animation': 'z 10s .'+ i +'s linear infinite'
+    });
+    $('.i'+i).css({
+      'animation': name + ' 10.5s .'+ i +'s linear infinite'
+    });
+  }
+});

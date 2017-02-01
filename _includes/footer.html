@@ -8,24 +8,5 @@
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="/js/scripts.min.js"></script>
-<script>$(window).load(function () {
-    for (var i = 0; i < 50; i++) {
-        if (window.CP.shouldStopExecution(1)) {
-            break;
-        }
-        var names = [
-                'x1',
-                'x2',
-                'y1',
-                'y2'
-            ], name = names[Math.floor(Math.random() * names.length)];
-        $('.circles').append('<div class="circle-container c' + i + '"><div class="circle i' + i + '"></div></div>');
-        $('.c' + i).css({ 'animation': 'z 5s .' + i + 's linear infinite' });
-        $('.i' + i).css({ 'animation': name + ' 7.5s .' + i + 's linear infinite' });
-    }
-    window.CP.exitedLoop(1);
-});
-//# sourceURL=pen.js
-</script>
 
 
