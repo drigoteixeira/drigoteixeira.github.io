@@ -49,15 +49,13 @@ h6 { font-size: 1.2em; line-height: 1.6;  }
 }
 
 .lead {
-  font-size: 22px;
+  font-size: 18px;
   line-height: 28px;
-  color: $gray-8;
+  color: $white;
   text-align: left;
+  font-weight: 300;
 }
 
-.work .lead {
-    text-align: center;
-}
 
 .subhead {
   font-size: 24px;
