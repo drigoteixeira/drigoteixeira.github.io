@@ -16,7 +16,7 @@ HEADER
 }
 
 .hero-cover {
-    padding: 150px 0;
+    padding: 100px 0;
 }
 
 .jumbo {
@@ -31,9 +31,10 @@ HEADER
     .circles,
     .circle-container,
     .circle {
-        width: 100px;
-        width: 100px;
-        opacity: .9;
+        width: 200px;
+        height: 200px;
+        opacity: 0.9;
+        filter: alpha(opacity=90); /* For IE8 and earlier */
     }
 }
 
