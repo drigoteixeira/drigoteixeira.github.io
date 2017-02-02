@@ -8,7 +8,7 @@ body {
 	background: $white;
 	font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
 	line-height: 1.5;
-	font-family: 'PT Serif', serif;
+	font-family: "stevie-sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 	color: $base-gray;
 	text-rendering: optimizelegibility;
 }
