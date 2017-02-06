@@ -4,10 +4,9 @@ HEADER
 
 
 .hero {
-  background: #FF512F; /* fallback for old browsers */
-  background: -webkit-linear-gradient(right, #FF512F, #DD2476);
-  background: -o-linear-gradient(right, #FF512F, #DD2476);
-  background: linear-gradient(to left, #FF512F, #DD2476); /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  background: #EE2E5D; /* fallback for old browsers */
+  background-image: linear-gradient(45deg,#FF9001 0,#EE2E5D 75%);
   position: relative;
   width: 100%;
   min-height: 100%;
@@ -16,7 +15,7 @@ HEADER
 }
 
 .hero-cover {
-    padding: 150px 0;
+    padding: 180px 0;
 }
 
 .jumbo {
