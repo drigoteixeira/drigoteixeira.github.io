@@ -1,7 +1,7 @@
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #EE2E5D; 
+  color: $red; 
   text-decoration: none;
   transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-  color: #EE2E5D;
+  color: $red;
   text-decoration: underline;
 }
 
