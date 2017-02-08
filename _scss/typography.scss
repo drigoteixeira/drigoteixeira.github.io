@@ -1,23 +1,51 @@
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 2rem;
-  font-weight: 700; 
+  font-weight: 700;
   letter-spacing: -1px;
   color: $base-gray;
   font-family: 'Poppins', sans-serif;
 }
 
-h1 { font-size: 3.998em; line-height: 1.2;  }
-h2 { font-size: 3em; line-height: 1.25;   }
-h3 { font-size: 2.6em; line-height: 1.3;  }
-h4 { font-size: 1.8em; line-height: 1.35; }
-h5 { font-size: 1.4em; line-height: 1.5;  }
-h6 { font-size: 1.2em; line-height: 1.6;  }
+h1 {
+  font-size: 3.998em;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 3em;
+  line-height: 1.25;
+}
+
+h3 {
+  font-size: 2.6em;
+  line-height: 1.3;
+}
+
+h4 {
+  font-size: 1.8em;
+  line-height: 1.35;
+}
+
+h5 {
+  font-size: 1.4em;
+  line-height: 1.5;
+}
+
+h6 {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
 
 .subheading {
-    font-weight: 300;
-    
+  font-weight: 300;
 }
 
 .heading {
@@ -38,7 +66,7 @@ h6 { font-size: 1.2em; line-height: 1.6;  }
 }
 
 .post-title a {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .post-home span {
@@ -55,12 +83,11 @@ h6 { font-size: 1.2em; line-height: 1.6;  }
   font-weight: 300;
 }
 
-
 .subhead {
   font-size: 24px;
   color: $gray-5;
 }
-  
+
 .tagline {
   margin-bottom: 40px;
   height: 300px;
@@ -86,7 +113,6 @@ h6 { font-size: 1.2em; line-height: 1.6;  }
   display: block;
   color: $base-gray;
   font-size: 70px;
-
 }
 
 .tagline p {
@@ -102,8 +128,8 @@ h6 { font-size: 1.2em; line-height: 1.6;  }
 }
 
 .social {
-    margin-left: 0;
-    padding-left: 0;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .social li {
@@ -113,9 +139,7 @@ h6 { font-size: 1.2em; line-height: 1.6;  }
   padding: 0;
   color: #999;
   margin: 0 20px 0 0;
-    
 }
-
 
 .social li a {
   color: $base-gray;
@@ -140,70 +164,71 @@ blockquote cite {
 }
 
 @media (max-width: 550px) {
-  
-
   .main-header {
     padding-top: 10px;
     position: normal;
     width: 100%;
     z-index: 9999;
-    }
-
-    .tagline {
-      padding: 10px 5px;
-    }
-
-    .tagline h1 .title {
+  }
+  .tagline {
+    padding: 10px 5px;
+  }
+  .tagline h1 .title {
     font-size: 50px;
     margin-bottom: 20px;
     margin-top: 0;
     line-height: 46px;
     letter-spacing: -1px;
-    }
-
-
-    .right {
-      text-align: center;
-    }
-  
-    .right li {
-      margin-left: 0px;
-      margin-right: 10px;
-    }
-  
-    footer p {
-      text-align: center;
-    }
-
-    p {
-      margin-top: 0; 
-      line-height: 32px;
-      font-size: 1em;
-      margin-bottom: 20px !important;
-    }
-
-    .project-title {
-      font-size: 38px;
-      line-height: 38px;
-    }
-
+  }
+  .right {
+    text-align: center;
+  }
+  .right li {
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+  footer p {
+    text-align: center;
+  }
+  p {
+    margin-top: 0;
+    line-height: 32px;
+    font-size: 1em;
+    margin-bottom: 20px !important;
+  }
+  .project-title {
+    font-size: 38px;
+    line-height: 38px;
+  }
   .subhead {
     font-size: 20px;
     color: #555;
   }
-
 }
+
 
 /* Larger than phablet */
-@media (min-width: 550px) {
-  h1 { font-size: 5.0rem; }
-  h2 { font-size: rem; }
-  h3 { font-size: 3.6rem; }
-  h4 { font-size: 3.0rem; }
-  h5 { font-size: 2.4rem; }
-  h6 { font-size: 1.5rem; }
-}
 
+@media (min-width: 550px) {
+  h1 {
+    font-size: 5.0rem;
+  }
+  h2 {
+    font-size: rem;
+  }
+  h3 {
+    font-size: 3.6rem;
+  }
+  h4 {
+    font-size: 3.0rem;
+  }
+  h5 {
+    font-size: 2.4rem;
+  }
+  h6 {
+    font-size: 1.5rem;
+  }
+}
 
 p {
   margin-top: 0;
@@ -213,5 +238,3 @@ p {
   font-weight: 300;
   font-family: 'Source Sans Pro', sans-serif;
 }
-
-

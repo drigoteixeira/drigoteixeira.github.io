@@ -1,5 +1,7 @@
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
 /*
 Note: The best way to structure the use of media queries is to create the queries
 near the relevant code. For example, if you wanted to change the styles for buttons
@@ -8,110 +10,91 @@ there.
 */
 
 @media (max-width: 400px) {
-
   header {
     text-align: left;
   }
-
-
   footer {
     font-size: 11px;
   }
-
   .container .pagination ul li {
     display: table;
   }
-    
   h1.heading {
     font-size: 36px;
     letter-spacing: -2px;
-}
-  
+  }
   .post-title {
     font-size: 30px;
   }
-  
   .project-title {
-  text-align: center;
-  font-size: 40px;
-  line-height: 60px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 60px;
   }
-    
-
 }
 
+
 /* Larger than mobile */
+
 @media (min-width: 400px) {
-  
-  
   .logo {
     text-align: center;
     margin-bottom: 0;
     font-size: 18px;
     line-height: 20px;
   }
-  
-  
-  
 }
+
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) and (max-width: 1140px) {
-    
-    .logo {
-        font-size: 14px;
-    }
 
-	.logo a span {
-		display: inline;
-	}
-  
-    .logo {
+@media (min-width: 550px) and (max-width: 1140px) {
+  .logo {
+    font-size: 14px;
+  }
+  .logo a span {
+    display: inline;
+  }
+  .logo {
     text-align: left;
   }
-
 }
 
+
 /* Larger than tablet */
+
 @media (min-width: 750px) {
-  
   .logo {
     font-size: 16px;
     text-align: left;
   }
-
-    .logo a span {
-        display: inline-block;
-    }
-
+  .logo a span {
+    display: inline-block;
+  }
 }
 
+
 /* Larger than desktop */
+
 @media (min-width: 1000px) {
-    
-    .logo {
+  .logo {
     font-size: 18px;
     text-align: left;
   }
-    
-    .logo a span {
+  .logo a span {
     display: inline;
-    }
-    
-    
+  }
 }
 
+
 /* Larger than Desktop HD */
+
 @media (min-width: 1200px) {
-    
-    .logo {
+  .logo {
     font-size: 22px;
     text-align: left;
   }
-    
-    .logo a span {
+  .logo a span {
     display: inline;
-    }
-    
-    
+  }
 }
