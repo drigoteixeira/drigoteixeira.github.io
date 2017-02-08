@@ -7,11 +7,11 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 2rem;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
+  margin-bottom: 2rem;
   letter-spacing: -1px;
   color: $base-gray;
-  font-family: 'Poppins', sans-serif;
 }
 
 h1 {
@@ -44,16 +44,25 @@ h6 {
   line-height: 1.6;
 }
 
+p {
+  margin-top: 0;
+  line-height: 38px;
+  font-size: 1.6em;
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 .subheading {
   font-weight: 300;
 }
 
 .heading {
   font-size: 60px;
+  font-weight: 700;
   letter-spacing: -2px;
   margin-top: 0;
   color: $base-gray;
-  font-weight: 700;
   text-align: center;
   margin-bottom: 0;
 }
@@ -77,10 +86,10 @@ h6 {
 
 .lead {
   font-size: 18px;
-  line-height: 28px;
-  color: $white;
-  text-align: left;
   font-weight: 300;
+  line-height: 28px;
+  text-align: left;
+  color: $white;
 }
 
 .subhead {
@@ -202,7 +211,7 @@ blockquote cite {
   }
   .subhead {
     font-size: 20px;
-    color: #555;
+    color: $gray-5;
   }
 }
 
@@ -214,7 +223,7 @@ blockquote cite {
     font-size: 5.0rem;
   }
   h2 {
-    font-size: rem;
+    font-size: 4rem;
   }
   h3 {
     font-size: 3.6rem;
@@ -230,11 +239,3 @@ blockquote cite {
   }
 }
 
-p {
-  margin-top: 0;
-  line-height: 38px;
-  font-size: 1.4em;
-  margin-bottom: 20px !important;
-  font-weight: 300;
-  font-family: 'Source Sans Pro', sans-serif;
-}
