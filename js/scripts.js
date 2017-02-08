@@ -1,3 +1,15 @@
+// WEBFONT
+
+WebFontConfig = {
+google: {
+    families: [
+        'Poppins:300,400,700',
+        'Source+Sans+Pro:300,300i,400,400i,700,700i',
+    ]
+    }
+};
+
+
 // BACK TO TOP
 
 if ($('#back-to-top').length) {
