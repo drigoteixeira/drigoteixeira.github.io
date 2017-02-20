@@ -14,6 +14,6 @@ categories:
   <iframe width="620" height="420" src="https://www.youtube.com/embed/9BdtGjoIN4E" frameborder="0" allowfullscreen></iframe>
 </div>
 
-
-
 If you aren't an UX Designer, probably you're an Interaction Designer. 
+
+Via [@adriano](https://twitter.com/adriano)
