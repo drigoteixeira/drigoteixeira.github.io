@@ -43,6 +43,7 @@ HEADER
 .hero p {
   color: $gray-3;
   text-align: center;
+  font-size: 1.8em;
 }
 
 .home .page {
@@ -54,9 +55,6 @@ HEADER
   height: 100%;
 }
 
-.contact {
-  text-align: center;
-}
 
 .main-header {
   padding: 10px 0;
@@ -264,8 +262,8 @@ LAYOUT
 }
 
 .detail p {
-  font-size: 1.4em;
-  line-height: 36px;
+  font-size: 1.6em;
+  line-height: 38px;
   text-align: center;
 }
 
