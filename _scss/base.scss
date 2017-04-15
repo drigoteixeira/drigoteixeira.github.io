@@ -16,8 +16,8 @@ body {
 	font-size: 1.5em;
 	/* currently ems cause chrome bug misinterpreting rems on body element */
 	line-height: 1.5;
-	font-family: 'Source Sans Pro', sans-serif;
-	color: $base-gray;
+	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+	color: $gray-2;
 	text-rendering: optimizelegibility;
 }
 

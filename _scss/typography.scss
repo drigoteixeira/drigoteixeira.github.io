@@ -7,11 +7,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   margin-bottom: 2rem;
   letter-spacing: -1px;
-  color: $base-gray;
+  color: $gray-2;
 }
 
 h1 {
@@ -50,7 +49,6 @@ p {
   font-size: 1.6em;
   margin-bottom: 20px;
   font-weight: 300;
-  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .subheading {
@@ -58,14 +56,25 @@ p {
 }
 
 .heading {
-  font-size: 60px;
-  font-weight: 700;
-  letter-spacing: -2px;
-  margin-top: 0;
-  color: $base-gray;
-  text-align: center;
-  margin-bottom: 0;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-top: 0;
+    color: $gray-2;
+    margin-bottom: 0;
+    text-align: center;
+
+    span {
+        display: block;
+    }
+
 }
+
+.hero-cover .heading {
+    text-align: left;
+    font-size: 90px;
+}
+
 
 .post-home {
   font-size: 18px;
@@ -120,7 +129,7 @@ p {
 
 .tagline h1 .title {
   display: block;
-  color: $base-gray;
+  color: $gray-2;
   font-size: 70px;
 }
 
@@ -131,7 +140,6 @@ p {
 }
 
 .project-title {
-  text-align: center;
   font-size: 60px;
   line-height: 60px;
 }
@@ -212,6 +220,12 @@ blockquote cite {
   .subhead {
     font-size: 20px;
     color: $gray-5;
+  }
+
+  .hero-cover .heading {
+      padding: 50px 0 0;
+      font-size: 38px;
+      text-align: center;
   }
 }
 
