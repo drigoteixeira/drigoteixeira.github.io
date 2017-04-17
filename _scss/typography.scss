@@ -66,13 +66,14 @@ p {
 
     span {
         display: block;
+        color: $red;
     }
 
 }
 
 .hero-cover .heading {
     text-align: left;
-    font-size: 90px;
+    font-size: 80px;
 }
 
 
@@ -94,7 +95,7 @@ p {
 }
 
 .lead {
-  font-size: 1.8em;
+  font-size: 1.4em;
   font-weight: 300;
   line-height: 28px;
   text-align: left;
@@ -159,7 +160,7 @@ p {
 }
 
 .social li a {
-  color: $base-gray;
+  color: #222;
 }
 
 blockquote {
@@ -225,7 +226,7 @@ blockquote cite {
   .hero-cover .heading {
       padding: 50px 0 0;
       font-size: 38px;
-      text-align: center;
+      text-align: left;
   }
 }
 
