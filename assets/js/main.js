@@ -7,5 +7,11 @@
 				$('#theMenu').toggleClass('menu-open');
 			});
 
+			WebFont.load({
+				google: {
+					families: ['Poppins:300,700']
+				}
+			});
+
 
 })(jQuery)
