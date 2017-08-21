@@ -46,4 +46,10 @@ $(document).ready(function(){
         });
     });
 
+    WebFont.load({
+        google: {
+            families: ['Poppins:300,700']
+        }
+    });
+
 });
