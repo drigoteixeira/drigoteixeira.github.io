@@ -72,6 +72,7 @@ HEADER
   font-size: 16px;
   text-transform: uppercase;
   line-height: 32px;
+  margin-left: 20px;
 }
 
 .logo h1 a {
@@ -90,6 +91,7 @@ HEADER
 .main-header nav {
   padding-top: 10px;
   margin-left: 0;
+  margin-right: 20px;
 }
 
 .menu li {
@@ -126,10 +128,12 @@ li.item00 {
 /* ==========================================================================
 FOOTER
 ========================================================================== */
-
+  
 footer {
-  padding: 10px 0 0 0;
+  padding: 20px 20px 0 20px;
   font-size: 12px;
+  border-top: 1px solid #ccc;
+  width: 100%;
 }
 
 footer .container {
@@ -460,5 +464,9 @@ figure.highlight {
 .next-project {
   padding: 40px 0;
   text-align: center;
+}
+
+footer .right {
+  padding-right: 20px;
 }
 
