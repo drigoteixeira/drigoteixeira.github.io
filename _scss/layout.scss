@@ -50,7 +50,7 @@ HEADER
 
 
 .main-header {
-  padding: 10px 0;
+  padding: 15px 0;
   z-index: 9999;
   opacity: 0.9;
   height: 80px;
@@ -72,12 +72,17 @@ HEADER
 }
 
 .logo h1 {
-  font-size: 20px;
-  letter-spacing: -1px;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 32px;
 }
 
 .logo h1 a {
-  color: $gray-2;
+  color: $red;
+}
+
+.logo h1 a:visited {
+  color: $red;
 }
 
 .logo h1 a:hover {
@@ -99,7 +104,7 @@ HEADER
 }
 
 .menu li a {
-  color: $gray-2;
+  color: $gray-6;
   text-transform: uppercase;
 }
 
