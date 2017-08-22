@@ -60,18 +60,21 @@ HEADER
 }
 
 .logo h1 {
-  font-size: 16px;
-  text-transform: uppercase;
+  font-size: 20px;
   line-height: 32px;
-  margin-left: 20px;
+}
+
+.logo h1 span {
+  display: block;
+  font-weight: 300;
 }
 
 .logo h1 a {
-  color: $red;
+  color: #222;
 }
 
 .logo h1 a:visited {
-  color: $red;
+  color: #222;
 }
 
 .logo h1 a:hover {
@@ -122,6 +125,7 @@ FOOTER
   
 footer {
   font-size: 12px;
+  margin-top: 40px;
 }
 
 footer .container {
