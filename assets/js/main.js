@@ -7,6 +7,10 @@
 				$('#theMenu').toggleClass('menu-open');
 			});
 
+			$('.menu-wrap').on('click'), function() {
+				$('#menuToggle').toggleClass('.menu-close');
+			});
+
 			WebFont.load({
 				google: {
 					families: ['Poppins:300,700']
