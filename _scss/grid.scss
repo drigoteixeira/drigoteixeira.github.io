@@ -2,11 +2,10 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .container {
-  position: relative;
   width: 100%;
   max-width: 1140px;
+  clear: both;
   margin: 0 auto;
-  padding: 0 20px;
   box-sizing: border-box;
 }
 
@@ -22,8 +21,8 @@
 
 @media (min-width: 400px) {
   .container {
-    width: 85%;
-    padding: 0;
+    width: 100%;
+    padding: 0 20px;
   }
 }
 
@@ -32,7 +31,7 @@
 
 @media (min-width: 550px) {
   .container {
-    width: 80%;
+    width: 100%;
   }
   .column,
   .columns {

@@ -9,11 +9,10 @@ HEADER
   padding: 50px 0 0 0;
 }
 
-
-.jumbo {
-  position: relative;
-  z-index: 100;
+.home {
+  color: #fff;
 }
+
 
 @media (max-width: 550px) {
   .hero-cover {
@@ -29,13 +28,9 @@ HEADER
 
 .hero p {
   color: $gray-2;
-  text-align: center;
   font-size: 1.4em;
 }
 
-.home .page {
-  padding-top: 0;
-}
 
 .jumbo {
   padding: 20px 0 80px 0;
@@ -83,18 +78,18 @@ HEADER
 }
 
 .main-header nav {
-  padding-top: 10px;
+  padding-top: 20px;
   margin-left: 0;
   margin-right: 20px;
 }
 
-.menu li {
+.menu li, .social li {
   display: inline;
   line-height: 32px;
   vertical-align: baseline;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .menu li a {
@@ -124,30 +119,28 @@ FOOTER
 ========================================================================== */
   
 footer {
-  font-size: 12px;
   margin-top: 40px;
+  font-family: 'Helvetica Neue', Arial, Verdana, sans-serif;
 }
 
 footer .container {
-  border-top: 1px solid #ccc;
   padding-top: 20px;
 }
 
 
 footer p {
-  font-size: 1.1em;
   color: $gray-8;
   text-align: left;
+  font-size: 1.1em;
 }
 
+
 footer h5 {
-  font-size: 14px;
   font-weight: normal;
   letter-spacing: normal;
 }
 
 footer h5 span {
-  font-size: 18px;
   display: block;
   font-weight: bold;
   letter-spacing: -1px;
@@ -253,9 +246,8 @@ LAYOUT
 }
 
 .detail p {
-  font-size: 1.6em;
-  line-height: 38px;
-  text-align: center;
+  font-size: 1.2em;
+  line-height: 32px;
 }
 
 @media (max-width: 400px) {
