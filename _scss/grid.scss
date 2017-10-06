@@ -7,6 +7,7 @@
   clear: both;
   margin: 0 auto;
   box-sizing: border-box;
+  padding: 0 20px;
 }
 
 .column,
@@ -32,6 +33,7 @@
 @media (min-width: 550px) {
   .container {
     width: 100%;
+    padding: 0 20px;
   }
   .column,
   .columns {

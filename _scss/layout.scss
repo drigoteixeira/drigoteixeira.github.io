@@ -10,13 +10,27 @@ HEADER
 }
 
 .home {
+  background: #111;
+}
+
+.home,
+.home .logo a,
+.home .logo a:visited,
+.home .menu li a,
+.home .highlight,
+.home .social li a {
   color: #fff;
 }
+
+
 
 
 @media (max-width: 550px) {
   .hero-cover {
     padding: 50px 0;
+  }
+  .heading {
+    font-size: 40px;
   }
   .circles,
   .circle-container,
@@ -27,8 +41,8 @@ HEADER
 
 
 .hero p {
-  color: $gray-2;
-  font-size: 1.4em;
+  color: $gray-9;
+  font-size: 1.8em;
 }
 
 
@@ -57,6 +71,8 @@ HEADER
 .logo h1 {
   font-size: 20px;
   line-height: 32px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
 }
 
 .logo h1 span {
@@ -87,9 +103,10 @@ HEADER
   display: inline;
   line-height: 32px;
   vertical-align: baseline;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
 }
 
 .menu li a {
@@ -111,6 +128,19 @@ li.item00 {
   .social-networks li {
     text-align: left;
   }
+  
+  .home .highlight {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: -2px;
+  }
+
+  footer p {
+    text-align: center;
+  }
+
 }
 
 
@@ -130,8 +160,7 @@ footer .container {
 
 footer p {
   color: $gray-8;
-  text-align: left;
-  font-size: 1.1em;
+  font-size: 12px;
 }
 
 
@@ -146,26 +175,7 @@ footer h5 span {
   letter-spacing: -1px;
 }
 
-.thumb {
-  margin-bottom: 40px;
-}
 
-.thumb .project-name {
-  text-align: center;
-  font-size: .8em;
-}
-
-.project h2 {
-  font-size: 48px;
-  margin-bottom: 40px;
-}
-
-@media (max-width: 400px) {
-  .project h2 {
-    line-height: 30px;
-    font-size: 30px;
-  }
-}
 
 
 /* ==========================================================================
@@ -181,7 +191,6 @@ LAYOUT
   color: $gray-9;
   font-size: 18px;
   font-weight: 300;
-  text-align: center;
 }
 
 .item .post-date {
@@ -268,8 +277,8 @@ LAYOUT
     letter-spacing: -1px;
   }
   p {
-    font-size: 1.4em;
-    line-height: 38px;
+    font-size: 1.2em;
+    line-height: 32px;
   }
   ul li,
   ol li  {
@@ -425,25 +434,23 @@ figure.highlight {
   margin-bottom: 30px;
 }
 
-.selected-work h3 {
-  font-size: 16px;
-  line-height: 22px;
-  margin-bottom: 20px;
-  letter-spacing: normal;
-  text-align: center;
-  color: $gray-8;
-  font-weight: 700;
+.selected-work li {
+  border-bottom: 1px solid #ccc;
+  list-style: none;
 }
 
-.selected-work h3 a {
-  color: $gray-3;
+.selected-work h2 a {
+  color: #222;
+} 
+
+.selected-work p {
+  font-size: 18px;
+  color: #666;
 }
 
 .container .button {
   margin-bottom: 40px;
 }
-
-
 
 .next-project {
   padding: 40px 0;

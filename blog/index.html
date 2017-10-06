@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: blog
 title: Blog
 ---
 
@@ -17,7 +17,7 @@ title: Blog
     {% for post in paginator.posts %}
     <div class="row posts">
         <div class="item">
-            <div class="four columns">
+            <div class="two columns">
                 <div class="post-meta">
                     <span class="post-date">
                         <!-- Whitespace added for readability -->
@@ -41,7 +41,7 @@ title: Blog
                     </span>
                 </div>
             </div>
-            <div class="six columns">
+            <div class="ten columns">
                 <h2 class="post-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
                 <div class="post-content excerpt">
                     <p>{{ post.excerpt}}</p>
@@ -55,7 +55,7 @@ title: Blog
 <div class="container">
     <!-- PAGINATION -->
     <div class="row">
-        <div class="eight columns offset-by-three">
+        <div class="eight columns">
             <!-- Pagination links -->
             <nav class="pagination">
                 <ul>

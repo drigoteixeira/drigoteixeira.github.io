@@ -48,7 +48,7 @@ $(document).ready(function(){
 
     WebFont.load({
         google: {
-            families: ['Poppins:300,700', 'Merriweather:300,300i,400,400i,700,700i']
+            families: ['Oswald:200,300,400,500,600,700', 'Merriweather:300,300i,400,400i,700,700i']
         }
     });
 
