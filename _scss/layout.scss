@@ -129,12 +129,15 @@ li.item00 {
     text-align: left;
   }
   
-  .home .highlight {
+  .highlight {
     font-family: 'Oswald', sans-serif;
     font-size: 60px;
     text-transform: uppercase;
-    color: #fff;
     letter-spacing: -2px;
+  }
+
+  .home .highlight {
+    color: #fff;
   }
 
   footer p {
@@ -435,6 +438,7 @@ figure.highlight {
 }
 
 .selected-work li {
+  padding: 20px 0;
   border-bottom: 1px solid #ccc;
   list-style: none;
 }
