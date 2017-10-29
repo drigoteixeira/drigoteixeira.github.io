@@ -13,17 +13,30 @@ HEADER
   background: #20212b;
 }
 
-.home,
-.home .logo a,
-.home .logo a:visited,
-.home .menu li a,
-.home .highlight,
-.home .social li a {
+.about {
+  background: #222;
   color: #fff;
 }
 
-
-
+.home,.about,
+.home .logo a,
+.about .logo a,
+.home .logo a:visited,
+.about .logo a:visited,
+.home .menu li a,
+.about .menu li a,
+.home .highlight,
+.about .highlight,
+.home .social li a,
+.about .social li a,
+.about h1,
+.about h2,
+.about h3,
+.about h4,
+.about h5,
+.about h6 {
+  color: #fff;
+}
 
 @media (max-width: 550px) {
   .hero-cover {
