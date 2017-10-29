@@ -47,8 +47,13 @@ HEADER
 
 
 .jumbo {
-  padding: 40px 0 80px 0;
+  padding: 40px 0;
   height: 100%;
+}
+
+.jumbo p {
+  font-size: 28px;
+  line-height: 38px;
 }
 
 
@@ -71,8 +76,6 @@ HEADER
 .logo h1 {
   font-size: 20px;
   line-height: 32px;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
 }
 
 .logo h1 span {
@@ -102,9 +105,8 @@ HEADER
   display: inline;
   line-height: 32px;
   vertical-align: baseline;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
-  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
 }
 
@@ -129,9 +131,8 @@ li.item00 {
   }
   
   .highlight {
-    font-family: 'Oswald', sans-serif;
     font-size: 60px;
-    text-transform: uppercase;
+    line-height: 70px;
     letter-spacing: -2px;
   }
 

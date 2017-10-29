@@ -10,8 +10,7 @@ h6 {
   margin-bottom: 2rem;
   letter-spacing: -1px;
   color: $gray-2;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
+  font-family: 'Helvetica Neue', Arial, Verdana, sans-serif;
   margin-top: 0;
 }
 
@@ -21,11 +20,16 @@ h1 {
 }
 
 .highlight {
-  font-family: 'Oswald', sans-serif;
-  font-size: 80px;
-  text-transform: uppercase;
+  font-family: 'Helvetica Neue', Arial, Verdana, sans-serif;
+  font-size: 90px;
+  line-height: 100px;
   color: $gray-3;
   letter-spacing: -4px;
+}
+
+.highlight span {
+  color: $red;
+  display: block;
 }
 
 h2 {
@@ -61,11 +65,7 @@ p {
   font-weight: 300;
 }
 
-h2
 
-.subheading {
-  font-weight: 300;
-}
 
 .heading {
     font-size: 70px;
