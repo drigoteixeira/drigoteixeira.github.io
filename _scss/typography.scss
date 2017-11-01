@@ -38,8 +38,8 @@ h1 {
 
 .highlight {
   font-family: 'Helvetica Neue', Arial, Verdana, sans-serif;
-  font-size: 80px;
-  line-height: 80px;
+  font-size: 70px;
+  line-height: 70px;
   color: $gray-3;
   letter-spacing: -5px;
   margin: 0 0 20px 0;
@@ -257,8 +257,12 @@ blockquote cite {
   }
   
   .highlights {
-    font-size: 130px;
-    letter-spacing: -7px;
+    font-size: 100px;
+    letter-spacing: -5px;
+  }
+
+  .highlight {
+    font-size: 40px;
   }
 
 }
