@@ -9,12 +9,34 @@ HEADER
   padding: 50px 0 0 0;
 }
 
+.process {
+  padding: 100px 0;
+}
+
+.discovery {
+  background: #000;
+  padding: 100px 0;
+}
+
+.defining {
+  background: $red;
+}
+
+.wireframing {
+  background: #000;
+}
+
+.desiging {
+  background: #666;
+}
+
+
 .home {
   background: #20212b;
 }
 
 .about {
-  background: #222;
+  background: #20212b;
   color: #fff;
 }
 
@@ -65,7 +87,7 @@ HEADER
 }
 
 .jumbo p {
-  font-size: 28px;
+  font-size: 1.6em;
   line-height: 38px;
 }
 

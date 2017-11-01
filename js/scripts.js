@@ -46,10 +46,27 @@ $(document).ready(function(){
         });
     });
 
-    WebFont.load({
-        google: {
-            families: ['Oswald:200,300,400,500,600,700']
-        }
-    });
+    (function(){
+
+    // List your words here:
+    var words = [
+        'Olá!',
+        '¡Hola!',
+        'Bonjour',
+        'Ciao',
+        'Hallo',
+        'こんにちは',
+        '嗨',
+        'привет',
+        ], i = 0;
+
+    setInterval(function(){
+        $('#tag').fadeOut(function(){
+            $(this).html(words[i=(i+1)%words.length]).fadeIn();
+        });
+       // 2 seconds
+    }, 1500);
+
+})();
 
 });

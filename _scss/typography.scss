@@ -19,13 +19,41 @@ h1 {
   line-height: 1.2;
 }
 
+.blog h1 {
+  margin-top: 0;
+}
+
+.masthead {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.subheader {
+  text-transform: uppercase;
+  color: $gray-C;
+  font-size: 14px;
+  letter-spacing: 8px;
+  margin: 0 0 40px 0;
+}
+
 .highlight {
   font-family: 'Helvetica Neue', Arial, Verdana, sans-serif;
-  font-size: 90px;
-  line-height: 100px;
+  font-size: 80px;
+  line-height: 80px;
   color: $gray-3;
-  letter-spacing: -4px;
+  letter-spacing: -5px;
+  margin: 0 0 20px 0;
 }
+
+.highlights {
+  font-family: 'Helvetica Neue', Arial, Verdana, sans-serif;
+  font-size: 300px;
+  line-height: 100px;
+  color: $red;
+  letter-spacing: -25px;
+  text-align: center;
+}
+
 
 .highlight span {
   color: $red;
@@ -64,7 +92,6 @@ p {
   margin-bottom: 20px;
   font-weight: 300;
 }
-
 
 
 .heading {
@@ -228,6 +255,12 @@ blockquote cite {
       font-size: 38px;
       text-align: left;
   }
+  
+  .highlights {
+    font-size: 130px;
+    letter-spacing: -7px;
+  }
+
 }
 
 
