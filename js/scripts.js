@@ -49,7 +49,7 @@ $(document).ready(function(){
     (function(){
 
     // List your words here:
-    var words = [
+    /*var words = [
         'Olá!',
         '¡Hola!',
         'Bonjour',
@@ -64,8 +64,7 @@ $(document).ready(function(){
         $('#tag').fadeOut(function(){
             $(this).html(words[i=(i+1)%words.length]).fadeIn();
         });
-       // 2 seconds
-    }, 1500);
+    }, 1500);*/
 
 })();
 
