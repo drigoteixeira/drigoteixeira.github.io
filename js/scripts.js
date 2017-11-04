@@ -22,11 +22,7 @@ if ($('#back-to-top').length) {
     });
 }
 
-WebFont.load({
-    google: {
-        families: ['Heebo:300,400,700']
-    }
-});
+
 
 $(document).ready(function(){
 
@@ -52,6 +48,12 @@ $(document).ready(function(){
             $('body,html').animate({ scrollTop: $elem.height()}, 800);
             return false;
         });
+    });
+
+    WebFont.load({
+        google: {
+            families: ['Heebo:300,400,700']
+        }
     });
 
 })();
