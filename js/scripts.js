@@ -22,6 +22,12 @@ if ($('#back-to-top').length) {
     });
 }
 
+WebFont.load({
+    google: {
+        families: ['Heebo:300,400,700']
+    }
+});
+
 $(document).ready(function(){
 
     $('#pageEffect').fadeIn(1000);
