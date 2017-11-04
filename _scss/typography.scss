@@ -37,17 +37,13 @@ h1 {
   color: $gray-3;
   letter-spacing: -2px;
   margin-bottom: 80px;
+  word-wrap: break-word;
 }
 
 .selected-work .highlight {
   margin-bottom: 5px;
 }
 
-
-.highlight span {
-  color: $red;
-  display: block;
-}
 
 h2 {
   font-size: 3em;
@@ -245,13 +241,8 @@ blockquote cite {
       text-align: left;
   }
   
-  .highlights {
-    font-size: 80px;
-    letter-spacing: -4px;
-  }
-
   .highlight {
-    font-size: 40px;
+    font-size: 36px;
   }
 
 }
