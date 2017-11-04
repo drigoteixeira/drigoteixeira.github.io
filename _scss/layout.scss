@@ -72,7 +72,7 @@ HEADER
 
 
 .jumbo {
-  padding: 40px 0;
+  padding: 0 0 40px 0;
   height: 100%;
 }
 
@@ -97,6 +97,7 @@ HEADER
   font-size: 20px;
   line-height: 32px;
   letter-spacing: 0;
+  font-weight: bold;
 }
 
 .logo h1 span {
@@ -106,6 +107,7 @@ HEADER
 
 .logo h1 a {
   color: #222;
+  text-decoration: none;
 }
 
 .logo h1 a:visited {
@@ -132,6 +134,7 @@ HEADER
 
 .menu li a {
   color: $gray-9;
+  text-decoration: none;
 }
 
 .about .menu li a.menu1 a,
