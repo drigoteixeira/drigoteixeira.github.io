@@ -127,10 +127,17 @@ HEADER
   vertical-align: bottom;
   font-size: 18px;
   font-weight: 300;
+  margin-left: 20px;
 }
 
 .menu li a {
-  color: $gray-3;
+  color: $gray-9;
+}
+
+.about .menu li a.menu1 a,
+.projects .menu li.menu2 a,
+.blog .menu li.menu3 a  {
+  color: $gray-2;
 }
 
 li.item00 {

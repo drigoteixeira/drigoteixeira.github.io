@@ -24,6 +24,8 @@ if ($('#back-to-top').length) {
 
 $(document).ready(function(){
 
+    $('.about').fadeIn();
+
     // hide #back-top first
 
     $("#back-bottom").show();
