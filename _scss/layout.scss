@@ -2,6 +2,10 @@
 HEADER
 ========================================================================== */
 
+body {
+  display: none;
+}
+
 .hero {
   position: relative;
   width: 100%;
@@ -38,7 +42,7 @@ HEADER
 }
 
 .about .jumbo p {
-  color: #888;
+  color: $gray-9;
 }
 
 .about dl {

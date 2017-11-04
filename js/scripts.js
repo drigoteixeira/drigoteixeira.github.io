@@ -24,7 +24,7 @@ if ($('#back-to-top').length) {
 
 $(document).ready(function(){
 
-    $('.about').fadeIn();
+    $('#pageEffect').fadeIn(1000);
 
     // hide #back-top first
 
@@ -48,26 +48,4 @@ $(document).ready(function(){
         });
     });
 
-    (function(){
-
-    // List your words here:
-    /*var words = [
-        'Olá!',
-        '¡Hola!',
-        'Bonjour',
-        'Ciao',
-        'Hallo',
-        'こんにちは',
-        '嗨',
-        'привет',
-        ], i = 0;
-
-    setInterval(function(){
-        $('#tag').fadeOut(function(){
-            $(this).html(words[i=(i+1)%words.length]).fadeIn();
-        });
-    }, 1500);*/
-
 })();
-
-});
