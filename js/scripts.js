@@ -26,7 +26,7 @@ if ($('#back-to-top').length) {
 
 $(document).ready(function(){
 
-    $('#pageEffect').fadeIn(1000);
+    
 
     // hide #back-top first
 
@@ -55,5 +55,7 @@ $(document).ready(function(){
             families: ['Heebo:300,400,700']
         }
     });
+
+    $('#pageEffect').fadeIn(1000);
 
 })();

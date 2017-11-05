@@ -6,6 +6,17 @@ body {
   display: none;
 }
 
+.icons {
+  display: block;
+  margin: 0 auto;
+  font-size: 70px;
+  text-align: center;
+  background: -webkit-linear-gradient(45deg, $orange 0, $red 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+
 .hero {
   position: relative;
   width: 100%;
@@ -14,18 +25,18 @@ body {
 }
 
 .about {
-  background: #111;
-  color: #fff;
+  background: #20212b;
+  color: #F7F6F5;
 }
 
 .about p a {
-  color: #fff;
+  color: #F7F6F5;
   font-weight: normal;
   text-decoration: underline;
 }
 
 .about .social a {
-  color: #fff;
+  color: #F7F6F5;
   font-weight: normal;
   text-decoration: underline;
 }
@@ -36,9 +47,11 @@ body {
 
 .about nav li a,
 .about h1,
+.about h3,
+.about h4,
 .about .logo a,
 .about .logo a:visited {
-  color: #fff;
+  color: #F7F6F5;
 }
 
 .about .jumbo p {
