@@ -6,6 +6,7 @@ body {
   display: none;
 }
 
+
 .icons {
   display: block;
   margin: 0 auto;
@@ -41,18 +42,25 @@ body {
 }
 
 .about nav li a,
+.home nav li a,
 .process nav li a,
 .about h1,
 .process h1,
+.home h1,
 .about h2,
 .process h2,
+.home h2,
 .about h3,
 .process h3,
+.home h3,
 .about h4,
 .process h4,
+.home h4,
 .about .logo a,
+.home .logo a,
 .process .logo a,
 .about .logo a:visited,
+.home .logo a:visited,
 .process .logo a:visited {
   color: #F7F6F5;
 }

@@ -56,6 +56,9 @@ $(document).ready(function(){
         }
     });
 
-    $('#pageEffect').fadeIn(1000);
+    $('#pageEffect').fadeIn(1200);
+
+
 
 })();
+
