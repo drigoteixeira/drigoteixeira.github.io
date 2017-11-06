@@ -163,12 +163,13 @@ body {
   vertical-align: bottom;
   font-size: 18px;
   font-weight: 300;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .menu li a {
   color: $gray-9;
   text-decoration: none;
+  font-weight: 300;
 }
 
 .about .menu li.menu1 a,
