@@ -202,7 +202,14 @@ li.item00 {
   footer p {
     text-align: center;
   }
-
+  
+  .menu li {
+    display: inline;
+    line-height: 28px;
+    vertical-align: bottom;
+    font-size: 14px;
+    font-weight: 300;
+  }
 }
 
 
