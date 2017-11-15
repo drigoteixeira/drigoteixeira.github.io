@@ -1,3 +1,16 @@
+$(window).load(function(){
+
+    $(".page-loader div").delay(0).fadeOut();
+    $(".page-loader").delay(200).fadeOut("slow");
+
+    WebFont.load({
+        google: {
+            families: ['Heebo:300,400,700']
+        }
+    });
+});
+
+
 // BACK TO TOP
 
 if ($('#back-to-top').length) {
@@ -26,8 +39,6 @@ if ($('#back-to-top').length) {
 
 $(document).ready(function(){
 
-    
-
     // hide #back-top first
 
     $("#back-bottom").show();
@@ -50,15 +61,9 @@ $(document).ready(function(){
         });
     });
 
-    WebFont.load({
-        google: {
-            families: ['Heebo:300,400,700']
-        }
-    });
+    
 
-    $('#pageEffect').fadeIn(1200);
-
-
+    // $('#pageEffect').fadeIn(1200);
 
 })();
 

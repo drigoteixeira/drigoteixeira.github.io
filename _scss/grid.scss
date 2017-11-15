@@ -2,6 +2,8 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .container {
+   -webkit-transition: width 0.3s ease 0s;
+  transition: width 0.3s ease 0s;
   width: 100%;
   max-width: 1140px;
   clear: both;
