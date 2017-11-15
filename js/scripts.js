@@ -5,7 +5,7 @@ $(window).load(function(){
 
     WebFont.load({
         google: {
-            families: ['Heebo:300,400,700']
+            families: ['Poppins:300,300i,400,400i,700,700i']
         }
     });
 });
