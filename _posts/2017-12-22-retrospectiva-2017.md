@@ -56,7 +56,7 @@ Quero compartilhar aqui alguns marcos que fizeram parte do menu ano de 2016:
 
 * Se algo não cria valor (projetos principalmente), você não deveria investir esforço;
 * Tente fazer o melhor em qualquer situação;
-* Não tenha medo. O medo é proporcional ao respeito que as outras pessoas tem de você; 
+* Encare seus medos. O medo é proporcional ao respeito que as outras pessoas tem de você; 
 * Seja organizado e tente ao máximo antecipar os problemas;
 * Seja correto nas suas atitudes e principalmente no tratamento com outras pessoas;
 * Aprenda a dizer não. É difícil, mas poupa muito esforço;
