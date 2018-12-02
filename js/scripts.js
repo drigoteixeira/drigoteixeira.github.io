@@ -5,7 +5,7 @@ $(window).load(function(){
 
     WebFont.load({
         google: {
-            families: ['Poppins:300,300i,400,400i,700,700i']
+            families: ['Roboto:300,300i,400,400i,700,700i']
         }
     });
 });

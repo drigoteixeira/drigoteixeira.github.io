@@ -1,0 +1,43 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="pt-br"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="pt-br"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="pt-br"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="pt-br"> <!--<![endif]-->
+
+  <head>
+
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }} | {{ site.description }}</title>
+    
+    {% include meta.html %}
+    {% include style.html %}
+    {% include analytics.html %}
+
+  </head>
+
+  <body class="blog">
+
+    <div class="page"> <!--BEGIN PAGE -->
+        
+        <header class="main-header">
+            <div class="container">
+                <div class="row">
+                    <div class="six columns offset-by-one">
+                        <div class="logo">
+                            <h1><a href="/">Rodrigo Teixeira</a></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="content">
+
+        {{ content }}
+
+        </div>
+        
+        {% include footer.html %}
+
+    </div> <!--END PAGE -->
+    </body>
+</html>

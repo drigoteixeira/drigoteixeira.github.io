@@ -6,12 +6,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  font-weight: 300;
   margin-bottom: 2rem;
   letter-spacing: -1px;
   color: $gray-2;
-  font-family: 'Poppins', sans-serif;
   margin-top: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -33,16 +33,14 @@ h1 {
 }
 
 .highlight {
-  font-size: 70px;
+font-weight: 300;
+  font-size: 80px;
   line-height: 1.1em;
   color: $gray-3;
   letter-spacing: -4px;
   margin-bottom: 60px;
   word-wrap: break-word;
   
-      span {
-        color: $red;
-    }
 
 }
 
