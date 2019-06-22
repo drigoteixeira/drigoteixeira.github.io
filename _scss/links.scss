@@ -1,19 +1,18 @@
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: $red;
+  color: #333;
   text-decoration: none;
   transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
   -moz-transition: color 0.2s linear;
   -webkit-transition: color 0.2s linear;
-  padding-bottom: 2px;
-  text-decoration: none;
+  border-bottom: 4px solid $red;
 }
 
 a:hover {
   color: $red;
-  text-decoration: underline;
+  border-bottom: none;
 }
 
 .post-title a {

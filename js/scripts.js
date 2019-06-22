@@ -3,11 +3,6 @@ $(window).load(function(){
     $(".page-loader div").delay(0).fadeOut();
     $(".page-loader").delay(200).fadeOut("slow");
 
-    WebFont.load({
-        google: {
-            families: ['Roboto:300,300i,400,400i,700,700i']
-        }
-    });
 });
 
 
