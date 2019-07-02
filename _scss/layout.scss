@@ -69,8 +69,10 @@ HEADER
 }
 
 .jumbo p {
-  font-size: 1.4em;
+  font-size: 1.6em;
   line-height: 38px;
+  font-weight: lighter;
+  color: $gray-3;
 }
 
 .jumbo ul li,
@@ -88,7 +90,13 @@ HEADER
   transition: top 0.2s ease-in-out;
   width: 100%;
   color: $gray-3;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
+}
+
+.logo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
 }
 
 .logo h1 {
@@ -104,7 +112,7 @@ HEADER
 }
 
 .logo h1 a {
-  color: #222;
+  color: $gray-2;
   text-decoration: none;
   border-bottom: none;
 }

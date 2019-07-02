@@ -16,9 +16,12 @@ body {
 	font-size: 1.5em;
 	/* currently ems cause chrome bug misinterpreting rems on body element */
 	line-height: 1.5;
-	color: $gray-2;
+	color: $gray-3;
 	text-rendering: optimizelegibility;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-moz-osx-font-smoothing: grayscale;
+  	-webkit-font-smoothing: antialiased;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: lighter;
 }
 
 .right {
