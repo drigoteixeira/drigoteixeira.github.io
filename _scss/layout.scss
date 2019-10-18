@@ -71,7 +71,6 @@ HEADER
 .jumbo p {
   font-size: 1.6em;
   line-height: 38px;
-  font-weight: lighter;
   color: $gray-3;
 }
 
@@ -135,12 +134,11 @@ HEADER
   line-height: 32px;
   vertical-align: bottom;
   font-size: 18px;
-  font-weight: 300;
   margin-left: 10px;
 }
 
 .menu li a {
-  color: $gray-9;
+  color: $gray-3;
   text-decoration: none;
   font-weight: 300;
 }
