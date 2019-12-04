@@ -7,7 +7,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  margin-bottom: 2rem;
+  margin-bottom: 8rem;
   letter-spacing: -1px;
   color: $gray-2;
   margin-top: 0;
@@ -16,11 +16,18 @@ h6 {
 
 h1 {
   font-size: 3.998em;
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 .blog h1 {
   margin-top: 0;
+}
+
+.subtitle {
+    margin-top: -70px;
+    margin-bottom: 80px;
+    font-size: 22px;
+    color: $gray-5;
 }
 
 .subheader {
@@ -52,7 +59,7 @@ h1 {
 
 h2 {
   font-size: 3em;
-  line-height: 1.25;
+  line-height: 1.2;
 }
 
 h3 {
@@ -235,22 +242,26 @@ blockquote cite {
 /* Larger than phablet */
 
 @media (min-width: 550px) {
-  h1 {
-    font-size: 5.0rem;
-  }
-  h2 {
-    font-size: 4rem;
-  }
-  h3 {
-    font-size: 3.6rem;
-  }
-  h4 {
-    font-size: 3.0rem;
-  }
-  h5 {
-    font-size: 2.4rem;
-  }
-  h6 {
-    font-size: 1.5rem;
-  }
+  h1,
+  .jumbo h1 { font-size: 5rem;}
+  h2 { font-size: 4rem; }
+  h3 { font-size: 3.6rem;}
+  h4 { font-size: 3.0rem; }
+  h5 { font-size: 2.4rem; }
+  h6 { font-size: 1.5rem; }
+}
+
+@media (max-width: 550px) {
+  h1 { font-size: 4rem;}
+  .jumbo h1 { font-size: 5rem;}
+  h2 { font-size: 4rem; }
+  h3 { font-size: 3.6rem;}
+  h4 { font-size: 3.0rem; }
+  h5 { font-size: 2.4rem; }
+  h6 { font-size: 1.5rem; }
+    
+    p, .jumbo p {
+        font-size: 14px;
+    }
+    
 }

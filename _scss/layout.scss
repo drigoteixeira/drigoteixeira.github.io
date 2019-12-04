@@ -20,28 +20,6 @@ HEADER
   padding: 50px 0 0 0;
 }
 
-
-
-.about p a {
-  color: $red;
-}
-
-
-.about .social a:hover {
-  text-decoration: none;
-}
-
-
-
-.about dl {
-  font-size: 18px;
-}
-
-.about dt {
-  color: #888;
-}
-
-
 @media (max-width: 550px) {
   .hero-cover {
     padding: 50px 0;
@@ -68,10 +46,14 @@ HEADER
   height: 100%;
 }
 
+.jumbo h1 {
+    margin-bottom: 60px;
+}
+
 .jumbo p {
-  font-size: 1.6em;
-  line-height: 38px;
-  color: $gray-3;
+  font-size: 1.4em;
+  line-height: 28px;
+  color: $base-gray;
 }
 
 .jumbo ul li,
@@ -134,25 +116,37 @@ HEADER
   line-height: 32px;
   vertical-align: bottom;
   font-size: 18px;
-  margin-left: 10px;
+  margin-left: 24px;
 }
 
 .menu li a {
-  color: $gray-3;
+  color: $base-gray;
   text-decoration: none;
-  font-weight: 300;
+  border-bottom: none;
 }
 
-.about .menu li.menu1 a,
-.process .menu li.menu2 a,
-.projects .menu li.menu3 a,
-.blog .menu li.menu4 a  {
+.menu li a:hover {
+  border-bottom: 2px solid $gray-2;
+}
+
+.about .main-header li.item01 a {
+    border-bottom: 2px solid $base-gray;
+}
+
+.project .main-header li.item02 a {
+    border-bottom: 2px solid $base-gray;
+}
+
+.about .main-header li.menu1 a,
+.process .main-headerli.menu2 a,
+.projects .main-header li.menu3 a,
+.blog .main-header li.menu4 a  {
   color: $red;
 }
 
 li.item00 {
   text-transform: none;
-  font-size: 1.2em;
+  font-size: 1.4em;
   letter-spacing: -1px;
 }
 
@@ -178,8 +172,7 @@ li.item00 {
     display: inline;
     line-height: 28px;
     vertical-align: bottom;
-    font-size: 12px;
-    font-weight: 300;
+    font-size: 16px;
     margin-left: 5px;
   }
 }
@@ -445,18 +438,14 @@ figure.highlight {
   height: 32px;
   text-align: center;
   line-height: 30px;
-  background: $red;
+  background: $base-gray;
   color: $white;
   cursor: pointer;
   border: 0;
-  border-radius: 2px;
+  border-radius: 5px;
   text-decoration: none;
   transition: opacity 0.2s ease-out;
   opacity: 0;
-}
-
-#back-to-top:hover {
-  background: #F88B98;
 }
 
 #back-to-top.show {
@@ -495,3 +484,52 @@ figure.highlight {
 }
 
 
+.block{
+    margin-bottom: 60px;
+}
+
+
+.thumbnail {
+    position: relative;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+
+.thumbnail .case-name {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    color: #fff;
+}
+
+.thumbnail .case-name h3 {
+    color: #fff;
+}
+
+@media (max-width: 400px) {
+    
+    .thumbnail {
+        position: relative;
+    }
+
+    .thumbnail img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .thumbnail .case-name {
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        color: #fff;
+    }
+    
+    .thumbnail .case-name h2 {
+        
+    }
+}

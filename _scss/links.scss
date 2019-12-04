@@ -1,8 +1,10 @@
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: $red;
+  color: $base-gray;
   text-decoration: none;
+  border-bottom: 2px solid $base-gray;
+  padding-bottom: 4px;
   transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
   -moz-transition: color 0.2s linear;
@@ -10,8 +12,12 @@ a {
 }
 
 a:hover {
-  color: $red;
+  color: $base-gray;
   border-bottom: none;
+}
+
+a:visited {
+   color: $base-gray; 
 }
 
 .post-title a {

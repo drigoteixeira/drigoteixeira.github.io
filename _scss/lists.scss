@@ -33,10 +33,9 @@ li {
 ul li,
 ol li {
     line-height: 32px;
-    font-size: 1.2em;
+    font-size: 1.8em;
     list-style-position: outside;
     margin-bottom: 20px;
-    font-weight: 300;
 }
 
 ul li {
@@ -45,19 +44,21 @@ ul li {
 
 dl {
     margin: 0;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    color: $base-gray;
 }
 
 dt {
     display: block;
     font-weight: bold;
-    color: $gray-9;
+    color: $base-gray;
 }
 
 dd {
     margin-left: 0;
     margin-bottom: 40px;
-    font-weight: 300;
+    color: $gray-8;
+    font-weight: bold;
 }
 
 @media (max-width: 550px) {

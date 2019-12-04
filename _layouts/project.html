@@ -6,7 +6,7 @@
 
   <head>
 
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }} - {{ site.description }}</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }} | {{ site.description }}</title>
     
     {% include meta.html %}
     {% include style.html %}
@@ -14,20 +14,16 @@
 
   </head>
 
-  <body class="blog">
+  <body class="project">
 
     {% include header.html %}
 
     <div class="page"> <!--BEGIN PAGE -->
-
-        <div class="content">
-
-        {{ content }}
-
-        </div>
         
+                {{ content }}
+
         {% include footer.html %}
 
     </div> <!--END PAGE -->
-    </body>
+</body>
 </html>

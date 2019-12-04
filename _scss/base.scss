@@ -16,7 +16,7 @@ body {
 	font-size: 1.5em;
 	/* currently ems cause chrome bug misinterpreting rems on body element */
 	line-height: 1.5;
-	color: $gray-3;
+	color: $base-gray;
 	text-rendering: optimizelegibility;
 	-moz-osx-font-smoothing: grayscale;
   	-webkit-font-smoothing: antialiased;
@@ -43,8 +43,8 @@ body {
 }
 
 .loader {
-	width: 50px;
-	height: 50px;
+	width: 70px;
+	height: 70px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -54,7 +54,7 @@ body {
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	border-right: 1px solid rgba(0, 0, 0, 0.1);
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-	border-left: 1px solid #ff3e55;
+	border-left: 1px solid $base-gray;
 	border-radius: 50%;
 	-webkit-animation: spinner 700ms infinite linear;
 	animation: spinner 700ms infinite linear;

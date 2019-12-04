@@ -1,6 +1,6 @@
 name: Rodrigo Teixeira
 
-description: Digital Designer
+description: Designer & amateur runner.
 
 avatar: https://media.licdn.com/mpr/mpr/shrink_200_200/p/2/005/037/0b0/3d3e4b9.jpg
 
@@ -40,7 +40,7 @@ sass:
   sass_dir: _scss
   style: :expanded
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
