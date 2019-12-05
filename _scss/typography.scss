@@ -8,7 +8,7 @@ h5,
 h6 {
   font-weight: 700;
   margin-bottom: 8rem;
-  letter-spacing: -1px;
+  letter-spacing: -2px;
   color: $gray-2;
   margin-top: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -243,7 +243,7 @@ blockquote cite {
 
 @media (min-width: 550px) {
   h1,
-  .jumbo h1 { font-size: 5rem;}
+  .jumbo h1 { font-size: 6rem;}
   h2 { font-size: 4rem; }
   h3 { font-size: 3.6rem;}
   h4 { font-size: 3.0rem; }
@@ -253,7 +253,7 @@ blockquote cite {
 
 @media (max-width: 550px) {
   h1 { font-size: 4rem;}
-  .jumbo h1 { font-size: 5rem;}
+  .jumbo h1 { font-size: 4rem;}
   h2 { font-size: 4rem; }
   h3 { font-size: 3.6rem;}
   h4 { font-size: 3.0rem; }
