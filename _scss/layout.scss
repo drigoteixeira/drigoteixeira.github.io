@@ -51,8 +51,8 @@ HEADER
 }
 
 .jumbo p {
-  font-size: 1.4em;
-  line-height: 28px;
+  font-size: 1.6em;
+  line-height: 32px;
   color: $base-gray;
 }
 
@@ -85,6 +85,7 @@ HEADER
   line-height: 32px;
   letter-spacing: 0;
   letter-spacing: -1px;
+   margin-bottom: 24px;
 }
 
 .logo h1 span {
@@ -520,7 +521,7 @@ figure.highlight {
     }
     
     .thumbnail .case-name h3 {
-        font-size: 18px;
-        letter-spacing: -1px;
+        font-size: 1.8em;
+        letter-spacing: -2px;
     }
 }

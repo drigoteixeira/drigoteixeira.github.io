@@ -15,9 +15,6 @@ ul {
     margin-top: 0;
 }
 
-.page ul {
-    margin-left: 20px;
-}
 
 ul ul,
 ul ol,
@@ -44,7 +41,7 @@ ul li {
 
 dl {
     margin: 0;
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: $base-gray;
 }
 
@@ -65,6 +62,6 @@ dd {
     dt,
     dd,
     li {
-        font-size: .8em;
+        font-size: 1.4em;
     }
 }
