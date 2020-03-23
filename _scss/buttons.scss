@@ -11,14 +11,13 @@ input[type="button"] {
     padding: 0 30px;
     color: $base-gray;
     text-align: center;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 700;
     line-height: 38px;
-    text-transform: uppercase;
     text-decoration: none;
     white-space: nowrap;
     background-color: transparent;
-    border-radius: 4px;
+    border-radius: 5px;
     border: 1px solid $gray-C;
     cursor: pointer;
     box-sizing: border-box;
@@ -45,8 +44,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
     color: $white;
-    background-color: $red;
-    border-color: $red;
+    background-color: $gray-3;
+    border-color: $gray-3;
 }
 
 .button.button-primary:hover,
