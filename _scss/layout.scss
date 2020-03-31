@@ -2,10 +2,6 @@
 HEADER
 ========================================================================== */
 
-header {
-    border-top: 10px solid $gray-2;
-}
-
 .icons {
   display: block;
   margin: 0 auto;
@@ -38,13 +34,6 @@ header {
   }
 }
 
-
-.hero p {
-  color: $gray-9;
-  font-size: 1.8em;
-}
-
-
 .jumbo {
   padding: 0 0 40px 0;
   height: 100%;
@@ -52,12 +41,6 @@ header {
 
 .jumbo h1 {
     margin-bottom: 60px;
-}
-
-.jumbo p {
-  font-size: 1.6em;
-  line-height: 32px;
-  color: $base-gray;
 }
 
 .jumbo ul li,
@@ -314,10 +297,6 @@ LAYOUT
   .heading {
     font-size: 70px;
     letter-spacing: -1px;
-  }
-  p {
-    font-size: 1.2em;
-    line-height: 32px;
   }
   ul li,
   ol li  {

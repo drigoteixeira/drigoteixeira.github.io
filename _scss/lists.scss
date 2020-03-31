@@ -42,20 +42,21 @@ ul li {
 dl {
     margin: 0;
     font-size: 1.4em;
-    color: $base-gray;
+    color: $black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 dt {
     display: block;
-    font-weight: bold;
-    color: $base-gray;
+    font-weight: 500;
+    color: $black;
 }
 
 dd {
     margin-left: 0;
     margin-bottom: 40px;
-    color: $gray-8;
-    font-weight: bold;
+    color: $black;
+    font-weight: 400;
 }
 
 @media (max-width: 550px) {

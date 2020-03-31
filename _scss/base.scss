@@ -12,14 +12,14 @@ html {
 }
 
 body {
-	background: $white;
-	font-size: 1.5em;
+	background: #FAFAFA;
+	font-size: 1.6em;
 	/* currently ems cause chrome bug misinterpreting rems on body element */
-	line-height: 1.5;
-	color: $base-gray;
-	text-rendering: optimizelegibility;
-	-moz-osx-font-smoothing: grayscale;
+	line-height: 1.6;
+	color: $black;
   	-webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-style: normal;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
