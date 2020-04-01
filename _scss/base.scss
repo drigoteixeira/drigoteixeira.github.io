@@ -12,15 +12,15 @@ html {
 }
 
 body {
-	background: #FAFAFA;
+	background: #FEFEFE;
 	font-size: 1.6em;
 	/* currently ems cause chrome bug misinterpreting rems on body element */
 	line-height: 1.6;
-	color: $black;
+	color: $purple;
   	-webkit-font-smoothing: antialiased;
     font-weight: 400;
     font-style: normal;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Heebo', sans-serif;
 }
 
 .right {

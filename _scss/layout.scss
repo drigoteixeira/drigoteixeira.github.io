@@ -13,6 +13,10 @@ HEADER
   margin-bottom: 10px;
 }
 
+.page {
+    padding-top: 140px;
+}
+
 .hero {
   position: relative;
   width: 100%;
@@ -51,7 +55,7 @@ HEADER
 
 
 .main-header {
-  padding: 70px 0 0 0;
+  padding: 20px 0 0 0;
   z-index: 9999;
   opacity: 0.9;
   height: 80px;
@@ -496,6 +500,10 @@ figure.highlight {
 }
 
 @media (max-width: 550px)  {
+    
+    .page {
+        padding-top: 80px;
+    }
 
     .thumbnail .case-name {
         top: 20px;
