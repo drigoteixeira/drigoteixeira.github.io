@@ -1,7 +1,7 @@
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: $red;
+  color: $white;
   text-decoration: underline;
   transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
@@ -10,9 +10,9 @@ a {
 }
 
 a:hover {
-  color: $base-gray;
+  color: $white;
   text-decoration: none;
 }
 
-a:visited { color: $red; }
+a:visited { color: $white; }
 

@@ -12,11 +12,11 @@ html {
 }
 
 body {
-	background: #FEFEFE;
+	background: $base-gray;
 	font-size: 1.6em;
 	/* currently ems cause chrome bug misinterpreting rems on body element */
 	line-height: 1.6;
-	color: $purple;
+	color: #ededed;
   	-webkit-font-smoothing: antialiased;
     font-weight: 400;
     font-style: normal;
