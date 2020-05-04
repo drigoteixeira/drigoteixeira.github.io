@@ -1,4 +1,4 @@
-$(window).load(function(){
+$(window).load(function () {
 
     $(".page-loader div").delay(0).fadeOut();
     $(".page-loader").delay(200).fadeOut("slow");
@@ -32,7 +32,14 @@ if ($('#back-to-top').length) {
 
 
 
-$(document).ready(function(){
+$(document).ready(function () {
+    
+    WebFont.load({
+    google: {
+      families: ['Noto+Serif:400,400i,700,700i', 'Heebo:400,700'],
+      url: ['https://fonts.googleapis.com/css2'], 
+    }
+    });
 
     // hide #back-top first
 
@@ -42,7 +49,7 @@ $(document).ready(function(){
     $(function () {
         var $elem = $('body')
         $(window).scroll(function () {
-            if($(window).scrollTop() + $(window).height() == $(document).height()) {
+            if ($(window).scrollTop() + $(window).height() == $(document).height()) {
                 $('#back-bottom').hide();
             } else {
                 $('#back-bottom').show();
@@ -51,11 +58,12 @@ $(document).ready(function(){
 
         // scroll body to 0px on click
         $('#back-bottom a').click(function () {
-            $('body,html').animate({ scrollTop: $elem.height()}, 800);
+            $('body,html').animate({
+                scrollTop: $elem.height()
+            }, 800);
             return false;
         });
+        
     });
 
-
 })();
-
