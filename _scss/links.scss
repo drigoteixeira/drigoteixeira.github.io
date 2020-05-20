@@ -1,18 +1,20 @@
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: $white;
-  text-decoration: underline;
+  color: $base-gray;;
   transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
   -moz-transition: color 0.2s linear;
   -webkit-transition: color 0.2s linear;
+  text-decoration: none;
+  border-bottom: 1px solid $base-gray;
 }
 
 a:hover {
-  color: $white;
+  color: $base-gray;
   text-decoration: none;
+  border-bottom: none;
 }
 
-a:visited { color: $white; }
+a:visited { color: $base-gray; }
 

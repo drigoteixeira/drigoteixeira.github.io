@@ -36,7 +36,7 @@ $(document).ready(function () {
     
     WebFont.load({
     google: {
-      families: ['Noto+Serif:400,400i,700,700i', 'Heebo:400,700'],
+      families: ['Noto+Serif:400,400i,700,700i', 'Poppins:400,400i,700,700i'],
       url: ['https://fonts.googleapis.com/css2'], 
     }
     });
