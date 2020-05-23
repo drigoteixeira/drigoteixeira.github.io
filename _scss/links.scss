@@ -1,20 +1,22 @@
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: $base-gray;
+  color: $gray-8;
   transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
   -moz-transition: color 0.2s linear;
   -webkit-transition: color 0.2s linear;
   text-decoration: none;
-  border-bottom: 1px solid $base-gray;
+  border-bottom: 2px solid $gray-8;
+  font-weight: 700;
 }
 
 a:hover {
-  color: $base-gray;
+  color: $gray-8;
   text-decoration: none;
   border-bottom: none;
 }
 
-a:visited { color: $base-gray; }
+a:visited,
+li a { color: $gray-8; border-bottom: 2px solid $gray-8; }
 

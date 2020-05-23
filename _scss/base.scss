@@ -17,10 +17,12 @@ body {
 	/* currently ems cause chrome bug misinterpreting rems on body element */
 	line-height: 1.6;
 	color: $base-gray;
+    text-rendering: optimizeLegibility;
   	-webkit-font-smoothing: antialiased;
+    font-feature-settings: 'kern';
     font-weight: 400;
     font-style: normal;
-    font-family: 'Noto', serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .right {
