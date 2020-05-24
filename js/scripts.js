@@ -36,7 +36,7 @@ $(document).ready(function () {
     
     WebFont.load({
     google: {
-      families: ['Inter:400;700'],
+      families: ['Heebo:400,700'],
       url: ['https://fonts.googleapis.com/css2'], 
     }
     });
