@@ -237,7 +237,7 @@ blockquote cite {
 
 @media (max-width: 550px) {
     h1 {
-        font-size: 4.4rem;   
+        font-size: 3.4rem;   
         letter-spacing: -2px;
     }
 
@@ -264,6 +264,10 @@ blockquote cite {
     p {
         font-size: 1.2em;
         font-weight: 400;
+    }
+    
+    .social li {
+        font-size: 1.2em;
     }
 
 }
