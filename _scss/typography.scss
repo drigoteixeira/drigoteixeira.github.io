@@ -11,19 +11,21 @@ h6 {
     color: $black;
     margin-top: 0;
     font-family: 'Heebo', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 3.4em;
     line-height: 1.1;
     letter-spacing: -3px;
     color: $base-gray;
 }
 
 h1 span {
-    color: $red;
+    color: $base-gray;
+    font-weight: 700;
 }
+
 
 .subtitle {
     margin-top: -70px;
@@ -79,7 +81,7 @@ h6 {
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: 400;
     line-height: 1.4em;
 }
@@ -150,7 +152,7 @@ p {
 .social li {
     display: inline;
     list-style: none;
-    font-size: 1.2em;
+    font-size: 1.4em;
     padding: 0;
     color: $gray-9;
     margin: 0 20px 0 0;

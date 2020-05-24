@@ -36,7 +36,7 @@ $(document).ready(function () {
     
     WebFont.load({
     google: {
-      families: ['Heebo:400,700'],
+      families: ['Heebo:300,400,700,800,900'],
       url: ['https://fonts.googleapis.com/css2'], 
     }
     });
