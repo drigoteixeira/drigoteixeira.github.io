@@ -2,6 +2,10 @@
     padding-top: 100px;
 }
 
+.main-header {
+    background: $white;
+}
+
 .about {
     
     background-color: $base-gray;
@@ -22,7 +26,7 @@
 
     
     header {
-        background: none;
+        background: $base-gray;
     }
     
     .button {
