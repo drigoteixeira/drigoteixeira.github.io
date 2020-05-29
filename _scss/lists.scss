@@ -31,39 +31,74 @@ li {
 ul li,
 ol li {
     line-height: 32px;
-    font-size: 1.6em;
+    font-size: 1.2em;
     list-style-position: outside;
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 ul li {
     list-style-type: disc;
 }
 
+.list-cases li {
+    margin: 0;
+    list-style: none;
+}
+
+
+.list-cases li a {
+    border-bottom: 1px solid $gray-E;
+    display: block;
+    padding: 16px 0;
+    width: 100%;
+    font-weight: 300;
+    text-decoration: none;
+    margin-bottom: 0;
+    color: $base-gray;
+}
+
+.list-cases li a p {
+    font-size: .9em;
+    vertical-align: top;
+}
+
+.list-cases li a span {
+    font-size: 2.2em;
+    line-height: 1.4em;
+    margin-left: 40px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    display: inline-block;
+}
+
+.list-cases li a:hover span {
+    color: $red;
+}
+
 dl {
     margin: 0;
-    font-size: 1.4em;
-    color: $black;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
 }
 
 dt {
     display: block;
-    font-weight: 500;
-    color: $black;
+    font-weight: 900;
 }
 
 dd {
     margin-left: 0;
     margin-bottom: 40px;
-    color: $black;
     font-weight: 400;
+    color: $gray-8;
 }
 
 @media (max-width: 550px) {
+    
     dt,
     dd,
+    ul,
     li {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }

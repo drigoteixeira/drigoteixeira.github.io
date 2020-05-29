@@ -1,24 +1,74 @@
+.page {
+    padding-top: 100px;
+}
+
+.about {
+    
+    background-color: $base-gray;
+    color: $white;
+    
+    h1, 
+    h2, 
+    h3, 
+    h4, 
+    h5, 
+    h6 {
+        color: $white;
+    }
+    
+    a, a:visited, a:hover {
+        color: $white;
+    }
+
+    
+    header {
+        background: none;
+    }
+    
+    .button {
+        color: $white;
+    }
+}
+
+
+.container {
+    margin-bottom: 20px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+
+.social {
+    width: 100%;
+    position: relative;
+    
+    ul {
+        list-style: none;
+        margin: 0 auto;
+        
+        li {
+          display: inline-block;
+          margin: 0 20px 0 0;
+          font-size: 1.2em;
+          letter-spacing: -1px;
+          font-weight: 300;
+          text-align: left;
+        
+        }
+        
+    }
+}
+
+
+
+
+
 /* ==========================================================================
 HEADER
 ========================================================================== */
 
-.icons {
-    display: block;
-    margin: 0 auto;
-    font-size: 70px;
-    text-align: center;
-    background: -webkit-linear-gradient(45deg, $orange 0, $red 75%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 10px;
-}
-
-.hero {
-    position: relative;
-    width: 100%;
-    margin-bottom: 40px;
-    padding: 50px 0 0 0;
-}
 
 @media (max-width: 550px) {
     .hero-cover {
@@ -34,83 +84,6 @@ HEADER
     .circle {
         display: none;
     }
-}
-
-.jumbo {
-    padding: 0 0 40px 0;
-    height: 100%;
-}
-
-.jumbo h1 {
-    margin-bottom: 60px;
-}
-
-.jumbo ul li,
-.jumbo dl {
-    font-size: 1.4em;
-    line-height: 38px;
-}
-
-
-.main-header {
-    z-index: 9999;
-    opacity: 0.9;
-    height: 40px;
-    margin: 24px 0 120px 0;
-    transition: top 0.2s ease-in-out;
-    width: 100%;
-    color: $gray-3;
-}
-
-.logo {
-    margin-top: 16px;
-}
-.logo img {
-    width: 90px;
-}
-
-
-.main-header nav {
-    margin-left: 0;
-}
-
-.menu li {
-    display: inline;
-    line-height: 32px;
-    vertical-align: bottom;
-    font-size: 18px;
-    margin-left: 24px;
-}
-
-.menu li a {
-    color: $base-gray;
-    text-decoration: none;
-    border-bottom: none;
-}
-
-.menu li a:hover {
-    border-bottom: 2px solid $gray-2;
-}
-
-.about .main-header li.item01 a {
-    border-bottom: 2px solid $base-gray;
-}
-
-.project .main-header li.item02 a {
-    border-bottom: 2px solid $base-gray;
-}
-
-.about .main-header li.menu1 a,
-.process .main-headerli.menu2 a,
-.projects .main-header li.menu3 a,
-.blog .main-header li.menu4 a {
-    color: $red;
-}
-
-li.item00 {
-    text-transform: none;
-    font-size: 1.4em;
-    letter-spacing: -1px;
 }
 
 
@@ -131,41 +104,6 @@ li.item00 {
         text-align: center;
     }
 }
-
-
-
-    /* ==========================================================================
-FOOTER
-========================================================================== */
-
-    footer {
-        margin-top: 40px;
-        font-family: 'Helvetica Neue', Arial, Verdana, sans-serif;
-    }
-
-    footer .container {
-        padding-top: 20px;
-    }
-
-
-    footer p {
-        color: $gray-8;
-        font-size: 12px;
-    }
-
-
-    footer h5 {
-        font-weight: normal;
-        letter-spacing: normal;
-    }
-
-    footer h5 span {
-        display: block;
-        font-weight: bold;
-        letter-spacing: -1px;
-    }
-
-
 
 
     /* ==========================================================================
@@ -340,6 +278,14 @@ IMAGEM RESPONSIVA
     img.responsive {
         max-width: 100%;
         height: auto;
+        clear: both;
+        margin: 0 auto;
+        display: block;
+    }
+
+    figcaption {
+        display: block;
+        text-align: center;
     }
 
 
@@ -381,13 +327,24 @@ HIGHLIGHT
         padding: 0;
     }
 
+    .foto {
+        margin: 0 0 80px 0;
+    }
+
+    .foto img {
+        width: 300px;
+        margin: 0 auto;
+        border-radius: 50%;
+    }
+
+
 
     /* Back to Top */
 
     #back-to-top {
         position: fixed;
         bottom: 20px;
-        right: 20px;
+        right: 3%;
         z-index: 9999;
         width: 32px;
         height: 32px;
@@ -408,26 +365,7 @@ HIGHLIGHT
     }
 
 
-    /* Selected Work */
 
-    .selected-work .row {
-        margin-bottom: 30px;
-    }
-
-    .selected-work li {
-        padding: 20px 0;
-        border-bottom: 1px solid #ccc;
-        list-style: none;
-    }
-
-    .selected-work h2 a {
-        color: #222;
-    }
-
-    .selected-work p {
-        font-size: 18px;
-        color: #666;
-    }
 
     .container .button {
         margin-bottom: 40px;
@@ -438,29 +376,23 @@ HIGHLIGHT
         text-align: center;
     }
 
-
-    .block {
-        margin-bottom: 60px;
-    }
-
-
-    .thumbnail {
-        position: relative;
-    }
-
     .thumbnail img {
         width: 100%;
         height: auto;
     }
 
 
-    .thumbnail .case-name {
-        position: absolute;
-        top: 80px;
-        left: 80px;
-        color: #fff;
-    }
 
-    .thumbnail .case-name h3 {
-        color: #fff;
+
+@media (max-width: 576px) {
+    .page {
+        padding-top: 100px;
     }
+  }
+
+
+@media only screen and (max-device-width: 1366px) {
+  .banner {
+    background-attachment: scroll;
+  }
+}

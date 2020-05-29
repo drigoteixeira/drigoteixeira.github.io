@@ -26,5 +26,9 @@
 hr {
   margin: 3rem 0;
   border-width: 0;
-  border-top: 1px solid $gray-E;
+  border-top: 2px solid $base-gray;
+}
+
+.about hr {
+    border-top: 2px solid $white;
 }

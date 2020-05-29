@@ -36,7 +36,7 @@ $(document).ready(function () {
     
     WebFont.load({
     google: {
-      families: ['Heebo:300,400,700,800,900'],
+      families: ['Work+Sans:300,300i,400,400i,700,700i'],
       url: ['https://fonts.googleapis.com/css2'], 
     }
     });
@@ -65,5 +65,15 @@ $(document).ready(function () {
         });
         
     });
+    
+    $('#toggle').click(function() {
+    $(this).toggleClass('active');
+        $('#overlay').toggleClass('open');
+    });
+    
+    $(window).scroll(function(){
+        $(".banner").css("opacity", 1 - $(window).scrollTop() / 500);
+    });
 
 })();
+

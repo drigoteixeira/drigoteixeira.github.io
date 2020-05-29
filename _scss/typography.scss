@@ -10,54 +10,39 @@ h6 {
     letter-spacing: -1px;
     color: $black;
     margin-top: 0;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
 }
 
 h1 {
-    font-size: 3.4em;
+    font-size: 3.6em;
     line-height: 1.1;
     letter-spacing: -3px;
     color: $base-gray;
 }
 
 h1 span {
-    color: $base-gray;
+    color: $red;
     font-weight: 700;
 }
 
+.title {
+    color: $red;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
 
 .subtitle {
-    margin-top: -70px;
-    margin-bottom: 80px;
-    font-size: 2em;
-    color: $gray-5;
-}
-
-.subheader {
-    color: $black;
+    margin-top: -40px;
     font-size: 1.4em;
+    color: $gray-8;
+    font-weight: 400;
 }
-
-.highlight {
-    font-weight: 700;
-    font-size: 70px;
-    line-height: 1.1em;
-    color: $gray-2;
-    letter-spacing: -2px;
-    margin-bottom: 60px;
-    word-wrap: break-word;
-}
-
-
-.selected-work .highlight {
-    margin-bottom: 5px;
-}
-
 
 h2 {
     font-size: 2.6em;
     line-height: 1.2;
+    letter-spacing: -2px;
 }
 
 h3 {
@@ -81,82 +66,21 @@ h6 {
 }
 
 p {
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: 400;
-    line-height: 1.4em;
-}
-
-.post-home {
-    font-size: 18px;
-    border-bottom: 1px solid $gray-C;
-    line-height: 30px;
-    padding-bottom: 10px;
-}
-
-.post-title a {
-    font-weight: 700;
-}
-
-.post-home span {
-    color: $gray-C;
-    font-weight: normal;
-    font-style: italic;
+    line-height: 1.6em;
 }
 
 
-.subhead {
-    font-size: 24px;
+
+
+figcaption {
+    font-size: 1em;
     color: $gray-5;
+    font-style: italic;
+    text-align: center;
 }
 
-.tagline {
-    margin-bottom: 40px;
-    height: 300px;
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.tagline h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-    font-weight: 700;
-    line-height: 66px;
-    letter-spacing: -2px;
-}
-
-.tagline h1 span {
-    color: $gray-9;
-}
-
-.tagline h1 .title {
-    display: block;
-    color: $gray-2;
-    font-size: 70px;
-}
-
-.tagline p {
-    color: $gray-9;
-    font-size: 20px;
-}
-
-.project-title {
-    font-size: 60px;
-    line-height: 60px;
-}
-
-.social {
-    margin-left: 0;
-    padding-left: 0;
-}
-
-.social li {
-    display: inline;
-    list-style: none;
-    font-size: 1.4em;
-    padding: 0;
-    color: $gray-9;
-    margin: 0 20px 0 0;
-}
 
 blockquote {
     font-style: normal;
@@ -176,25 +100,20 @@ blockquote cite {
     font-size: 18px;
 }
 
+.number {
+    font-size: 2.6em;
+    font-weight: 700;
+    letter-spacing: -2px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.results p {
+    font-size: 1.2em;
+}
+
 @media (max-width: 550px) {
-    .main-header {
-        padding-top: 10px;
-        position: normal;
-        width: 100%;
-        z-index: 9999;
-    }
-
-    .tagline {
-        padding: 10px 5px;
-    }
-
-    .tagline h1 .title {
-        font-size: 50px;
-        margin-bottom: 20px;
-        margin-top: 0;
-        line-height: 46px;
-        letter-spacing: -1px;
-    }
+    
 
     .right {
         text-align: center;
@@ -205,28 +124,10 @@ blockquote cite {
         margin-right: 10px;
     }
 
-    footer p {
-        text-align: center;
-    }
-
-    .project-title {
-        font-size: 38px;
-        line-height: 38px;
-    }
 
     .subhead {
         font-size: 20px;
         color: $gray-5;
-    }
-
-    .hero-cover .heading {
-        padding: 50px 0 0;
-        font-size: 38px;
-        text-align: left;
-    }
-
-    .highlight {
-        font-size: 36px;
     }
 
 }
@@ -237,7 +138,7 @@ blockquote cite {
 
 @media (max-width: 550px) {
     h1 {
-        font-size: 3.4rem;   
+        font-size: 3.6rem;   
         letter-spacing: -2px;
     }
 
