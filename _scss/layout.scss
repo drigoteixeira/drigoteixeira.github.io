@@ -1,9 +1,9 @@
 .page {
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 .main-header {
-    background: $white;
+    background: transparent;
 }
 
 .about {
@@ -20,8 +20,13 @@
         color: $white;
     }
     
-    a, a:visited, a:hover {
+    
+    a:visited, a:hover {
         color: $white;
+    }
+    
+    .logo a {
+        border: none;
     }
 
     
@@ -31,6 +36,10 @@
     
     .button {
         color: $white;
+    }
+    
+    hr {
+        
     }
 }
 
@@ -288,6 +297,7 @@ IMAGEM RESPONSIVA
     }
 
     figcaption {
+        margin-top: 10px;
         display: block;
         text-align: center;
     }
@@ -390,7 +400,7 @@ HIGHLIGHT
 
 @media (max-width: 576px) {
     .page {
-        padding-top: 100px;
+        padding-top: 120px;
     }
   }
 
