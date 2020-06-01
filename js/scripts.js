@@ -34,12 +34,12 @@ if ($('#back-to-top').length) {
 
 $(document).ready(function () {
     
-    WebFont.load({
+    /* WebFont.load({
     google: {
       families: ['Work+Sans:300,300i,400,400i,700,700i'],
       url: ['https://fonts.googleapis.com/css2'], 
     }
-    });
+    }); */
 
     // hide #back-top first
 
