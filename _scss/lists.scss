@@ -31,7 +31,7 @@ li {
 ul li,
 ol li {
     line-height: 32px;
-    font-size: 1.4em;
+    font-size: 1.2em;
     list-style-position: outside;
     margin-bottom: 20px;
     margin-left: 20px;
@@ -52,10 +52,11 @@ ul li {
     display: block;
     padding: 16px 0;
     width: 100%;
-    font-weight: 300;
+    font-weight: 900;
     text-decoration: none;
     margin-bottom: 0;
     color: $base-gray;
+    font-family: 'Merriweather', serif;
 }
 
 .list-cases li a p {
