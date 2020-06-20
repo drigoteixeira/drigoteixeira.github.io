@@ -8,6 +8,10 @@
 
 .about {
     
+    a, a:visited {
+        color: $white;
+    }
+    
     background-color: $base-gray;
     color: $white;
     
