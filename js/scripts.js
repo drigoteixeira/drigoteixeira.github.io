@@ -36,7 +36,7 @@ $(document).ready(function () {
     
     WebFont.load({
     google: {
-      families: ['Merriweather:400,400i,700,700i,900,900i'],
+      families: ['Source+Serif+Pro:400,400i,700,700i', 'Work+Sans:400'],
       url: ['https://fonts.googleapis.com/css2'], 
     }
     }); 

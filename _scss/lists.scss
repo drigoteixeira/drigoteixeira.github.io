@@ -56,18 +56,18 @@ ul li {
     text-decoration: none;
     margin-bottom: 0;
     color: $base-gray;
-    font-family: 'Merriweather', serif;
+    font-family: 'Source Serif Pro', serif;
+    letter-spacing: -2px;
 }
 
 .list-cases li a p {
-    font-size: .9em;
+    font-size: 1.4em;
     vertical-align: top;
 }
 
 .list-cases li a span {
-    font-size: 2em;
+    font-size: 1.6em;
     line-height: 1.4em;
-    margin-left: 40px;
     font-weight: 700;
     letter-spacing: -1px;
     display: inline-block;
@@ -84,7 +84,7 @@ dl {
 
 dt {
     display: block;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 dd {
