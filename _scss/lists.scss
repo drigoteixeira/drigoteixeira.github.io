@@ -31,7 +31,7 @@ li {
 ul li,
 ol li {
     line-height: 32px;
-    font-size: 1.4em;
+    font-size: 1.2em;
     list-style-position: outside;
     margin-bottom: 20px;
     margin-left: 20px;
@@ -41,43 +41,11 @@ ul li {
     list-style-type: disc;
 }
 
-.list-cases li {
-    margin: 0;
-    list-style: none;
-    font-size: 1.4em;
-}
 
-
-.list-cases li a {
-    border-bottom: 1px solid $gray-E;
-    display: block;
-    padding: 16px 0;
-    width: 100%;
-    font-weight: 700;
-    text-decoration: none;
-    margin-bottom: 0;
-    color: $base-gray;
-    letter-spacing: -2px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.list-cases li a p {
-    vertical-align: top;
-}
-
-.list-cases li a span {
-    font-weight: 700;
-    letter-spacing: -1px;
-    display: inline-block;
-}
-
-.list-cases li a:hover span {
-    color: $red;
-}
 
 dl {
     margin: 0;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 dt {
@@ -90,6 +58,10 @@ dd {
     margin-bottom: 40px;
     font-weight: 400;
     color: $gray-8;
+}
+
+.disclines {
+    font-size: .8em;
 }
 
 @media (max-width: 550px) {

@@ -19,6 +19,9 @@
   float: left;
 }
 
+.center {
+    text-align: center;
+}
 
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -26,5 +29,5 @@
 hr {
   margin: 3rem 0;
   border-width: 0;
-  border-top: 2px solid $base-gray;
+  border-top: 2px solid $gray-5;
 }

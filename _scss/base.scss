@@ -16,13 +16,13 @@ body {
 	font-size: 1.6em;
 	/* currently ems cause chrome bug misinterpreting rems on body element */
 	line-height: 1.6;
-	color: $base-gray;
+	color: $gray-2;
     text-rendering: optimizeLegibility;
   	-webkit-font-smoothing: antialiased;
     font-feature-settings: 'kern';
     font-weight: 400;
     font-style: normal;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .right {
@@ -40,7 +40,7 @@ body {
 	position: fixed;
 	top: 0;
 	left: 0;
-	background: #fff;
+	background: $white;
 	z-index: 10000;
 }
 

@@ -1,7 +1,7 @@
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: $base-gray;
+  color: $gray-2;
   transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
   -moz-transition: color 0.2s linear;
@@ -11,13 +11,9 @@ a {
 }
 
 a:hover {
-  color: $base-gray;
+  color: $gray-2;
   text-decoration: none;
 }
-
-a:visited,
-li a { color: $base-gray; }
-
 
 h1 a, 
 h2 a,
@@ -34,5 +30,5 @@ h3 a:hover,
 h4 a:hover,
 h5 a:hover,
 h6 a:hover {
-    color: $red;
+    color: $gray-2;
 }

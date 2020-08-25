@@ -2,12 +2,6 @@
     padding-top: 150px;
 }
 
-.main-header {
-    background: $white;
-}
-
-
-
 .container {
     margin-bottom: 20px;
 }
@@ -38,6 +32,10 @@
     }
 }
 
+.contact {
+    background: $secondary;
+    padding: 40px;
+}
 
 
 
@@ -86,6 +84,17 @@ HEADER
     /* ==========================================================================
 LAYOUT
 ========================================================================== */
+
+    .project figure {
+        margin-bottom: 10px;
+    }
+
+
+
+    .project p {
+        color: $gray-8;
+        font-size: 1.2em;
+    }
 
     .posts {
         padding: 20px 0;

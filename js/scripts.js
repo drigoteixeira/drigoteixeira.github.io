@@ -36,7 +36,7 @@ $(document).ready(function () {
     
     WebFont.load({
     google: {
-      families: ['Source+Serif+Pro:400,400i,700,700i', 'Work+Sans:400'],
+      families: ['DM+Serif+Text:400,400i', 'DM+Sans:400,400i,700,700i'],
       url: ['https://fonts.googleapis.com/css2'], 
     }
     }); 
