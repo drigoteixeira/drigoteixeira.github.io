@@ -11,7 +11,7 @@ categories:
 ---
 
 <div class="videoWrapper">
-  <iframe width="620" height="420" src="https://www.youtube.com/embed/9BdtGjoIN4E" frameborder="0" allowfullscreen></iframe>
+  <iframe width="620" height="420" src="https://www.youtube.com/embed/9BdtGjoIN4E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 If you aren't an UX Designer, probably you're an Interaction Designer. 

@@ -7,34 +7,34 @@ title: Blog
     {% for post in paginator.posts %}
     <div class="row posts">
         <div class="item">
-            <div class="two columns">
+            <div class="three columns">
                 <div class="post-meta">
                     <span class="post-date">
                         <!-- Whitespace added for readability -->
                         {% assign m = post.date | date: "%-m" %}
-                        {{ post.date | date: "%-d" }}
+                        {{ post.date | date: "%Y," }}
                         {% case m %}
-                          {% when '1' %}Janeiro
-                          {% when '2' %}Fevereiro
-                          {% when '3' %}Março
-                          {% when '4' %}Abril
-                          {% when '5' %}Maio
-                          {% when '6' %}Junho
-                          {% when '7' %}Julho
-                          {% when '8' %}Agosto
-                          {% when '9' %}Setembro
-                          {% when '10' %}Outubro
-                          {% when '11' %}Novembro
-                          {% when '12' %}Dezembro
+                          {% when '1' %}January
+                          {% when '2' %}February
+                          {% when '3' %}March
+                          {% when '4' %}April
+                          {% when '5' %}May
+                          {% when '6' %}June
+                          {% when '7' %}July
+                          {% when '8' %}August
+                          {% when '9' %}September
+                          {% when '10' %}October
+                          {% when '11' %}November
+                          {% when '12' %}December
                         {% endcase %}
-                        {{ post.date | date: "%Y" }}
+                        {{ post.date | date: "%-d" }}
                     </span>
                 </div>
             </div>
-            <div class="ten columns">
-                <h2 class="post-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
-                <div class="post-content excerpt">
-                    <p>{{ post.excerpt}}</p>
+            <div class="nine columns">
+                <h3 class="post-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h3>
+                <div class="post-content">
+                    <p class="excerpt">{{ post.excerpt}}</p>
                 </div>
             </div>
         </div>
@@ -45,25 +45,25 @@ title: Blog
 <div class="container">
     <!-- PAGINATION -->
     <div class="row">
-        <div class="eight columns">
+        <div class="eight columns offset-by-three">
             <!-- Pagination links -->
             <nav class="pagination">
                 <ul>
                     <li class="antigos">
                         {% if paginator.next_page %}
-                            <a href="{{ paginator.next_page_path }}" class="antigos">&#8592; Mais Antigos</a>
+                            <a href="{{ paginator.next_page_path }}" class="antigos">&#8592; Older</a>
                         {% else %}
-                            <span class="current">&#8592; Mais Antigos</span>
+                            <span class="current">&#8592; Older</span>
                         {% endif %}
                     </li>
                     <li class="page-number">
-                        Página: {{ paginator.page }} de {{ paginator.total_pages }}
+                        Page: {{ paginator.page }} of {{ paginator.total_pages }}
                     </li>
                     <li class="novos">
                         {% if paginator.previous_page %}
-                            <a href="{{ paginator.previous_page_path }}">Mais Novos &#8594;</a>
+                            <a href="{{ paginator.previous_page_path }}">Newer &#8594;</a>
                         {% else %}
-                            <span class="current">Mais Novos &#8594;</span>
+                            <span class="current">Newer &#8594;</span>
                         {% endif %}
                     </li>
                 </ul>

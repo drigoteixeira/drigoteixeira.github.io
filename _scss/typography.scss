@@ -15,7 +15,7 @@ h6 {
 }
 
 h1 {
-    font-size: 4.2em;
+    font-size: 4.4em;
     line-height: 1.1;
     letter-spacing: -1px;
     color: $main;
@@ -63,7 +63,13 @@ h6 {
 p {
     font-size: 1.2em;
     font-weight: 400;
-    line-height: 1.6em;
+    line-height: 1.8em;
+}
+
+.excerpt {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.2em;
+    color: $gray-5;
 }
 
 figcaption {
@@ -75,17 +81,19 @@ figcaption {
 
 
 blockquote {
-    font-style: normal;
-    border-left: 5px solid $gray-E;
-    margin-left: 0;
-    padding-left: 20px;
+    font-family: 'DM Serif Text', serif;
+    font-style: italic;
+    font-size: 2em;
+    color: $gray-5;
 }
 
-blockquote p {
-    font-size: 1.2em;
-    line-height: 38px;
-    margin-left: 0;
-    padding-left: 0;
+blockquote:before {
+    display: block;
+    content: "";
+    background: var(--primary-color);
+    height: var(--base-multiplier);
+    width: calc(100% / 3);
+    margin-bottom: calc(var(--base-multiplier)*3);
 }
 
 blockquote cite {
@@ -103,6 +111,11 @@ blockquote cite {
 .results p {
     font-size: 1.2em;
 }
+
+.post-title {
+    margin-bottom: 5px;
+}
+
 
 @media (max-width: 550px) {
     
