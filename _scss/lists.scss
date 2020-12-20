@@ -60,6 +60,12 @@ dd {
     color: $gray-8;
 }
 
+.selected-work li {
+    font-size: 1.8em;
+    font-weight: 700;
+    list-style: none;
+}
+
 .disclines {
     font-size: .8em;
 }

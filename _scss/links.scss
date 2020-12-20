@@ -37,3 +37,8 @@ h5 a:hover,
 h6 a:hover {
     color: $gray-2;
 }
+
+.selected-work a {
+    font-weight: bold;
+    color: $main;
+}
