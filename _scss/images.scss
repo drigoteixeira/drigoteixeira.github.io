@@ -22,3 +22,7 @@ figure {
   transform:translateY(-50%); /* doesn't work in IE9 and older I'm affraid */
   margin:0;
 }
+
+.pin {
+    color: $main;
+}
