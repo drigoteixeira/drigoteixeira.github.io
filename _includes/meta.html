@@ -18,14 +18,16 @@
     <meta property="article:publisher" content="http://www.facebook.com/drigoteixeira">
     <meta property="fb:app_id" content="546203126061696" />
     {% if page.header-img %}
-    <meta property="og:image" content="https://rodrigoteixeira.co//img/cover.jpg">
+    <meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
     {% endif %}
+    <meta property="og:description" content="{{ page.subtitle }}" />
+
     
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:site" content="@drigo"/>
     <meta name="twitter:creator" content="@drigo"/>  
     <meta name="twitter:title" content="Rodrigo Teixeira"/>  
-    <meta name="twitter:description" content="Rodrigo Teixeira is product designer based in Sao Paulo, Brazil."/>
+    <meta name="twitter:description" content="{{ page.subtitle }}"/>
     {% if page.header-img %}
     <meta name="twitter:image" content="https://rodrigoteixeira.co/img/cover.jpg"/>
     {% endif %}
