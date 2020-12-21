@@ -21,12 +21,14 @@ Eu sou uma pessoa quieta.
 
 Em diversas situações prefiro ser aquele que observa, que escuta, que anota, que analisa. 
 
-De uma maneira geral, uma pessoa que possui traços de quietude é comumente percebida como uma pessoa que detém um potencial limitador ou uma postura negativa. "Você precisa se mostrar mais, falar mais", é o que dizem. 
+De uma maneira geral, uma pessoa que possui traços de quietude é comumente percebida como uma pessoa que denota um potencial limitador ou uma postura negativa. _"Você precisa se mostrar mais, falar mais"_, é o que dizem. 
 
-Receber esse tipo de feedback é bastante frustrante em certas situações. 
+Receber esse tipo de feedback é bastante frustrante em algumas situações. 
 
-Porém algo eu posso assegurar: pessoas quietas serão os sujeitos mais especiais que você vai encontrar em uma reunião pois estas personalidades são quem colocam em prática uma habilidade fundamental para os dias de hoje: a escuta ativa. E estas mesmas pessoas só vão comentar ou falar algo quando for muito necessário. 
+Porém algo eu posso assegurar: os quietos serão as pessoas mais especiais que você vai encontrar em uma reunião pois são justamente essas pessoas quem colocam em prática uma habilidade fundamental para os dias de hoje: a escuta ativa. 
 
-Ser a pessoa que fala mais, que fala mais alto em uma reunião ou que se "mostra mais" não é sinônimo de inteligência, de senioridade ou liderança. Só indica que ela está mostrando seu ego, mesmo que de forma inconsciente. 
+E escutar é uma habilidade que nos permite aprender e compreender sobre coisas, sobre pessoas e sobre o mundo ao nosso redor.
 
-Escutar é aprender sobre pessoas, sobre coisas e sobre o mundo ao nosso redor. E ser quieto não faz de você uma pessoa que possui uma limitação. Faz de você uma pessoa incrível e brilhante. 
+Ser a pessoa que fala muito, que fala mais alto ou que se "mostra mais" não é sinônimo de inteligência, de senioridade ou liderança. Só indica que ela está ressaltando seu próprio ego, mesmo que de forma inconsciente. 
+
+Ter uma característica quieta não faz de você uma pessoa limitada. Faz de você uma pessoa incrível e brilhante. 
