@@ -1,11 +1,11 @@
 ---
 title: Pessoas quietas são incríveis
 author: Rodrigo Teixeira
-excerpt: 'A arte de saber escutar para aprender'
+excerpt: 'Pessoas quietas são os sujeitos mais especiais que você vai encontrar nao longo de sua vida'
 layout: post
 permalink: blog/pessoas-quietas-sao-incriveis/
 header-img: 'img/sherlock.jpg'
-subtitle: 'A arte de saber escutar para aprender'
+subtitle: 'Pessoas quietas são os sujeitos mais especiais que você vai encontrar nao longo de sua vida'
 dsq_thread_id:
   - 1419103068
 categories:
@@ -25,7 +25,7 @@ De uma maneira geral, uma pessoa que possui traços de quietude é comumente per
 
 Receber esse tipo de feedback é bastante frustrante em certas situações. 
 
-Porém algo eu posso assegurar: pessoas quietas serão os sujeitos mais inteligente que você vai encontrar em uma reunião pois estas personalidades são quem colocam em prática uma habilidade fundamental para os dias de hoje: a escuta ativa. E estas mesmas pessoas só vão comentar ou falar algo quando for muito necessário. 
+Porém algo eu posso assegurar: pessoas quietas serão os sujeitos mais especiais que você vai encontrar em uma reunião pois estas personalidades são quem colocam em prática uma habilidade fundamental para os dias de hoje: a escuta ativa. E estas mesmas pessoas só vão comentar ou falar algo quando for muito necessário. 
 
 Ser a pessoa que fala mais, que fala mais alto em uma reunião ou que se "mostra mais" não é sinônimo de inteligência, de senioridade ou liderança. Só indica que ela está mostrando seu ego, mesmo que de forma inconsciente. 
 
