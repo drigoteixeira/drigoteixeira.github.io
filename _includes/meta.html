@@ -11,10 +11,10 @@
     <!-- OPEN GRAPH -->
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Rodrigo Teixeira">
+    <meta property="og:title" content="{{ page.title }} - {{ site.name }}">
     <meta property="og:description" content="{{ page.subtitle }}" />
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    <meta property="og:site_name" content="Rodrigo Teixeira">
+    <meta property="og:site_name" content="{{ site.name }}">
     <meta property="article:publisher" content="http://www.facebook.com/drigoteixeira">
     <meta property="fb:app_id" content="546203126061696" />
     {% if page.header-img %}<meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />{% endif %}
@@ -22,7 +22,7 @@
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:site" content="@drigo"/>
     <meta name="twitter:creator" content="@drigo"/>  
-    <meta name="twitter:title" content="Rodrigo Teixeira"/>  
+    <meta name="twitter:title" content="{{ page.title }} - {{ site.name }}"/>  
     <meta name="twitter:description" content="{{ page.subtitle }}"/>
     {% if page.header-img %}<meta name="twitter:image" content="{{ site.url }}/{{ page.header-img }}"/>{% endif %}
     
