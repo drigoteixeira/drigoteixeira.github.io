@@ -6,7 +6,7 @@
     <meta name="author" content="Rodrigo Teixeira">
     <meta name="description" content="Rodrigo Teixeira is product designer based in Sao Paulo, Brazil.">
 
-    <link rel="canonical" href="{{ site.url }}{% if page.url != '/index.html' %}{{ page.url }}{% endif %}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
     
     <!-- OPEN GRAPH -->
     <meta property="og:locale" content="en_US">
@@ -29,7 +29,7 @@
     <meta name="twitter:title" content="Rodrigo Teixeira"/>  
     <meta name="twitter:description" content="{{ page.subtitle }}"/>
     {% if page.header-img %}
-    <meta name="twitter:image" content="https://rodrigoteixeira.co/img/cover.jpg"/>
+    <meta name="twitter:image" content="{{ site.url }}/{{ page.header-img }}"/>
     {% endif %}
     
     <link rel="icon" href="{{ site.baseurl }}/favicon.png">
