@@ -11,9 +11,9 @@ categories:
   - Insights
 ---
 
-![Robert Viglasky/Hartswood Films](https://media.npr.org/assets/img/2014/11/03/sh3_3_3_wide-e9d45fe8f843df5ac1eaaef86b3bb487d7acfc36-s800-c85.jpg)
-<small>Crédito: Robert Viglasky/Hartswood Films</small>
 
+![Sherlock Holmes](https://media.npr.org/assets/img/2014/11/03/sh3_3_3_wide-e9d45fe8f843df5ac1eaaef86b3bb487d7acfc36-s800-c85.jpg#responsive "Sherlock Holmes")
+<small>Crédito: Robert Viglasky/Hartswood Films</small>
 
 Eu sou uma pessoa quieta. 
 

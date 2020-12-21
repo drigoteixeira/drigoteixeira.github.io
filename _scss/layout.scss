@@ -243,7 +243,8 @@ IMAGEM RESPONSIVA
 ========================================================================== */
 
     img.scale,
-    img.responsive {
+    img.responsive,
+    img[src*="#responsive"] {
         max-width: 100%;
         height: auto;
         clear: both;
@@ -256,7 +257,6 @@ IMAGEM RESPONSIVA
         display: block;
         text-align: center;
     }
-
 
     /* ==========================================================================
 VIDEO RESPONSIVO
