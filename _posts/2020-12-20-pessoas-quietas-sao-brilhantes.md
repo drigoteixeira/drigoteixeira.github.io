@@ -25,6 +25,6 @@ Receber esse tipo de feedback é bastante frustrante em certas situações.
 
 Porém algo eu posso assegurar: pessoas quietas serão os sujeitos mais inteligente que você vai encontrar em uma reunião pois estas personalidades são quem colocam em prática uma habilidade fundamental para os dias de hoje: a escuta ativa. E estas mesmas pessoas só vão comentar ou falar algo quando for muito necessário. 
 
-Ser a pessoa que fala mais, que fala mais alto em uma reunião ou que se "mostra mais" não é sinônimo de inteligência, de senioridade ou liderança. Só indica que ela está dando mostrando seu ego, mesmo que de forma inconsciente. 
+Ser a pessoa que fala mais, que fala mais alto em uma reunião ou que se "mostra mais" não é sinônimo de inteligência, de senioridade ou liderança. Só indica que ela está mostrando seu ego, mesmo que de forma inconsciente. 
 
 Escutar é aprender sobre pessoas, sobre coisas e sobre o mundo ao nosso redor. E ser quieto não faz de você uma pessoa que possui uma limitação. Faz de você uma pessoa incrível e brilhante. 
