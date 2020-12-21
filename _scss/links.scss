@@ -1,7 +1,7 @@
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: $gray-2;
+  color: $base-gray;
   transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
   -moz-transition: color 0.2s linear;
@@ -11,12 +11,13 @@ a {
 }
 
 a:hover {
-  color: $gray-2;
+  color: $base-gray;
   text-decoration: none;
 }
 
 .blog .page a {
-    color: $main;
+    color: $base-gray;
+    font-weight: bold;
 }
 
 

@@ -5,7 +5,7 @@ title: page.title
 
 <div class="container">
     <div class="row">
-        <div class="ten coluns center">
+        <div class="ten colunms center">
             <div class="post-meta">
                 <span class="post-date">
                     <!-- Whitespace added for readability -->
@@ -55,19 +55,42 @@ title: page.title
 
 
 <div class="container">
-    <hr>
-    <div class="row post-pagination">
-        <div class="six columns">
-            {% if page.previous.url %}
-                <span class="post-date">Previous post</span>
-                <h4><a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></h4>
-              {% endif %}
-        </div>
-        <div class="six columns right">
-            {% if page.next.url %}
-                <span class="post-date">Next Post</span>
-                <h4><a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a></h4>
-              {% endif %}
+    <div class="row">
+        <div class="eight columns offset-by-two">
+            <hr>
+            <h3>Latest posts</h3>
         </div>
     </div>
+    {% for post in site.posts limit:3 %}
+    <div class="row latest-post">
+        <div class="item">
+            <div class="eight columns offset-by-two">
+                <span class="post-date">
+                    <!-- Whitespace added for readability -->
+                    {% assign m = post.date | date: "%-m" %}
+                    {{ post.date | date: "%Y," }}
+                    {% case m %}
+                      {% when '1' %}January
+                      {% when '2' %}February
+                      {% when '3' %}March
+                      {% when '4' %}April
+                      {% when '5' %}May
+                      {% when '6' %}June
+                      {% when '7' %}July
+                      {% when '8' %}August
+                      {% when '9' %}September
+                      {% when '10' %}October
+                      {% when '11' %}November
+                      {% when '12' %}December
+                    {% endcase %}
+                    {{ post.date | date: "%-d" }}
+                </span>
+                <h4 class="post-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h4>
+                <div class="post-content">
+                    <p class="excerpt">{{ post.excerpt}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
 </div>

@@ -101,7 +101,7 @@ LAYOUT
 
     .post-date {
         display: block;
-        color: $gray-9;
+        color: $gray-3;
         font-size: 18px;
         font-weight: 300;
     }
@@ -110,7 +110,11 @@ LAYOUT
         display: block;
         text-align: right;
         line-height: 32px;
-        color: $gray-9;
+        color: $gray-3;
+    }
+
+    .latest-post .item .post-date {
+        text-align: left;
     }
 
     @media (max-width: 400px) {
