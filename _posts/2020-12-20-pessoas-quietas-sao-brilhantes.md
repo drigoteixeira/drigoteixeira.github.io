@@ -3,7 +3,7 @@ title: Pessoas quietas são incríveis
 author: Rodrigo Teixeira
 excerpt: 'A arte de saber escutar para aprender'
 layout: post
-permalink: /pessoas-quietas-sao-incriveis/
+permalink: blog/pessoas-quietas-sao-incriveis/
 header-img: 'img/sherlock.jpg'
 subtitle: 'A arte de saber escutar para aprender'
 dsq_thread_id:
