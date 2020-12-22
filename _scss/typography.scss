@@ -7,15 +7,15 @@ h4,
 h5,
 h6 {
     margin-bottom: 40px;
-    letter-spacing: -1px;
+    letter-spacing: -2px;
     color: $gray-2;
     margin-top: 0;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-   font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 4.4em;
     line-height: 1.1;
     letter-spacing: -1px;
     color: $main;
@@ -81,7 +81,6 @@ figcaption {
 
 
 blockquote {
-    font-family: 'DM Serif Text', serif;
     font-style: italic;
     font-size: 2em;
     color: $gray-5;
