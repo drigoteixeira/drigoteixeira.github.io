@@ -1,11 +1,11 @@
 ---
 title: Pessoas quietas são incríveis
 author: Rodrigo Teixeira
-excerpt: 'Pessoas quietas são os sujeitos mais especiais que você vai encontrar nao longo de sua vida'
+excerpt: 'Os quietos serão as pessoas mais especiais que você vai encontrar ao longo de sua vida'
 layout: post
 permalink: blog/pessoas-quietas-sao-incriveis/
 header-img: 'img/sherlock.jpg'
-subtitle: 'Pessoas quietas são os sujeitos mais especiais que você vai encontrar nao longo de sua vida'
+subtitle: 'Os quietos serão as pessoas mais especiais que você vai encontrar ao longo de sua vida'
 dsq_thread_id:
   - 1419103068
 categories:
