@@ -34,12 +34,20 @@ if ($('#back-to-top').length) {
 
 $(document).ready(function () {
     
-    WebFont.load({
-    google: {
-      families: ['PT+Serif:400,400i,700,700i', 'DM+Sans:400,400i,700,700i'],
-      url: ['https://fonts.googleapis.com/css2'], 
-    }
-    }); 
+     /*WebFont.load({
+         google: {
+             families: ['PT+Serif:400,400i,700,700i', 'DM+Sans:400,400i,700,700i']
+             , url: ['https://fonts.googleapis.com/css2']
+         , }
+     });*/
+    
+    WebFontConfig = {
+      typekit: {
+        id: 'neue-haas-grotesk-display;neue-haas-grotesk-text',
+        api: '//use.edgefonts.net'
+      }
+    };
+    
 
     // hide #back-top first
 

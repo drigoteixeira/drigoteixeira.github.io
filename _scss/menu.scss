@@ -7,7 +7,7 @@ header {
     margin: 40px 0 0 0;
     font-size: 1.1em;
     letter-spacing: 0;
-    font-family: 'DM Sans', sans-serif;
+    font-family: neue-haas-grotesk-text, sans-serif;
 }
 
 .logo a {
@@ -26,13 +26,15 @@ header {
 .menu {
     margin: 40px 0 0 20px;
     text-align: right;
-    font-family: 'DM Sans', sans-serif;
+    font-family: neue-haas-grotesk-text, sans-serif;
 }
 
 .menu li {
     display: inline-block;
     font-size: 1.2em;
     font-weight: 700;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .menu li a {
