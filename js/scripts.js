@@ -44,8 +44,9 @@ $(document).ready(function () {
     WebFontConfig = {
       typekit: {
         id: 'neue-haas-grotesk-display;neue-haas-grotesk-text',
-        api: '//use.edgefonts.net'
-      }
+        api: '//use.edgefonts.net',
+        url: '//use.typekit.net/llw6bdl.css"'
+      }      
     };
     
 
