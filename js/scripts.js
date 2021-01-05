@@ -40,13 +40,6 @@ $(document).ready(function () {
              , url: ['https://fonts.googleapis.com/css2']
          , }
      });*/
-    
-    WebFontConfig = {
-      typekit: {
-        id: 'llw6bdl',
-      }      
-    };
-    
 
     // hide #back-top first
 
