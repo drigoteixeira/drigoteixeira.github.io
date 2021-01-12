@@ -5,7 +5,7 @@ title: page.title
 
 <div class="container">
     <div class="row">
-        <div class="ten colunms center">
+        <div class="eight columns">
             <div class="post-meta">
                 <span class="post-date">
                     <!-- Whitespace added for readability -->
@@ -27,18 +27,13 @@ title: page.title
                     {% endcase %}
                     {{ page.date | date: "%-d" }}
                 </span>
-            </div>
-            <div class="post-title">
                 <h1>{{page.title}}</h1>
                 <p class="excerpt">{{page.excerpt}}</p>
             </div>
         </div>
     </div>
-</div>
-
-<div class="container">
-    <div class="row post-detail">
-        <div class="eight columns offset-by-two">
+    <div class="row">
+        <div class="eight columns">
             <section class="content">
                 <article class="post">
                     <div class="post-content">
@@ -50,47 +45,39 @@ title: page.title
                 {% include disqus.html disqus_identifier=page.disqus_identifier %}
             </section>
         </div>
-    </div>
-</div>
-
-
-<div class="container">
-    <div class="row">
-        <div class="eight columns offset-by-two">
-            <hr>
-            <h3>Latest posts</h3>
-        </div>
-    </div>
-    {% for post in site.posts limit:3 %}
-    <div class="row latest-post">
-        <div class="item">
-            <div class="eight columns offset-by-two">
-                <span class="post-date">
-                    <!-- Whitespace added for readability -->
-                    {% assign m = post.date | date: "%-m" %}
-                    {{ post.date | date: "%Y," }}
-                    {% case m %}
-                      {% when '1' %}January
-                      {% when '2' %}February
-                      {% when '3' %}March
-                      {% when '4' %}April
-                      {% when '5' %}May
-                      {% when '6' %}June
-                      {% when '7' %}July
-                      {% when '8' %}August
-                      {% when '9' %}September
-                      {% when '10' %}October
-                      {% when '11' %}November
-                      {% when '12' %}December
-                    {% endcase %}
-                    {{ post.date | date: "%-d" }}
-                </span>
-                <h4 class="post-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h4>
-                <div class="post-content">
-                    <p class="excerpt">{{ post.excerpt}}</p>
+        <div class="four columns">
+            <div class="row">
+                <hr>
+                <h4>Latest posts</h4>
+                {% for post in site.posts limit:5 %}
+                <div class="row latest-post">
+                    <div class="item">
+                        <span class="post-date">
+                            <!-- Whitespace added for readability -->
+                            {% assign m = post.date | date: "%-m" %}
+                            {{ post.date | date: "%Y," }}
+                            {% case m %}
+                              {% when '1' %}January
+                              {% when '2' %}February
+                              {% when '3' %}March
+                              {% when '4' %}April
+                              {% when '5' %}May
+                              {% when '6' %}June
+                              {% when '7' %}July
+                              {% when '8' %}August
+                              {% when '9' %}September
+                              {% when '10' %}October
+                              {% when '11' %}November
+                              {% when '12' %}December
+                            {% endcase %}
+                            {{ post.date | date: "%-d" }}
+                        </span>
+                        <h5 class="post-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h5>
+                    </div>
                 </div>
-            </div>
+                {% endfor %}
         </div>
     </div>
-    {% endfor %}
 </div>
+
+

@@ -15,10 +15,10 @@ h6 {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 5em;
     line-height: 1.1;
     letter-spacing: -2px;
-    color: $main;
+    color: $base-gray;
 }
 
 .title {
@@ -68,8 +68,8 @@ p {
 
 .excerpt {
     font-size: 1.2em;
-    color: $gray-5;
-    font-style: italic;
+    color: $gray-8;
+    font-weight: 700;
 }
 
 figcaption {
