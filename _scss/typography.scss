@@ -11,14 +11,18 @@ h6 {
     color: $gray-2;
     margin-top: 0;
     font-family: neue-haas-grotesk-text, sans-serif;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 4em;
     line-height: 1.1;
     letter-spacing: -2px;
     color: $base-gray;
+}
+
+.light {
+    font-weight: 400;
 }
 
 .title {
@@ -35,7 +39,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.6em;
+    font-size: 2.2em;
     line-height: 1.2;
     letter-spacing: -1px;
 }

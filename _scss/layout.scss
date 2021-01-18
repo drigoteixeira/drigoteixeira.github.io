@@ -1,3 +1,7 @@
+.about {
+    background-color: #eee;
+}
+
 
 .page {
     padding-top: 180px;
@@ -23,7 +27,7 @@
         li {
           display: inline-block;
           margin: 0 20px 0 0;
-          font-size: 1.2em;
+          font-size: 1.1em;
           letter-spacing: -1px;
           font-weight: 700;
           text-align: left;
@@ -32,7 +36,7 @@
 }
 
 .contact {
-    background: #eee;
+    background: #f1d18a;
     padding: 40px;
 }
 
@@ -106,6 +110,7 @@ LAYOUT
         display: block;
         color: $gray-3;
         font-weight: 300;
+
     }
 
     .item .post-date {
