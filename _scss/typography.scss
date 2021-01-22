@@ -11,14 +11,22 @@ h6 {
     color: $gray-2;
     margin-top: 0;
     font-family: neue-haas-grotesk-text, sans-serif;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 4.6em;
     line-height: 1.1;
     letter-spacing: -2px;
     color: $base-gray;
+}
+
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span {
+    color: $main;
 }
 
 .light {
@@ -183,5 +191,5 @@ blockquote cite {
     .blog .excerpt {
         font-size: 1.2em;
     }
-
+    
 }

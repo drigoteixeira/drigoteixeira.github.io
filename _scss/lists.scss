@@ -56,14 +56,20 @@ dt {
 dd {
     margin-left: 0;
     margin-bottom: 40px;
-    font-weight: 700;
+    font-weight: 400;
     color: $gray-8;
 }
 
+footer dl {
+    font-size: 1em;
+}
+
 .selected-work li {
-    font-size: 1.8em;
-    font-weight: 700;
     list-style: none;
+    margin-left: 0;
+    margin-right: 0;
+    border-top: 1px solid #ccc;
+    padding-top: 40px;
 }
 
 .disclines {
@@ -85,5 +91,10 @@ dd {
     
     .subtitle {
         font-size: 1.2em;
+    }
+    
+    .selected-work li h2 { 
+        font-size: 2em;
+        letter-spacing: -2px;
     }
 }

@@ -8,10 +8,11 @@ a {
   -webkit-transition: color 0.2s linear;
   text-decoration: underline;
   letter-spacing: 0;
+  font-weight: 700;
 }
 
 a:hover {
-  color: $base-gray;
+  color: $main;
   text-decoration: none;
 }
 
@@ -36,10 +37,9 @@ h3 a:hover,
 h4 a:hover,
 h5 a:hover,
 h6 a:hover {
-    color: $gray-2;
+    color: $main;
 }
 
 .selected-work a {
-    font-weight: bold;
-    color: $main;
+    font-weight: 300;
 }
