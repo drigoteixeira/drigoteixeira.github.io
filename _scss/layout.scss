@@ -87,6 +87,16 @@ HEADER
 LAYOUT
 ========================================================================== */
 
+    h2 .chip {
+        background: $orange;
+        font-size: .3em;
+        color: $white;
+        border-radius: 20px;
+        padding: 5px 10px;
+        letter-spacing: 0;
+        line-height: 12px;
+    }
+
     .project figure {
         margin-bottom: 10px;
     }
