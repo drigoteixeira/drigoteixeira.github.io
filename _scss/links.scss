@@ -1,7 +1,7 @@
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: $base-gray;
+  color: $main;
   transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
   -moz-transition: color 0.2s linear;
@@ -37,5 +37,5 @@ h3 a:hover,
 h4 a:hover,
 h5 a:hover,
 h6 a:hover {
-    color: $main;
+    color: $base-gray;
 }

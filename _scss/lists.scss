@@ -72,6 +72,10 @@ footer dl {
     padding-top: 40px;
 }
 
+.selected-work li a {
+    color: $base-gray;
+}
+
 .disclines {
     font-size: .8em;
 }

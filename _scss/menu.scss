@@ -4,14 +4,15 @@ header {
 
 .logo {
     margin: 40px 0 0 0;
-    font-size: 1.1em;
-    letter-spacing: 0;
+    font-size: 1.2em;
+    letter-spacing: -1px;
     font-family: neue-haas-grotesk-text, sans-serif;
 }
 
 .logo a {
     font-weight: 700;
     text-decoration: none;
+    color: $main;
 }
 
 .logo .dash {
@@ -38,6 +39,7 @@ header {
 
 .menu li a {
     text-decoration: none;
+    color: $base-gray;
 }
 
 @media (max-width: 576px) {
