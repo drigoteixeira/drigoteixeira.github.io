@@ -30,7 +30,7 @@ li {
 
 ul li,
 ol li {
-    line-height: 32px;
+    line-height: 24px;
     font-size: 1.1em;
     list-style-position: outside;
     margin-bottom: 20px;
@@ -41,11 +41,18 @@ ul li {
     list-style-type: disc;
 }
 
-
+.no-bullet li {
+    list-style: none;
+    line-height: 24px;
+    margin-left: 0;
+}
+.no-bullet li a {
+    color: $gray-8;
+}
 
 dl {
     margin: 0;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 dt {
@@ -60,20 +67,19 @@ dd {
     color: $gray-8;
 }
 
-footer dl {
-    font-size: 1em;
-}
 
-.selected-work li {
+
+.selected li {
     list-style: none;
     margin-left: 0;
     margin-right: 0;
-    border-top: 1px solid #ccc;
-    padding-top: 40px;
+    font-size: 1.6em;
+    font-weight: 400;
 }
 
-.selected-work li a {
-    color: $base-gray;
+.selected li a {
+    color: $gray-5;
+    text-decoration: none;
 }
 
 .disclines {

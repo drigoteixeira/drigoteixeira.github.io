@@ -4,13 +4,13 @@ header {
 
 .logo {
     margin: 40px 0 0 0;
-    font-size: 1.2em;
+    font-size: 1.4em;
     letter-spacing: -1px;
     font-family: neue-haas-grotesk-text, sans-serif;
 }
 
 .logo a {
-    font-weight: 700;
+    font-weight: 400;
     text-decoration: none;
     color: $main;
 }
@@ -32,7 +32,7 @@ header {
 .menu li {
     display: inline-block;
     font-size: 1.1em;
-    font-weight: 700;
+    font-weight: 300;
     margin-left: 15px;
     margin-right: 15px;
 }
@@ -45,8 +45,8 @@ header {
 @media (max-width: 576px) {
     
     .logo {
-        text-align: center;
-        margin-left: 0;
+        text-align: left;
+        margin-left: 10px;
     }
     
     .description {
