@@ -11,11 +11,11 @@ h6 {
     color: $gray-2;
     margin-top: 0;
     font-family: neue-haas-grotesk-text, sans-serif;
-    font-weight: 300;
+    font-weight: 700;
 }
 
 h1 {
-    font-size: 3.4em;
+    font-size: 6.4em;
     line-height: 1.1;
     letter-spacing: -2px;
     color: $base-gray;
@@ -42,8 +42,12 @@ h5 span {
     font-weight: 300;
 }
 
+#banner h1 {
+    color: $white;
+}
+
 h2 {
-    font-size: 2em;
+    font-size: 2.4em;
     line-height: 1.2;
     letter-spacing: -1px;
 }
@@ -80,9 +84,14 @@ p {
     font-weight: 700;
 }
 
+.main-call p {
+    font-size: 2em;
+    line-height: 1.4em;
+}
+
 figcaption {
     font-size: .9em;
-    color: $gray-2;
+    color: $gray-9;
     text-align: left;
     width: 300px;
 }
@@ -187,5 +196,10 @@ blockquote cite {
     .blog .excerpt {
         font-size: 1.2em;
     }
+    
+    .main-call p {
+    font-size: 1.6em;
+    line-height: 1.4em;
+}
     
 }

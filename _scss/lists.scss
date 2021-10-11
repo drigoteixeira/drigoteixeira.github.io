@@ -42,9 +42,9 @@ ul li {
 }
 
 .no-bullet li {
-    list-style: none;
+    display: inline-block;
     line-height: 18px;
-    margin-left: 0;
+    margin-left: 20px;
 }
 .no-bullet li a {
     color: $gray-8;

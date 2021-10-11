@@ -32,6 +32,9 @@ if ($('#back-to-top').length) {
 
 
 
+
+
+
 $(document).ready(function () {
     
     // hide #back-top first
@@ -141,6 +144,20 @@ $(document).ready(function () {
     };
 
     window.addEventListener('scroll', checkScroll);
+        
+    function scrollBanner() {
+      $(document).scroll(function(){
+        var scrollPos = $(this).scrollTop();
+        $('#banner-text').css({
+          'top' : (scrollPos/3)+'px',
+          'opacity' : 1-(scrollPos/510)
+        });
+        $('#banner').css({
+          'background-position' : 'center ' + (-scrollPos/2)+'px'
+        });
+      });    
+    }
+    scrollBanner();    
 
 })();
 
