@@ -17,7 +17,6 @@
     font-size: 1.4em;
     letter-spacing: -1px;
     font-family: neue-haas-grotesk-text, sans-serif;
-    float: left;
     box-sizing: border-box;
 }
 
@@ -35,9 +34,6 @@
     color: $gray-5;
 } 
 
-.main-menu {
-    float: right;
-}
 
 .menu {
     margin: 40px 0;
@@ -61,11 +57,17 @@
 @media (max-width: 576px) {
     
     .logo {
-        text-align: left;
+        display: none;
+    }
+    
+    .main-menu {
+        display: inline-block;
+        float: none;
     }
     
     .description {
         display: none;
+        text-align: center;
     }
     .menu {
         text-align: center;
