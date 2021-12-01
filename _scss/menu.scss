@@ -14,7 +14,8 @@
 
 .logo h1 {
     margin: 48px 0 0 0;
-    font-size: 1.4em;
+    font-size: 1.2em;
+    font-weight: 700;
     letter-spacing: -1px;
     font-family: neue-haas-grotesk-text, sans-serif;
     box-sizing: border-box;
@@ -44,20 +45,34 @@
 .menu li {
     list-style: none;
     display: inline-block;
-    font-size: 1.4em;
+    font-size: 1.1em;
+    font-weight: 700;
 }
 
 .menu li a {
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 700;
 }
 
 
 
 @media (max-width: 576px) {
     
+    
+    #site-header {
+        height: 150px;
+    }
+    
+    #site-header.hide {
+        top: -151px;
+    }
+    
     .logo {
-        display: none;
+        text-align: center;
+    }
+    
+    #site-header .columns {
+        margin-bottom: 0;
     }
     
     .main-menu {
