@@ -11,24 +11,20 @@ h6 {
     color: $gray-2;
     margin-top: 0;
     font-family: neue-haas-grotesk-text, sans-serif;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 h1 {
-    font-size: 6.4em;
+    font-size: 6.2em;
     line-height: 1.1;
     letter-spacing: -2px;
     color: $base-gray;
 }
 
-h1 span,
-h2 span,
-h3 span,
-h4 span,
-h5 span {
-    color: $main;
-    
+h1 span {
+    display: block;
 }
+    
 
 .title {
     margin-bottom: 10px;
@@ -36,9 +32,9 @@ h5 span {
 }
 
 .subtitle {
-    margin-top: -40px;
+    margin-top: -20px;
     font-size: 1.4em;
-    color: $gray-8;
+    color: $gray-2;
     font-weight: 300;
     line-height: 1.8em;
 }
