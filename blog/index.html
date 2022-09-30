@@ -17,19 +17,21 @@ subtitle: 'Rodrigo Teixeira is a product and service designer based in São Paul
 <div class="container">
     {% for post in paginator.posts %}
     <div class="row posts">
-        <div class="item">
-            <div class="four columns">
-                <span class="post-date">
-                    <!-- Whitespace added for readability -->
-                    {{ post.date | date: '%-d %B, %Y'  }}
-                </span>
-            </div>
-            <div class="eight columns">
-                <h2 class="post-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
-                <div class="post-content">
-                    <p class="excerpt">{{ post.excerpt}}</p>
+        <div class="eight columns offset-by-two">
+           <div class="row item">
+                <div class="three columns">
+                    <span class="post-date">
+                        <!-- Whitespace added for readability -->
+                        {{ post.date | date: '%-d %B, %Y'  }}
+                    </span>
                 </div>
-            </div>
+                <div class="nine columns">
+                    <h2 class="post-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
+                    <div class="post-content">
+                        <p class="excerpt">{{ post.excerpt}}</p>
+                    </div>
+                </div>
+            </div> 
         </div>
     </div>
     {% endfor %}
