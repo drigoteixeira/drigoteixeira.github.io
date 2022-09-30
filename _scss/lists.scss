@@ -31,7 +31,7 @@ li {
 ul li,
 ol li {
     line-height: 1.8em;
-    font-size: 1em;
+    font-size: 1.2em;
     list-style-position: outside;
     margin-bottom: 20px;
     margin-left: 20px;
@@ -89,12 +89,6 @@ dd {
 
 @media (max-width: 550px) {
     
-    dt,
-    dd,
-    ul,
-    li {
-        font-size: 1em;
-    }
     
     .list-cases li {
         font-size: 1.8em;
