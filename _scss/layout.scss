@@ -368,13 +368,25 @@ HIGHLIGHT
 
 @media (max-width: 576px) {
     
+    .container {
+        margin-bottom: 10px;
+    }
+    
+    .row {
+        margin-bottom: 10px;
+    }
+    
     .jumbo {
         margin-top: 80px;
         margin-bottom: 20px;
     }
     
     .columns {
-        margin-bottom: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .item {
+        margin-bottom: 0;
     }
 
     
