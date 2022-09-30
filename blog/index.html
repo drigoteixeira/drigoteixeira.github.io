@@ -18,14 +18,13 @@ subtitle: 'Rodrigo Teixeira is a product and service designer based in São Paul
     {% for post in paginator.posts %}
     <div class="row posts">
         <div class="item">
-            <div class="eight columns offset-by-two">
-                <hr>
-                <div class="post-meta">
-                    <span class="post-date">
+            <div class="four columns">
+                <span class="post-date">
                     <!-- Whitespace added for readability -->
                     {{ post.date | date: '%-d %B, %Y'  }}
-                    </span>
-                </div>
+                </span>
+            </div>
+            <div class="eight columns">
                 <h2 class="post-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
                 <div class="post-content">
                     <p class="excerpt">{{ post.excerpt}}</p>

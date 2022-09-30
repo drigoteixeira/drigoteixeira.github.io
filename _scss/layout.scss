@@ -125,7 +125,13 @@ LAYOUT
     .item .post-date {
         display: block;
         color: $primary;
-        line-height: 60px;
+        line-height: 24px;
+        text-align: right;
+    }
+
+    .item h2 {
+        font-size: 1.6em;
+        line-height: 1.4em;
     }
 
     .latest-post .item .post-date {
