@@ -11,30 +11,30 @@ a {
 }
 
 a:hover {
-  color: $main;
+  color: $primary;
   text-decoration: none;
 }
 
-.blog .page a {
-    color: $base-gray;
+.blog .post-content a {
+    color: $main;
     font-weight: bold;
 }
 
 
-h1 a, 
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
+.blog h1 a, 
+.blog h2 a,
+.blog h3 a,
+.blog h4 a,
+.blog h5 a,
+.blog h6 a {
+    color: $main;
     text-decoration: none;
 }
-
-h1 a:hover, 
-h2 a:hover,
-h3 a:hover,
-h4 a:hover,
-h5 a:hover,
-h6 a:hover {
+.blog h1 a:hover, 
+.blog h2 a:hover,
+.blog h3 a:hover,
+.blog h4 a:hover,
+.blog h5 a:hover,
+.blog h6 a:hover {
     color: $base-gray;
 }

@@ -6,16 +6,13 @@ layout: post
 permalink: blog/pessoas-quietas-sao-incriveis/
 header-img: 'img/sherlock.jpg'
 subtitle: 'O que podemos aprender com as pessoas quietas?'
+image: '/img/sherlock.jpg#responsive'
+image-name: 'Sherlock Holmes'
+
 dsq_thread_id:
   - 1419103068
-categories:
-  - Comportamento
-  - Insights
+categories: 'comportamento'
 ---
-
-
-![Sherlock Holmes](/img/sherlock.jpg#responsive "Sherlock Holmes")
-<small>Crédito: Robert Viglasky/Hartswood Films</small>
 
 Eu sou uma pessoa quieta. 
 

@@ -4,36 +4,49 @@ title: page.title
 ---
 
 <div class="container">
+
+    <!-- TITLE-->
+
     <div class="row">
-        <div class="eight columns">
+        <div class="twelve columns center">
             <div class="post-meta">
                 <span class="post-date">
-                    <!-- Whitespace added for readability -->
-                    {% assign m = page.date | date: "%-m" %}
-                    {{ page.date | date: "%Y," }}
-                    {% case m %}
-                      {% when '1'%}January
-                      {% when '2'%}February
-                      {% when '3'%}March
-                      {% when '4'%}April
-                      {% when '5'%}May
-                      {% when '6'%}June
-                      {% when '7'%}July
-                      {% when '8'%}August
-                      {% when '9'%}September
-                      {% when '10'%}October
-                      {% when '11'%}November
-                      {% when '12'%}December
-                    {% endcase %}
-                    {{ page.date | date: "%-d" }}
+                    {{ page.date | date: '%-d %B, %Y'  }}
                 </span>
+
+                <span class="post-category">
+                    {% for tag in site.tags %}
+                    <h3>{{ tag[0] }}</h3>
+                    <ul>
+                        {% for post in tag[1] %}
+                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                    {% endfor %}
+                </span>
+
                 <h1 class="light">{{page.title}}</h1>
                 <p class="excerpt">{{page.excerpt}}</p>
             </div>
         </div>
     </div>
+
+    <!-- IMAGE-->
+
+    {% if page.image %} 
+
     <div class="row">
-        <div class="eight columns">
+        <div class="twelve columns">
+            <img src="{{page.image}}" alt="{{page.image-name}}">
+        </div>
+    </div>
+
+    {% endif %} 
+
+    <!-- ARTICLE -->
+
+    <div class="row">
+        <div class="eight columns offset-by-two">
             <section class="content">
                 <article class="post">
                     <div class="post-content">
@@ -45,39 +58,4 @@ title: page.title
                 {% include disqus.html disqus_identifier=page.disqus_identifier %}
             </section>
         </div>
-        <div class="four columns">
-            <div class="row">
-                <hr>
-                <h4>Latest posts</h4>
-                {% for post in site.posts limit:5 %}
-                <div class="row latest-post">
-                    <div class="item">
-                        <span class="post-date">
-                            <!-- Whitespace added for readability -->
-                            {% assign m = post.date | date: "%-m" %}
-                            {{ post.date | date: "%Y," }}
-                            {% case m %}
-                              {% when '1' %}January
-                              {% when '2' %}February
-                              {% when '3' %}March
-                              {% when '4' %}April
-                              {% when '5' %}May
-                              {% when '6' %}June
-                              {% when '7' %}July
-                              {% when '8' %}August
-                              {% when '9' %}September
-                              {% when '10' %}October
-                              {% when '11' %}November
-                              {% when '12' %}December
-                            {% endcase %}
-                            {{ post.date | date: "%-d" }}
-                        </span>
-                        <h5 class="post-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h5>
-                    </div>
-                </div>
-                {% endfor %}
-        </div>
     </div>
-</div>
-
-

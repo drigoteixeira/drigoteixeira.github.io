@@ -6,35 +6,27 @@ subtitle: 'Rodrigo Teixeira is a product and service designer based in São Paul
 ---
 
 <div class="container">
+    <div class="row">
+        <div class="eight columns offset-by-two">
+            <h1>Blog</h1>
+            <p class="excerpt">Short notes, events, books, ideias, videos (in English and Portuguese)</p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
     {% for post in paginator.posts %}
     <div class="row posts">
         <div class="item">
-            <div class="three columns">
+            <div class="eight columns offset-by-two">
+                <hr>
                 <div class="post-meta">
                     <span class="post-date">
-                        <!-- Whitespace added for readability -->
-                        {% assign m = post.date | date: "%-m" %}
-                        {{ post.date | date: "%Y," }}
-                        {% case m %}
-                          {% when '1' %}January
-                          {% when '2' %}February
-                          {% when '3' %}March
-                          {% when '4' %}April
-                          {% when '5' %}May
-                          {% when '6' %}June
-                          {% when '7' %}July
-                          {% when '8' %}August
-                          {% when '9' %}September
-                          {% when '10' %}October
-                          {% when '11' %}November
-                          {% when '12' %}December
-                        {% endcase %}
-                        {{ post.date | date: "%-d" }}
+                    <!-- Whitespace added for readability -->
+                    {{ post.date | date: '%-d %B, %Y'  }}
                     </span>
                 </div>
-            </div>
-            <div class="nine columns">
-                <h3 class="post-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h3>
+                <h2 class="post-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
                 <div class="post-content">
                     <p class="excerpt">{{ post.excerpt}}</p>
                 </div>
@@ -47,15 +39,15 @@ subtitle: 'Rodrigo Teixeira is a product and service designer based in São Paul
 <div class="container">
     <!-- PAGINATION -->
     <div class="row">
-        <div class="eight columns offset-by-three">
+        <div class="eight columns offset-by-two">
             <!-- Pagination links -->
             <nav class="pagination">
                 <ul>
                     <li class="antigos">
                         {% if paginator.next_page %}
-                            <a href="{{ paginator.next_page_path }}" class="antigos">&#8592; Older</a>
+                            <a href="{{ paginator.next_page_path }}" class="antigos">&#8592; Older posts</a>
                         {% else %}
-                            <span class="current">&#8592; Older</span>
+                            <span class="current">&#8592; Older posts</span>
                         {% endif %}
                     </li>
                     <li class="page-number">
@@ -63,9 +55,9 @@ subtitle: 'Rodrigo Teixeira is a product and service designer based in São Paul
                     </li>
                     <li class="novos">
                         {% if paginator.previous_page %}
-                            <a href="{{ paginator.previous_page_path }}">Newer &#8594;</a>
+                            <a href="{{ paginator.previous_page_path }}">Newer posts &#8594;</a>
                         {% else %}
-                            <span class="current">Newer &#8594;</span>
+                            <span class="current">Newer posts &#8594;</span>
                         {% endif %}
                     </li>
                 </ul>

@@ -1,5 +1,5 @@
 .page {
-    padding-top: 220px;
+    padding-top: 200px;
 }
 
 .container {
@@ -10,10 +10,13 @@
     margin-bottom: 40px;
 }
 
+.row .row {
+    margin-bottom: 40px;
+}
+
 .jumbo {
     margin-bottom: 120px;
 }
-
 
 
 
@@ -94,7 +97,7 @@ LAYOUT
 ========================================================================== */
 
     h2 .chip {
-        background: $orange;
+        background: $primary;
         font-size: .3em;
         color: $white;
         border-radius: 20px;
@@ -113,22 +116,16 @@ LAYOUT
         font-size: 1.2em;
     }
 
-    .posts {
-        padding: 20px 0;
-    }
-
     .post-date {
         display: block;
-        color: $gray-3;
-        font-weight: 300;
-
+        color: $primary;
+        font-weight: 700;
     }
 
     .item .post-date {
         display: block;
-        text-align: right;
-        line-height: 32px;
-        color: $gray-3;
+        color: $primary;
+        line-height: 60px;
     }
 
     .latest-post .item .post-date {
@@ -227,8 +224,7 @@ LAYOUT
         margin-top: 40px;
     }
 
-
-    /* ==========================================================================
+/* ==========================================================================
 PAGINATION
 ========================================================================== */
 
@@ -260,7 +256,7 @@ PAGINATION
 }
 
 
-    /* ==========================================================================
+/* ==========================================================================
 IMAGEM RESPONSIVA
 ========================================================================== */
 
