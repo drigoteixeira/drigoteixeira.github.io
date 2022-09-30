@@ -1,7 +1,7 @@
 ---
 title: How to deal with thoughts
 author: Rodrigo Teixeira
-excerpt: 'Learnings from the book Think Straight by Darius Foroux'
+excerpt: 'Learnings from the book "Think Straight" by Darius Foroux'
 layout: post
 permalink: blog/how-to-deal-with-thoughts/
 header-img: 'https://images.unsplash.com/photo-1543386650-2be9a18d2750?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80'

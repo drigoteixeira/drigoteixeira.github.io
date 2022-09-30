@@ -13,13 +13,19 @@
 	top: -121px;
 }
 
+.foto-logo img {
+    width: 54px;
+    border-radius: 100%;
+}
+
 .logo h1 {
-    margin: 48px 0 0 0;
+    margin: 10px 0 0 0;
     font-size: 1.2em;
     font-weight: 700;
     letter-spacing: -1px;
-    font-family: neue-haas-grotesk-text, sans-serif;
+    font-family: 'Inter', sans-serif;
     box-sizing: border-box;
+    text-indent: -9999px;
 }
 
 .logo a {
@@ -41,6 +47,7 @@
     margin: 40px 0;
     text-align: right;
     
+    
 }
 
 .menu li {
@@ -48,6 +55,7 @@
     display: inline-block;
     font-size: 1.1em;
     font-weight: 700;
+    font-family: 'Inter', sans-serif; 
 }
 
 .menu li a {

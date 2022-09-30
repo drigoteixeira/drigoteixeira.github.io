@@ -31,10 +31,6 @@ if ($('#back-to-top').length) {
 }
 
 
-
-
-
-
 $(document).ready(function () {
     
     // hide #back-top first
@@ -162,7 +158,3 @@ $(document).ready(function () {
 })();
 
 })();
-
-
-
-
