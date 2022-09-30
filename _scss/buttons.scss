@@ -86,4 +86,19 @@ input[type="button"].button-primary:focus {
     border-radius: 5px;
     padding: 0 24px;
     border: 1px solid #666;
+    color: $main;
+}
+
+.button.button-secondary:hover,
+button.button-secondary:hover,
+input[type="submit"].button-secondary:hover,
+input[type="reset"].button-secondary:hover,
+input[type="button"].button-secondary:hover,
+.button.button-secondary:focus,
+button.button-secondary:focus,
+input[type="submit"].button-secondary:focus,
+input[type="reset"].button-secondary:focus,
+input[type="button"].button-secondary:focus {
+    color: $main;
+    outline: 0;
 }
