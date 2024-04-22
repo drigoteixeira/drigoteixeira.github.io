@@ -1,0 +1,20 @@
+current directory: C:/Users/rodri/Documents/Sites/drigoteixeira.github.io/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+C:/Ruby32-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: C:/Users/rodri/Documents/Sites/drigoteixeira.github.io/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20240419-23804-cugtos sitelibdir\=./.gem.20240419-23804-cugtos clean
+
+current directory: C:/Users/rodri/Documents/Sites/drigoteixeira.github.io/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20240419-23804-cugtos sitelibdir\=./.gem.20240419-23804-cugtos
+generating ruby_http_parser-x64-mingw-ucrt.def
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: C:/Users/rodri/Documents/Sites/drigoteixeira.github.io/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20240419-23804-cugtos sitelibdir\=./.gem.20240419-23804-cugtos install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20240419-23804-cugtos
+
+current directory: C:/Users/rodri/Documents/Sites/drigoteixeira.github.io/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20240419-23804-cugtos sitelibdir\=./.gem.20240419-23804-cugtos clean
