@@ -26,10 +26,10 @@
 .logo h1 {
     font-size: 1.2em;
     font-weight: 700;
-    letter-spacing: -1px;
+    letter-spacing: normal;
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
-    text-indent: -9999px;
+    text-transform: uppercase;
 }
 
 .logo a {
@@ -48,7 +48,7 @@
 
 
 .menu {
-    text-align: right;
+    text-align: left;
     margin: 0;
 }
 
