@@ -46,7 +46,7 @@ input[type="button"].button-primary {
     height: 48px;
     color: $white;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.4em;
     font-weight: 700;
     line-height: 48px;
     text-decoration: none;
@@ -76,7 +76,7 @@ input[type="button"].button-primary:focus {
     display: inline-block;
     height: 48px;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.4em;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
     line-height: 48px;
@@ -88,7 +88,7 @@ input[type="button"].button-primary:focus {
     border-radius: 5px;
     padding: 0 24px;
     border: 1px solid #666;
-    color: $main;
+    color: $white;
 }
 
 .button.button-secondary:hover,
@@ -101,6 +101,6 @@ button.button-secondary:focus,
 input[type="submit"].button-secondary:focus,
 input[type="reset"].button-secondary:focus,
 input[type="button"].button-secondary:focus {
-    color: $main;
+    color: $white;
     outline: 0;
 }

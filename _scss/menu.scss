@@ -1,16 +1,15 @@
 
 #site-header {
 	position: fixed;
-	height: 110px;
+	height: 150px;
 	top: 0;
 	width: 100%;
 	z-index: 100;
 	transition: all .3s ease;
     background: $white;
-    border-bottom: 1px solid $gray-E;
 }
 #site-header.hide {
-	top: -110px;
+	top: -150px;
 }
 
 .foto-logo {
@@ -25,6 +24,7 @@
 
 .logo h1 {
     font-size: 1.2em;
+    line-height: 150px;
     font-weight: 700;
     letter-spacing: normal;
     font-family: 'Inter', sans-serif;
@@ -48,13 +48,13 @@
 
 
 .menu {
-    text-align: left;
+    text-align: right;
     margin: 0;
 }
 
 .menu li {
     list-style: none;
-    line-height: 100px;
+    line-height: 150px;
     display: inline-block;
     font-size: 1.1em;
     font-weight: 700;
@@ -72,15 +72,15 @@
     
     
     #site-header {
-        height: 80px;
+        height: 200px;
     }
     
     #site-header.hide {
-        top: -80px;
+        top: -200px;
     }
     
     .logo {
-        text-align: left;
+        text-align: center;
     }
     
     #site-header .columns {
@@ -88,8 +88,9 @@
     }
     
     .main-menu {
-        display: inline-block;
+        display: none;
         float: none;
+
     }
     
     .description {
@@ -99,10 +100,11 @@
     .menu {
         text-align: center;
         margin: -20px 0 0 0;
+        display: none;
     }
     
     .menu li {
-        line-height: 100px;
+        line-height: 40px;
     }
 }
 

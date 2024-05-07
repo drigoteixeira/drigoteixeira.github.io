@@ -41,14 +41,22 @@ ul li {
     list-style-type: disc;
 }
 
+.no-bullet {
+    margin-left: 0;
+    padding-left: 0;
+}
+
 .no-bullet li {
     display: inline-block;
     line-height: 18px;
-    margin-left: 20px;
     font-size: 1em;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 16px;
 }
 .no-bullet li a {
-    color: $gray-8;
+    color: $white;
+    text-decoration: none;
 }
 
 dl {

@@ -11,15 +11,16 @@ h6 {
     color: $gray-2;
     margin-top: 0;
     font-family: 'Inter', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 5.28em;
     line-height: 1.1;
-    letter-spacing: -2px;
+    letter-spacing: -4px;
     color: $base-gray;
 }
+
 
 h1 span {
     display: block;
@@ -34,8 +35,8 @@ h1 span {
 .subtitle {
     margin-top: -20px;
     font-size: 1.4em;
-    color: $gray-2;
-    font-weight: 300;
+    color: $base-gray;
+    font-weight: 400;
     line-height: 1.8em;
 }
 
@@ -44,7 +45,7 @@ h1 span {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2.6em;
     line-height: 1.2em;
     letter-spacing: -2px;
 }
