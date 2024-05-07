@@ -19,7 +19,6 @@ input[type="button"] {
     cursor: pointer;
     box-sizing: border-box;
     background: $primary;
-    border-radius: 5px;
     padding: 0 24px;
 }
 
@@ -54,7 +53,6 @@ input[type="button"].button-primary {
     cursor: pointer;
     box-sizing: border-box;
     background: $primary;
-    border-radius: 5px;
     padding: 0 24px;
 }
 
@@ -85,7 +83,6 @@ input[type="button"].button-primary:focus {
     cursor: pointer;
     box-sizing: border-box;
     background: transparent;
-    border-radius: 5px;
     padding: 0 24px;
     border: 1px solid #666;
     color: $white;
