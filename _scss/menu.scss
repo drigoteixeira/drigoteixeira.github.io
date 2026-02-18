@@ -1,3 +1,6 @@
+/* Menu
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 
 #site-header {
 	position: fixed;
@@ -6,7 +9,6 @@
 	width: 100%;
 	z-index: 100;
 	transition: all .3s ease;
-    background: $white;
 }
 #site-header.hide {
 	top: -150px;
@@ -27,24 +29,21 @@
     line-height: 150px;
     font-weight: 700;
     letter-spacing: normal;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Playfair Display', Georgia, serif;
     box-sizing: border-box;
-    text-transform: uppercase;
+    color: #fcfbf8;
 }
 
 .logo a {
     font-weight: 700;
     text-decoration: none;
-    color: $main;
+    color: #fcfbf8;
 }
 
 .logo .dash {
     margin: 0 6px;
 }
 
-.logo .description {
-    color: $gray-5;
-} 
 
 
 .menu {
@@ -57,13 +56,14 @@
     line-height: 150px;
     display: inline-block;
     font-size: 1.1em;
-    font-weight: 700;
-    font-family: 'Inter', sans-serif; 
+    font-weight: 300;
+    color: #958c83;
 }
 
 .menu li a {
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 300;
+    color: #958c83;
 }
 
 
@@ -107,5 +107,3 @@
         line-height: 40px;
     }
 }
-
-

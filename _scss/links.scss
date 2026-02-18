@@ -1,17 +1,16 @@
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: $main;
   transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
   -moz-transition: color 0.2s linear;
   -webkit-transition: color 0.2s linear;
   text-decoration: underline;
   letter-spacing: 0;
+  color: #fff;
 }
 
 a:hover {
-  color: $primary;
   text-decoration: none;
 }
 

@@ -12,17 +12,17 @@ html {
 }
 
 body {
-	background: $white;
+	background: #1c1c1c;
 	font-size: 1.6em;
 	/* currently ems cause chrome bug misinterpreting rems on body element */
 	line-height: 1.6;
-	color: $gray-2;
+	color: #958c83;
     text-rendering: optimizeLegibility;
   	-webkit-font-smoothing: antialiased;
     font-feature-settings: 'kern';
     font-weight: 400;
     font-style: normal;
-    font-family: 'Inter', sans-serif;
+    font-family: 'DM Sans', system-ui, sans-serif;
 }
 
 .right { text-align: right; }
@@ -36,7 +36,7 @@ body {
 	position: fixed;
 	top: 0;
 	left: 0;
-	background: $white;
+	background: #1c1c1c;
 	z-index: 10000;
 }
 
@@ -52,7 +52,7 @@ body {
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	border-right: 1px solid rgba(0, 0, 0, 0.1);
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-	border-left: 1px solid $primary;
+	border-left: 1px solid #ff6600;
 	border-radius: 50%;
 	-webkit-animation: spinner 700ms infinite linear;
 	animation: spinner 700ms infinite linear;

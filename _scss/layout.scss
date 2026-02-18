@@ -3,7 +3,7 @@
 }
 
 .home .page {
-    padding-top: 200px;
+    padding-top: 140px;
 }
 
 .container {
@@ -43,9 +43,6 @@
     padding: 40px;
 }
 
-.cover-light {
-    background-color: $base-gray;
-}
 
 
 .hero {
@@ -53,50 +50,23 @@
 }
 
 
-.about-me {
-    background-color: $primary;
-    padding: 80px 0;
-}
 
-.about-me h2, .about-me h3, .about-me p, .about-me dt, .about-me dl,  {
-    color: $white;
-}
-
-.selected-works {
-    background-color: $base-gray;
-    padding: 80px 0 40px 0;
-}
-
-.selected-works h2, .selected-works h3, .selected-works p, .selected-works dt, .selected-works dl,  {
-    color: $white;
-}
-
-.experience {
-    background-color: #051F60;
-    padding: 80px 0 40px 0;
-}
-
-.experience h2, .experience h3, .experience p, .experience dt, .experience dl,  {
-    color: $white;
-}
-
-.method {
-    background-color: #e7ecf2;
-    padding: 80px 0 40px 0;
-}
-
-.sharing {
-    padding: 80px 0 40px 0;
-}
 
 footer {
-    background-color: $base-gray;
-    color: $white;
     padding: 80px 0 40px 0;
 }
 
 footer h2 {
     color: $white;
+}
+
+footer a {
+    color: #FF6600;
+}
+
+footer .sign {
+    font-size: 1em;
+    margin-top: 0;
 }
 
 
